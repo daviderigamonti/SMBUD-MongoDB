@@ -1,0 +1,38 @@
+{
+  "id": 361615,
+  "num_rows": 330,
+  "file_format": "csv",
+  "name": "lot-production_date",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "lot",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "__b",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "01/01/2021",
+      "max": "01/01/2021",
+      "format": "%Y-%m-%d",
+      "formula": ""
+    },
+    {
+      "name": "__c",
+      "null_percentage": 50,
+      "type": "Formula",
+      "value": "__b + days(lot - 1)",
+      "formula": null
+    },
+    {
+      "name": "production_date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "p = 0; if __c then p = __c else p = __b + days(lot - 2) end; if date_diff(\"days\", __b, p) < 0 then __b else p end",
+      "formula": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 361557,
+  "num_rows": 200,
+  "file_format": "csv",
+  "name": "person",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "ssn",
+      "null_percentage": 0,
+      "type": "SSN",
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "First Name",
+      "formula": null
+    },
+    {
+      "name": "surname",
+      "null_percentage": 0,
+      "type": "Last Name",
+      "formula": null
+    },
+    {
+      "name": "city",
+      "null_percentage": 0,
+      "type": "City",
+      "formula": null
+    },
+    {
+      "name": "phone",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "### ### ####",
+      "formula": null
+    },
+    {
+      "name": "emergency_contact.name",
+      "null_percentage": 0,
+      "type": "First Name",
+      "formula": null
+    },
+    {
+      "name": "emergency_contact.surname",
+      "null_percentage": 0,
+      "type": "Last Name",
+      "formula": null
+    },
+    {
+      "name": "emergency_contact.phone",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "### ### ####",
+      "formula": null
+    },
+    {
+      "name": "emergency_contact.description",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Mom",
+        "Dad",
+        "Son",
+        "Daughter",
+        "Uncle",
+        "Aunt",
+        "Friend",
+        "Husband",
+        "Wife"
+      ],
+      "selectionStyle": "custom",
+      "distribution": [
+        {
+          "rule": "",
+          "frequencies": {
+            "Mom": "2",
+            "Dad": "2",
+            "Son": "1",
+            "Daughter": "1",
+            "Uncle": "1",
+            "Aunt": "1",
+            "Friend": "2",
+            "Husband": "2",
+            "Wife": "2"
+          }
+        }
+      ],
+      "formula": null
+    }
+  ]
+}

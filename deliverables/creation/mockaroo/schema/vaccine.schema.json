@@ -1,0 +1,113 @@
+{
+  "id": 361575,
+  "num_rows": 330,
+  "file_format": "csv",
+  "name": "vaccine",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "vaccine_info.brand",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Pfizer-BioNTech",
+        "Moderna",
+        "Johnson & Johnson's Janssen",
+        "AstraZeneca"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "vaccine_info.type",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Genetic",
+        "Viral vector"
+      ],
+      "selectionStyle": "custom",
+      "distribution": [
+        {
+          "rule": "field('vaccine_info.brand') == \"Pfizer-BioNTech\"",
+          "frequencies": {
+            "Genetic": "1",
+            "Viral vector": "0"
+          }
+        },
+        {
+          "rule": "field('vaccine_info.brand') == \"Moderna\"",
+          "frequencies": {
+            "Genetic": "1",
+            "Viral vector": "0"
+          }
+        },
+        {
+          "rule": "field('vaccine_info.brand') == \"Johnson & Johnson's Janssen\"",
+          "frequencies": {
+            "Genetic": "0",
+            "Viral vector": "1"
+          }
+        },
+        {
+          "rule": "field('vaccine_info.brand') == \"AstraZeneca\"",
+          "frequencies": {
+            "Genetic": "0",
+            "Viral vector": "1"
+          }
+        }
+      ],
+      "formula": null
+    },
+    {
+      "name": "vaccine_info.lot",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"lot-production_date\", \"lot\", lot: random(1, 100))",
+      "formula": ""
+    },
+    {
+      "name": "vaccine_info.production_date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"lot-production_date\", \"production_date\", lot: field(\"vaccine_info.lot\"))",
+      "formula": null
+    },
+    {
+      "name": "organization",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"authorized_body\", \"id\", key: random(1, 270))",
+      "formula": null
+    },
+    {
+      "name": "doses",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 3,
+      "decimals": 0,
+      "formula": ""
+    },
+    {
+      "name": "date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "(date(field(\"vaccine_info.production_date\")) + days(random(0, date_diff(\"days\", date(\"2021-11-26\"), date(field(\"vaccine_info.production_date\")))))).strftime(\"%Y-%m-%d\")",
+      "formula": "this = field(\"vaccine_info.production_date\") + days(random(0, date_diff(\"days\", date(\"2021-11-26\"), field(\"vaccine_info.production_date\"))))"
+    },
+    {
+      "name": "doctor",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    }
+  ]
+}

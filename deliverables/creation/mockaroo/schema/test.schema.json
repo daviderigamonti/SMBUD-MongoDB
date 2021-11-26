@@ -1,0 +1,64 @@
+{
+  "id": 361664,
+  "num_rows": 400,
+  "file_format": "csv",
+  "name": "test",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "(date(\"2021-1-1\") + days(random(0, 330))).strftime(\"%Y-%m-%d\")",
+      "formula": "this = field(\"vaccine_info.production_date\") + days(random(0, date_diff(\"days\", date(\"2021-11-26\"), field(\"vaccine_info.production_date\"))))"
+    },
+    {
+      "name": "result",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Positive",
+        "Negative"
+      ],
+      "selectionStyle": "custom",
+      "distribution": [
+        {
+          "rule": "",
+          "frequencies": {
+            "Positive": "1",
+            "Negative": "5"
+          }
+        }
+      ],
+      "formula": null
+    },
+    {
+      "name": "organization",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"authorized_body\",\"id\", key: random(1, 270))",
+      "formula": null
+    },
+    {
+      "name": "lot",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1200,
+      "max": 1600,
+      "decimals": 0,
+      "formula": ""
+    },
+    {
+      "name": "doctor",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    }
+  ]
+}

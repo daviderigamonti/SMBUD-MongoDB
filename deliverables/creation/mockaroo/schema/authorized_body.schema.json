@@ -1,0 +1,70 @@
+{
+  "id": 361675,
+  "num_rows": 270,
+  "file_format": "csv",
+  "name": "authorized_body",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "key",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "MongoDB ObjectID",
+      "formula": null
+    },
+    {
+      "name": "GPS.latitude",
+      "null_percentage": 0,
+      "type": "Latitude",
+      "formula": null
+    },
+    {
+      "name": "GPS.longitude",
+      "null_percentage": 0,
+      "type": "Longitude",
+      "formula": null
+    },
+    {
+      "name": "city",
+      "null_percentage": 0,
+      "type": "City",
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Dataset Column",
+      "dataset": "auth_bodies_names",
+      "column": "name",
+      "selectionStyle": "random",
+      "formula": null
+    },
+    {
+      "name": "type",
+      "null_percentage": 0,
+      "type": "Dataset Column",
+      "dataset": "auth_bodies_names",
+      "column": "type",
+      "selectionStyle": "random",
+      "formula": null
+    },
+    {
+      "name": "address",
+      "null_percentage": 0,
+      "type": "Street Address",
+      "formula": null
+    },
+    {
+      "name": "department",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "if type == \"hospital\" then random(1, 10) end",
+      "formula": null
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": 361661,
+  "num_rows": 500,
+  "file_format": "json",
+  "name": "certificate",
+  "array": true,
+  "columns": [
+    {
+      "name": "__id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "__person_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 200,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "person.ssn",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"ssn\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.name",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"name\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.surname",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"surname\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.city",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"city\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.phone",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"phone\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.emergency_contact.name",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"emergency_contact.name\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.emergency_contact.surname",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"emergency_contact.surname\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.emergency_contact.phone",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"emergency_contact.phone\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "person.emergency_contact.description",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"person\", \"emergency_contact.description\", id: __person_id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.vaccine_info.brand",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"vaccine_info.brand\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.vaccine_info.type",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"vaccine_info.type\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.vaccine_info.lot",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"vaccine_info.lot\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.vaccine_info.production_date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"vaccine_info.production_date\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.organization",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"organization\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.doses",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"doses\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"date\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "vaccine.doctor",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"vaccine\", \"doctor\", id: __id)",
+      "formula": null
+    },
+    {
+      "name": "test.date",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"test\", \"date\", id: __id - 330)",
+      "formula": null
+    },
+    {
+      "name": "test.result",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"test\", \"result\", id: __id - 330)",
+      "formula": null
+    },
+    {
+      "name": "test.organization",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"test\", \"organization\", id: __id - 330)",
+      "formula": null
+    },
+    {
+      "name": "test.lot",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"test\", \"lot\", id: __id - 330)",
+      "formula": null
+    },
+    {
+      "name": "test.doctor",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "from_dataset(\"test\", \"doctor\", id: __id - 330)",
+      "formula": null
+    }
+  ]
+}
