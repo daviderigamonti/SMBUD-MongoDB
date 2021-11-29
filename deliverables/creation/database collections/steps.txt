@@ -1,0 +1,4 @@
+When you created a database in MongoDB Compass, 
+in your first collection click on ADD DATA > import file
+add one of the collections (ex: smbud_greenpass.json)
+create a new collection and repeat the steps for the other collections
