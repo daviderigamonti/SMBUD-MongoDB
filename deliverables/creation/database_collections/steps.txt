@@ -1,0 +1,4 @@
+After you have created a database in MongoDB Compass, 
+create a collection click on ADD DATA > import file,
+select one of the JSON files (ex: smbud_certificate.json) and import it,
+repeat the steps for the other collections.
