@@ -1,0 +1,21 @@
+id,vaccine_info.brand,vaccine_info.type,vaccine_info.lot,vaccine_info.production_date,organization,doses,date,doctor
+1,Pfizer-BioNTech,Genetic,183,2021-07-02,61a150adf6a0af3064001528,3,2021-11-26,Dino Sapsed
+2,AstraZeneca,Viral vector,151,2021-05-31,61a150adf6a0af30a3001506,3,2021-11-27,Melania Cinnamond
+3,Johnson & Johnson's Janssen,Viral vector,193,2021-07-12,61a150adf6a0af304700152f,3,2021-11-14,Gennifer Charlon
+4,Pfizer-BioNTech,Genetic,202,2021-07-20,61a150adf6a0af30a0001538,3,2021-11-26,Brendan Ronchi
+5,Johnson & Johnson's Janssen,Viral vector,75,2021-03-15,61a150adf6a0af30a400151b,3,2021-10-27,Clarance Legier
+6,Johnson & Johnson's Janssen,Viral vector,150,2021-05-29,61a150adf6a0af308e001502,3,2021-11-25,Angil Harberer
+7,Moderna,Genetic,6,2021-01-06,61a150adf6a0af30a400151a,3,2021-11-13,Jordan Celier
+8,Moderna,Genetic,24,2021-01-23,61a150adf6a0af304700151d,3,2021-11-26,Archibaldo Quennell
+9,Moderna,Genetic,127,2021-05-07,61a150adf6a0af3064001538,3,2021-11-22,Othilie Childerley
+10,Moderna,Genetic,171,2021-06-19,61a150adf6a0af305d001524,3,2021-11-12,Wendye Giovanetti
+11,Moderna,Genetic,96,2021-04-05,61a150adf6a0af30a30014f9,3,2021-10-20,Helene Hankins
+12,Moderna,Genetic,306,2021-11-02,61a150adf6a0af30a800161e,3,2021-11-25,Berget McCleod
+13,AstraZeneca,Viral vector,72,2021-03-12,61a150adf6a0af308e001504,3,2021-11-17,Jessika Aitkenhead
+14,Moderna,Genetic,181,2021-06-30,61a150adf6a0af304700152f,3,2021-09-28,Mellisa Mohammad
+15,Pfizer-BioNTech,Genetic,94,2021-04-03,61a150adf6a0af308e0014eb,3,2021-11-22,Cecilia Suddards
+16,Pfizer-BioNTech,Genetic,297,2021-10-23,61a150adf6a0af308e001500,3,2021-11-28,Gaynor Spaxman
+17,Johnson & Johnson's Janssen,Viral vector,176,2021-06-25,61a150adf6a0af30a8001618,3,2021-10-23,Clayborn Karmel
+18,AstraZeneca,Viral vector,309,2021-11-05,61a150adf6a0af30a4001526,3,2021-11-12,Adore Cocklin
+19,Moderna,Genetic,275,2021-10-02,61a150adf6a0af30a800161d,3,2021-11-17,Fabe Stickland
+20,Pfizer-BioNTech,Genetic,91,2021-03-31,61a150adf6a0af30a000152e,3,2021-10-23,Hermia Hugill

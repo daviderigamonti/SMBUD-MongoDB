@@ -1,8 +1,8 @@
 {
-  "id": 361575,
-  "num_rows": 330,
+  "id": 362493,
+  "num_rows": 190,
   "file_format": "csv",
-  "name": "vaccine",
+  "name": "vaccine1",
   "include_header": true,
   "columns": [
     {
@@ -70,7 +70,7 @@
       "name": "vaccine_info.lot",
       "null_percentage": 0,
       "type": "Formula",
-      "value": "from_dataset(\"lot-production_date\", \"lot\", lot: random(1, 100))",
+      "value": "from_dataset(\"lot-production_date\", \"lot\", lot: random(1, 330))",
       "formula": ""
     },
     {
@@ -92,7 +92,7 @@
       "null_percentage": 0,
       "type": "Number",
       "min": 1,
-      "max": 3,
+      "max": 1,
       "decimals": 0,
       "formula": ""
     },
@@ -100,8 +100,8 @@
       "name": "date",
       "null_percentage": 0,
       "type": "Formula",
-      "value": "(date(field(\"vaccine_info.production_date\")) + days(random(0, date_diff(\"days\", date(\"2021-11-26\"), date(field(\"vaccine_info.production_date\")))))).strftime(\"%Y-%m-%d\")",
-      "formula": "this = field(\"vaccine_info.production_date\") + days(random(0, date_diff(\"days\", date(\"2021-11-26\"), field(\"vaccine_info.production_date\"))))"
+      "value": "prod = date(field(\"vaccine_info.production_date\")); stop = date(\"2021-11-26\"); diff = round(date_diff(\"days\", prod, stop), 0);  (prod + days(random(0, diff))).strftime(\"%Y-%m-%d\");",
+      "formula": "prod = date(field(\"vaccine_info.production_date\"));\nstop = date(\"2021-11-26\");\ndiff = round(date_diff(\"days\", prod, stop), 0);\n\n(prod + days(random(0, diff))).strftime(\"%Y-%m-%d\");"
     },
     {
       "name": "doctor",
