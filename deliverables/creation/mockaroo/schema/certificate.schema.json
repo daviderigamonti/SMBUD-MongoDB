@@ -1,4 +1,5 @@
 {
+  "id": 362621,
   "num_rows": 730,
   "file_format": "json",
   "name": "certificate",
@@ -38,6 +39,13 @@
       "null_percentage": 0,
       "type": "Formula",
       "value": "if __id <= 190    then from_dataset(\"person\", \"surname\", id: __id) elsif __id <= 310    then from_dataset(\"person\", \"surname\", id: __id - 190) elsif __id <= 330   then from_dataset(\"person\", \"surname\", id: __id - 310) else from_dataset(\"person\", \"surname\", id: __person_id) end; ",
+      "formula": null
+    },
+    {
+      "name": "person.birthdate",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "if __id <= 190    then from_dataset(\"person\", \"birthdate\", id: __id) elsif __id <= 310    then from_dataset(\"person\", \"birthdate\", id: __id - 190) elsif __id <= 330   then from_dataset(\"person\", \"birthdate\", id: __id - 310) else from_dataset(\"person\", \"birthdate\", id: __person_id) end; ",
       "formula": null
     },
     {
