@@ -1,4 +1,5 @@
 {
+  "id": 361557,
   "num_rows": 200,
   "file_format": "csv",
   "name": "person",
@@ -27,6 +28,13 @@
       "null_percentage": 0,
       "type": "Last Name",
       "formula": null
+    },
+    {
+      "name": "birthdate",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "birth_year = random(1941, 2011); start_date = date(concat(birth_year, \"-1-1\")); end_date = date(concat(birth_year, \"-12-31\")); n_days = date_diff(\"days\", start_date, end_date); (start_date + days(random(0, n_days))).strftime(\"%Y-%m-%d\");",
+      "formula": "birth_year = random(1941, 2011);\nstart_date = date(concat(birth_year, \"-1-1\"));\nend_date = date(concat(birth_year, \"-12-31\"));\nn_days = date_diff(\"days\", start_date, end_date);\n(start_date + days(random(0, n_days))).strftime(\"%Y-%m-%d\");"
     },
     {
       "name": "city",
