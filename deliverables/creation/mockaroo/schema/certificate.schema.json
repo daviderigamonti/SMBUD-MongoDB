@@ -122,7 +122,7 @@
       "name": "vaccine.organization",
       "null_percentage": 0,
       "type": "Formula",
-      "value": "dataname = \"vaccine\";  if __id <= 190    then from_dataset(concat(dataname, 1), \"vaccine_info.organization\", id: __id) elsif __id <= 310    then from_dataset(concat(dataname, 2), \"vaccine_info.organization\", id: __id - 190) else from_dataset(concat(dataname, 3), \"vaccine_info.organization\", id: __id - 310) end;",
+      "value": "dataname = \"vaccine\";  if __id <= 190    then from_dataset(concat(dataname, 1), \"organization\", id: __id) elsif __id <= 310    then from_dataset(concat(dataname, 2), \"organization\", id: __id - 190) else from_dataset(concat(dataname, 3), \"organization\", id: __id - 310) end;",
       "formula": null
     },
     {
