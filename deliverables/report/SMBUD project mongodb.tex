@@ -1,0 +1,172 @@
+%----------------------------------------------------------------------------------------
+%	PACKETS AND CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{times} % Times New Roman font
+\usepackage{graphicx} % 'graphics' package interface
+\usepackage{geometry} % Edit document margins
+\usepackage{hyperref} % Table of contents hyperlinks
+\usepackage{tcolorbox} % Colored boxes for code
+\usepackage[font=small, labelfont=bf]{caption} % Image caption font
+\usepackage{longtable} % Build long tables
+
+% HELPER PACKAGES (REMOVE IN FINAL) %
+\usepackage{blindtext} % Lorem Ipsum
+\usepackage{todonotes} % TODOs as useful reminders
+\setlength{\marginparwidth}{2cm} % Otherwise todonotes gets angry at me lol
+\setuptodonotes{fancyline, color=green!40, shadow} % TODOs options
+% HELPER PACKAGES (REMOVE IN FINAL) %
+
+\graphicspath{ {./res/} } % Path to graphics
+\hypersetup{    % ToC Hyperlink setup
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\newgeometry{top=7cm, bottom=2cm} % Setting the margins for the title
+
+% Title
+\begin{titlepage}
+    \centering
+    {\Huge\bfseries Pandemic Information System Model\par} % Project title
+    \vspace{1.5cm}
+    {\scshape\large Systems and Methods for Big and Unstructured Data \par} % Course
+    \vspace{0.5cm}
+    {\scshape\large Prof. Marco Brambilla \par} % Professor
+    \vspace{1cm}
+    {\scshape\large % Description
+        Second delivery \par 
+        MongoDB Project \par 
+    }
+    \vspace{0.5cm}
+    {\slshape\large December 2021 \par} % Date
+    \vspace{1cm}
+    \linespread{0.8} % Authors interline
+    {\large\itshape % Authors
+        Avci Oguzhan - \texttt{10557284}\\
+        Gentile Nicole - \texttt{10594355}\\
+        Rigamonti Davide - \texttt{10629791}\\
+        Singh Raul - \texttt{10623232}\\
+        Tagliaferri Mattia - \texttt{10572418}
+    }
+    \vfill
+    \begin{figure}[b]
+        \includegraphics[scale=0.6]{polimi.png} % Polimi logo
+        \centering
+    \end{figure}
+
+    \pagenumbering{gobble} % Remove page number
+
+\end{titlepage}
+
+\newgeometry{bottom=3cm} % Reset the margins
+\pagenumbering{arabic} % Reset the page number
+
+\clearpage
+
+% INDEX
+{
+    \hypersetup{hidelinks}
+    \tableofcontents
+}
+
+% LIST OF TODOs (REMOVE IN FINAL)
+\listoftodos
+
+\clearpage
+
+% INTRODUCTION
+\section{Introduction}
+
+\subsection{Problem Specification}
+
+\todo{Problem Specification}
+\blindtext
+
+\subsection{Hypoteses}
+
+\todo{Hypo-teses}
+\blindtext
+  
+\clearpage
+
+% DATABASE
+\section{Database}
+
+\subsection{Document Diagram}
+
+\todo{Do-cument Diagram}
+\blindtext
+
+\subsection{Dataset description}
+
+\todo{Dataset description}
+\blindtext
+
+\subsection{Queries}
+
+\todo{Queries}
+\blindtext
+
+\subsection{Commands}
+
+\todo{Com-mands}
+\blindtext
+
+\clearpage
+
+% APPLICATION
+\section{Application}
+
+\subsection{Description}
+
+\todo{De-scription}
+\blindtext
+
+\subsection{User Guide}
+
+\todo{User Guide}
+\blindtext
+
+\clearpage % Here otherwise the screenshots go in strange places
+
+\subsection{Screenshots}
+
+\todo{Screen-shots}
+\blindtext
+
+\clearpage 
+
+% REFERENCES AND SOURCES
+\section{References and sources}
+
+In order to develop these project, the following tools were used:
+
+\begin{itemize}
+    \item MongoDB and the MongoDB Compass to build and navigate the database 
+        and write queries;
+    \item \LaTeX~to write the report;
+    \item Github as a versioning and collaboration mean;
+    \item \url{https://www.Mockaroo.com} 
+        to generate realistic data for people, authorized bodies and 
+        certifications;
+    \item \href{https://data.gov.sg/dataset/listing-of-licensed-pharmacies}{link}
+        to the resource used for the pharmacy population;
+    \item \href{https://corgis-edu.github.io/corgis/csv/hospitals/}{link}
+        to the resource used for the hospital population.
+\end{itemize}
+
+\clearpage
+
+\end{document}
