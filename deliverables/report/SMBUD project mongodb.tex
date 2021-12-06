@@ -96,8 +96,43 @@
 
 \subsection{Hypoteses}
 
-\todo{Hypo-teses}
-\blindtext
+\begin{itemize}
+
+    \item Vaccines and tests
+    \begin{itemize}
+        \item[] We assumed that vaccines and tests don't expire and can be used 
+            as soon as they are produced without accounting for delivery time.
+        \item[] We also assumed that the minimum time elapsed between two doses
+            for the same person is at least one day in order to have a better
+            distribution of vaccinations inside the generated dataset;
+            furthermore, all doses must be of the same vaccine brand and a
+            single person can have up to 3 vaccine doses. 
+        \item[] Given the previous assumptions we don't consider the test 
+            results to have any relevance besides for negative tests
+            generating a certification that is valid for a certain amount of 
+            time.
+        \item[] Vaccines are produced from 01/01/2021 to 26/11/2021 with a
+            number ranging from 0 to 2 lots per day, adding up to a total
+            of 330 lots numbered from \emph{1} to \emph{330}.
+        \item[] Tests are performed from 01/01/2021 to 26/11/20 21 and 
+            their lots are numbered from \emph{1200} to \emph{1600}.
+    \end{itemize}
+
+    \item Other entities
+    \begin{itemize}
+        \item[] The SSN field for people is considered to be a unique
+            identifier for the single individual.
+        \item[] Names for regular people, doctors, cities and authorized bodies 
+            have no relevance and were chosen randomly, therefore information 
+            such as phone numbers for people and coordinates for authorized 
+            bodies aren't designed to be consistent among the dataset.
+        \item[] All authorized bodies can release all kinds of certificates.
+        \item[] People were born between years 1941 and 2011, therefore their 
+            age ranges roughly from \emph{10 y.} to \emph{80 y.} considering 
+            2021 to be current year.
+    \end{itemize}
+
+\end{itemize}
   
 \clearpage
 
@@ -111,8 +146,18 @@
 
 \subsection{Dataset description}
 
-\todo{Dataset description}
-\blindtext
+We represented a population of 200 people taking a total of 330 vaccinations
+(190 first doeses, 120 second doses and 20 third doses) and 400 tests inside
+a total of 270 authorized bodies (130 hospitals, 80 pharmacies and 60 
+specialized centers). \\
+Certifications are characterized by information about the related person
+(SSN, name, surname, birthdate, city, phone number and an emergency contact
+including the name, surname, phone number and description for a person to 
+contact in case of emergency) and the vaccination (date, organization, doctor 
+and information about the vaccine such as brand, type, lot and production 
+date) or the test (lot, result, date, organization and doctor). \\
+The complete script used for the creation of the dataset, togheter with a 
+database dump will be provided alongside this document.
 
 \subsection{Queries}
 
