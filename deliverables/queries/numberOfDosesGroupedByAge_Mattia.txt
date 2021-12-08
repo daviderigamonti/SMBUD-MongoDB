@@ -1,26 +1,16 @@
 var personNumber = db.certificate.distinct("person.ssn").length;
-db.certificate.aggregate(
-  {$project: {
-      date: {$dateFromString: {dateString: "$person.birthdate", format: "%Y-%m-%d"}},
-      age: {
-        $round: [
-          {$divide: [
-            {$subtract: ["$$NOW", {$dateFromString: {dateString: "$person.birthdate", format: "%Y-%m-%d"}}]},
-            1000*60*60*24*365
-          ]}
-        ]},
-      vaccineDoses: "$vaccine.doses"
-  }},
-      {$match: {vaccineDoses: 1}},
+
+db.certificate_datetimes.aggregate(
+       {$match: {"vaccine.doses": 1}},
       {$group: {
         _id: {
           $concat: [
-              {$cond: [ {$and: [ {$gte: ["$age", 10]}, {$lt: ["$age", 20]} ]}, "Under 20", ""]},
-              {$cond: [ {$and: [ {$gte: ["$age", 20]}, {$lt: ["$age", 40]} ]}, "20 - 40", ""]},
-              {$cond: [ {$and: [ {$gte: ["$age", 40]}, {$lt: ["$age", 50]} ]}, "40 - 50", ""]},
-              {$cond: [ {$and: [ {$gte: ["$age", 50]}, {$lt: ["$age", 60]} ]}, "50 - 60", ""]},
-              {$cond: [ {$and: [ {$gte: ["$age", 60]}, {$lt: ["$age", 70]} ]}, "60 - 70", ""]},
-              {$cond: [ {$gte: ["$age", 70]}, "Over 70", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 10]}, {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+              {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
             ]
         },
         count: {$sum: 1},

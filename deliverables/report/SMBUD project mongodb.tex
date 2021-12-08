@@ -158,7 +158,7 @@ these certificates according to the latest government rules.
 
 \subsection{Dataset description}
 
-We represented a population of 200 people taking a total of 330 vaccinations
+We represented a population of about 200 people taking a total of 330 vaccinations
 (190 first doses, 120 second doses and 20 third doses) and 300 tests inside
 a total of 270 authorized bodies (130 hospitals, 80 pharmacies and 60 
 specialized centers). \\
@@ -175,6 +175,82 @@ extended to 6 months), while vaccinations validity is 9 months. \\
 The complete script used for the creation of the dataset, togheter with a 
 database dump will be provided alongside this document.
 
+% VIEWS
+\subsection{Views}
+Views are used to make queries easier to be executed.
+
+\subsubsection{Certificates with datetimes}
+This view is used to convert all dates contained in certificates to datetime format. Moreover, 
+we also add a field representing the age of the person.
+
+\begin{tcolorbox}[fontupper=\scriptsize]
+    \begin{verbatim}
+db.createView(
+"certificate_datetimes", 
+"certificate", 
+[
+	{"$addFields":{
+	        "vaccine.date": {
+	        "$dateFromString": {
+	          "dateString": "$vaccine.date"
+	        }
+	      },	       
+	       "test.date": {
+	        "$dateFromString": {
+	          "dateString": "$test.date"
+	        }
+	      },      
+	       "person.birthdate": {
+	        "$dateFromString": {
+	          "dateString": "$person.birthdate"
+	        }
+	      }
+	}},
+	{"$addFields":{
+	  "person.age": {
+	        "$subtract": [{ $year: new Date() },
+	        { $year: "$person.birthdate" }]
+	      }
+	}}
+])
+    \end{verbatim}
+\end{tcolorbox}
+
+\subsubsection{Join bewteen certificates and authorized bodies}
+This view is used to retrieve the information about the authorized bodies issuing vaccinations or tests.
+\begin{tcolorbox}[fontupper=\scriptsize]
+    \begin{verbatim}
+db.createView(
+"certificate_authorizedBodies", 
+"certificate", 
+[
+	{ "$addFields":{
+	  "vaccine.organization": {
+	    "$toObjectId": "$vaccine.organization"}
+	    ,  
+	    "test.organization": {
+	    "$toObjectId": "$test.organization"}
+	  }
+	},
+	{"$lookup": {
+	    "from": "authorized_bodies",
+	    "localField": "vaccine.organization",
+	    "foreignField": "_id",
+	    "as": "vaccine.organization"
+	  }
+	},
+	{"$lookup": {
+	    "from": "authorized_bodies",
+	    "localField": "test.organization",
+	    "foreignField": "_id",
+	    "as": "test.organization"
+	  }
+	}
+])
+    \end{verbatim}
+\end{tcolorbox}
+
+%QUERIES
 \subsection{Queries}
 
 \subsubsection{Check validity by SSN}
@@ -229,6 +305,116 @@ It takes the following parameters:
 \begin{itemize}
     \item \texttt{id} \emph{(string)}: id of the certificate.
 \end{itemize}
+
+\subsubsection{Percentage of fully vaccinated people by age groups}
+\begin{tcolorbox}[fontupper=\scriptsize]
+    \begin{verbatim}
+// total number of people
+var personNumber = db.certificate.distinct("person.ssn").length;
+
+// divide people into groups and calcultate the percentage of second doses for each 
+db.certificate_datetimes.aggregate(
+      {$match: {"vaccine.doses": 2}},
+      {$group: {
+        _id: {
+          $concat: [
+              {$cond: [ {$and: [ {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, 
+                                 {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, 
+                                 {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, 
+                                 {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, 
+                                 {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+              {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
+            ]
+        },
+        count: {$sum: 1},
+      }},
+      {$project: {
+        count: 1,
+        percentage: {$multiply:[{$divide: ["$count", personNumber]}, 100]}
+      }},
+      {$sort: {_id: 1}}
+ )
+    \end{verbatim}
+\end{tcolorbox}
+\noindent 
+Returns the percentage of fully vaccinated people (i.e. the ones having at least the second dose of vaccine)
+divided by age groups.
+
+\subsubsection{Percentage of boosters by age groups}
+\begin{tcolorbox}[fontupper=\scriptsize]
+    \begin{verbatim}
+// find the percentage of boosters (3rd dose) for each age group
+var personNumber = db.certificate.distinct("person.ssn").length;
+db.certificate_datetimes.aggregate(
+      {$match: {"vaccine.doses": 3}},
+      {$group: {
+        _id: {
+          $concat: [
+              {$cond: [ {$and: [ {$gte: ["$person.age", 10]},
+                                 {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, 
+                                 {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, 
+                                 {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, 
+                                 {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, 
+                                 {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+              {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
+            ]
+        },
+        count: {$sum: 1},
+      }},
+      {$project: {
+        count: 1,
+        percentage: {$multiply:[{$divide: ["$count", personNumber]}, 100]}
+      }},
+      {$sort: {_id: 1}}
+ )
+    \end{verbatim}
+\end{tcolorbox}
+\noindent 
+Returns the percentage of people having the 3rd dose for each age group.
+
+\subsubsection{Percentage of vaccinated by age groups}
+\begin{tcolorbox}[fontupper=\scriptsize]
+    \begin{verbatim}
+var personNumber = db.certificate.distinct("person.ssn").length;
+
+db.certificate_datetimes.aggregate(
+      {$match: {"vaccine.doses": 1}},
+      {$group: {
+        _id: {
+          $concat: [
+              {$cond: [ {$and: [ {$gte: ["$person.age", 10]},
+                                 {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, 
+                                 {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, 
+                                 {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, 
+                                 {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+              {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, 
+                                 {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+              {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
+            ]
+        },
+        count: {$sum: 1},
+      }},
+      {$project: {
+        count: 1,
+        percentage: {$multiply:[{$divide: ["$count", personNumber]}, 100]}
+      }},
+      {$sort: {_id: 1}}
+ )
+    \end{verbatim}
+\end{tcolorbox}
+\noindent 
+Returns the percentage of people who got the 1st dose for each age group.
 
 \subsubsection{Number of people with only the first dose}
 \begin{tcolorbox}[fontupper=\scriptsize]
