@@ -1,0 +1,34 @@
+// insert a new test
+/*
+Parameters:
+	ssn, name, surmane, phone: String
+	birthdate, test_date: String ('YYYY-MM-DD')
+	e_name, e_surname, e_phone, description: String
+	lot: int
+	organization: String representing the id of the organization
+	result, doctor: String
+*/
+db.certificate.insertOne(
+{ 
+    "person": {
+    "ssn": ssn,
+    "name": name,
+    "surname": surname,
+    "birthdate": birthdate,
+    "city": city,
+    "phone": phone,
+    "emergency_contact": {
+        "name": e_name,
+        "surname": e_surname,
+        "phone": e_phone,
+        "description": description
+        }
+    },
+    "test": {
+        "date": test_date,
+        "result": result,
+        "organization": organization,
+        "lot": lot,
+        "doctor": doctor
+    }
+});

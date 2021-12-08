@@ -1,0 +1,41 @@
+// insert a new vaccine
+/*
+Parameters:
+	ssn, name, surmane, phone: String
+	birthdate, prod_date, vax_date: String ('YYYY-MM-DD')
+	e_name, e_surname, e_phone, description: String
+	brand, type: String
+	lot: int
+	organization: String representing the id of the organization
+	doses: int
+	doctor: String
+*/
+db.certificate.insertOne(
+{ 
+    "person": {
+    "ssn": ssn,
+    "name": name,
+    "surname": surname,
+    "birthdate": birthdate,
+    "city": city,
+    "phone": phone,
+    "emergency_contact": {
+        "name": e_name,
+        "surname": e_surname,
+        "phone": e_phone,
+        "description": description
+        }
+    },
+    "vaccine": {
+        "vaccine_info": {
+            "brand": brand,
+            "type": type,
+            "lot": lot,
+            "production_date": prod_date
+        },
+    "organization": organization,
+    "doses": doses,
+    "date": vax_dat,
+    "doctor": doctor
+    }
+});

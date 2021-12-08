@@ -1,0 +1,8 @@
+// delete tests older than 3 months 
+
+db.certificate_datetimes.find({ 
+  "test.date": { "$lte": new Date(new Date().setMonth(new Date().getMonth() - 3)) }
+}).forEach(function(doc) {
+    db.certificate.deleteMany({ "_id": doc._id });
+  });
+  

@@ -1,0 +1,7 @@
+// update time validity of green passes 
+// we can update all fields or just some of them
+
+db.government_rules.updateOne({},{'$set' : {'test_validity_time_h': X ,
+								'vaccine_validity_time_month': X								
+								}})
+
