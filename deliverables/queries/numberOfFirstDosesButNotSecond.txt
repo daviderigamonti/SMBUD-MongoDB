@@ -2,9 +2,9 @@
 
 // find the ssn of people having the first dose
 var first_dose = db.certificate.find({  
-'vaccine.doses':1}).count()
+"vaccine.doses":1}).count()
 
 // count number of people having the second dose
-var second_dose = db.certificate.find( { 'vaccine.doses':2 } ).count()
+var second_dose = db.certificate.find( { "vaccine.doses":2 } ).count()
 
 first_dose - second_dose

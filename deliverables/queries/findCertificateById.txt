@@ -2,5 +2,5 @@
 // the retrieved document is later used to check the validity according to the date, the government rules and, in case of vaccine, the presence of newer vaccinations
 
 db.certificate.find(
-{'_id': ObjectId('XXXXXXXXXXXXXXXXX')
+{'_id': ObjectId(id)
  })

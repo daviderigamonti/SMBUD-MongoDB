@@ -1,11 +1,11 @@
 // update emergency contact of a person, given the ssn
 
 db.certificate.updateMany(
-	{'person.ssn':"XXX-XX-XXXX"},
-	{'$set' : {
-		'person.emergency_contact.name': 'X',
-		'person.emergency_contact.surname': 'Y',
-		'person.emergency_contact.phone': Z,
-		'person.emergency_contact.description': 'W' 	
+	{"person.ssn": ssn},
+	{"$set" : {
+		"person.emergency_contact.name": name,
+		"person.emergency_contact.surname": surname,
+		"person.emergency_contact.phone": phone,
+		"person.emergency_contact.description": description	
 		}
 	})

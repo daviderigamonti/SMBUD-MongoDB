@@ -1,6 +1,7 @@
 // check if a specific person has a newer vaccine dose
 // parameters: ssn, n_dose
 
-db.certificate.find( { 'person.ssn': 'XXXXXXX',
+db.certificate.find( { "person.ssn": ssn,
   "vaccine.doses": { "$gt": n_dose }}
 )
+
