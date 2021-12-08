@@ -1,3352 +1,3362 @@
 [{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000172"
+    "$oid": "61b0ca15f6a0af5003000133"
   },
   "GPS": {
-    "latitude": 15.226768,
-    "longitude": 102.496025
+    "latitude": -8.7334983,
+    "longitude": 121.7508912
   },
-  "city": "Phimai",
-  "name": "Farrer Park Pharmacy",
-  "type": "pharmacy",
-  "address": "53416 Delladonna Place"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000173"
-  },
-  "GPS": {
-    "latitude": -6.3267969,
-    "longitude": 107.2932396
-  },
-  "city": "Sukaharja",
-  "name": "Fairbanks Memorial Hospital",
+  "city": "Wolofeo",
+  "name": "Banner - University Medical Center Phoenix",
   "type": "hospital",
-  "address": "4313 Pine View Point",
+  "address": "6732 Luster Street",
   "department": 8
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000174"
+    "$oid": "61b0ca15f6a0af5003000134"
   },
   "GPS": {
-    "latitude": 40.6918277,
-    "longitude": 20.9424673
+    "latitude": -21.2370782,
+    "longitude": -45.7592067
   },
-  "city": "Progër",
-  "name": "KK Outpatient Pharmacy",
-  "type": "pharmacy",
-  "address": "007 Delaware Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000175"
-  },
-  "GPS": {
-    "latitude": 10.5922194,
-    "longitude": 123.4845632
-  },
-  "city": "Calatrava",
-  "name": "Athens Limestone Hospital",
+  "city": "Campos Gerais",
+  "name": "L V Stabler Memorial Hospital",
   "type": "hospital",
-  "address": "45453 Mitchell Court",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000176"
-  },
-  "GPS": {
-    "latitude": 17.1390992,
-    "longitude": 102.9715346
-  },
-  "city": "Ban Phan Don",
-  "name": "NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY)",
-  "type": "pharmacy",
-  "address": "4455 Carberry Pass"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000177"
-  },
-  "GPS": {
-    "latitude": 10.2603809,
-    "longitude": 13.2605763
-  },
-  "city": "Mubi",
-  "name": "COVID CENTER 26",
-  "type": "specialized center",
-  "address": "776 Stone Corner Place"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000178"
-  },
-  "GPS": {
-    "latitude": -6.4045182,
-    "longitude": 106.8341509
-  },
-  "city": "Jami",
-  "name": "Tan Tock Seng Hospital (Outpatient & Retail Pharmacy)",
-  "type": "pharmacy",
-  "address": "5848 Welch Drive"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000179"
-  },
-  "GPS": {
-    "latitude": 57.5384659,
-    "longitude": 25.4263618
-  },
-  "city": "Valmiera",
-  "name": "SINGHEALTH POLY-OUTRAM",
-  "type": "pharmacy",
-  "address": "89 Waubesa Court"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200017a"
-  },
-  "GPS": {
-    "latitude": -7.55,
-    "longitude": 111.116667
-  },
-  "city": "Balong",
-  "name": "COVID CENTER 44",
-  "type": "specialized center",
-  "address": "27 Spaight Point"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200017b"
-  },
-  "GPS": {
-    "latitude": -7.9211147,
-    "longitude": 111.4946618
-  },
-  "city": "Gandu",
-  "name": "Citizens Baptist Medical Center",
-  "type": "hospital",
-  "address": "8162 Columbus Place",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200017c"
-  },
-  "GPS": {
-    "latitude": 59.2420906,
-    "longitude": 18.1015207
-  },
-  "city": "Kristinehamn",
-  "name": "Canyon Vista Medical Center",
-  "type": "hospital",
-  "address": "5393 Main Place",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200017d"
-  },
-  "GPS": {
-    "latitude": 35.1899597,
-    "longitude": 25.7164166
-  },
-  "city": "Áyios Nikólaos",
-  "name": "Northeast Alabama Regional Medical Center",
-  "type": "hospital",
-  "address": "2378 Sunnyside Hill",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200017e"
-  },
-  "GPS": {
-    "latitude": 51.8971298,
-    "longitude": 17.7805434
-  },
-  "city": "Pleszew",
-  "name": "Ketchikan Medical Center",
-  "type": "hospital",
-  "address": "00 Esch Pass",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200017f"
-  },
-  "GPS": {
-    "latitude": 55.0356736,
-    "longitude": 23.5860512
-  },
-  "city": "Vilkija",
-  "name": "COVID CENTER 35",
-  "type": "specialized center",
-  "address": "1 Glacier Hill Hill"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000180"
-  },
-  "GPS": {
-    "latitude": -9.6551739,
-    "longitude": 124.2699432
-  },
-  "city": "Tutem",
-  "name": "Verde Valley Medical Center",
-  "type": "hospital",
-  "address": "701 Butternut Center",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000181"
-  },
-  "GPS": {
-    "latitude": 39.9990626,
-    "longitude": -83.0173386
-  },
-  "city": "Columbus",
-  "name": "Stringfellow Memorial Hospital",
-  "type": "hospital",
-  "address": "9 Garrison Center",
+  "address": "0 Armistice Crossing",
   "department": 10
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000182"
+    "$oid": "61b0ca15f6a0af5003000135"
   },
   "GPS": {
-    "latitude": -15.67164,
-    "longitude": -74.536774
+    "latitude": 14.6933122,
+    "longitude": 121.0806979
   },
-  "city": "Yauca",
-  "name": "Cullman Regional Medical Center",
+  "city": "Batobato",
+  "name": "Mobile Infirmary Medical Center",
   "type": "hospital",
-  "address": "839 Forest Dale Street",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000183"
-  },
-  "GPS": {
-    "latitude": 60.1946148,
-    "longitude": 24.9584208
-  },
-  "city": "Pernå",
-  "name": "NATIONAL HEART CENTRE PHARMACY",
-  "type": "pharmacy",
-  "address": "6 Eagan Park"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000184"
-  },
-  "GPS": {
-    "latitude": 36.6085381,
-    "longitude": 44.5238693
-  },
-  "city": "Rāwandūz",
-  "name": "Specialist Compounding Pharmacy Pte Ltd",
-  "type": "pharmacy",
-  "address": "5 Sheridan Parkway"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000185"
-  },
-  "GPS": {
-    "latitude": 40.0480392,
-    "longitude": 23.4134501
-  },
-  "city": "Kassándreia",
-  "name": "COVID CENTER 55",
-  "type": "specialized center",
-  "address": "4512 Bashford Hill"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000186"
-  },
-  "GPS": {
-    "latitude": 2.0454995,
-    "longitude": 100.6365483
-  },
-  "city": "Rantaupanjangkiri",
-  "name": "Shoals Hospital",
-  "type": "hospital",
-  "address": "882 Stuart Point",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000187"
-  },
-  "GPS": {
-    "latitude": 51.669945,
-    "longitude": 16.5376529
-  },
-  "city": "Góra",
-  "name": "COVID CENTER 7",
-  "type": "specialized center",
-  "address": "13223 Arapahoe Center"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000188"
-  },
-  "GPS": {
-    "latitude": 33.157445,
-    "longitude": 106.834805
-  },
-  "city": "Xinjiezi",
-  "name": "MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "0 Arkansas Avenue"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000189"
-  },
-  "GPS": {
-    "latitude": 14.8572534,
-    "longitude": 120.6213379
-  },
-  "city": "Malusac",
-  "name": "COVID CENTER 21",
-  "type": "specialized center",
-  "address": "77 Pawling Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200018a"
-  },
-  "GPS": {
-    "latitude": 9.4362547,
-    "longitude": 123.1893864
-  },
-  "city": "Silab",
-  "name": "COVID CENTER 45",
-  "type": "specialized center",
-  "address": "946 Forster Way"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200018b"
-  },
-  "GPS": {
-    "latitude": -6.3398714,
-    "longitude": 108.2970692
-  },
-  "city": "Sindang",
-  "name": "COVID CENTER 6",
-  "type": "specialized center",
-  "address": "8655 Browning Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200018c"
-  },
-  "GPS": {
-    "latitude": 31.520703,
-    "longitude": 120.270218
-  },
-  "city": "Lihu",
-  "name": "COVID CENTER 31",
-  "type": "specialized center",
-  "address": "739 Melvin Terrace"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200018d"
-  },
-  "GPS": {
-    "latitude": -7.698725,
-    "longitude": 113.8465758
-  },
-  "city": "Pasirputih",
-  "name": "Washington County Hospital",
-  "type": "hospital",
-  "address": "1311 Schlimgen Point",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200018e"
-  },
-  "GPS": {
-    "latitude": 34.341574,
-    "longitude": 108.93977
-  },
-  "city": "Xi’an",
-  "name": "NATIONAL HEART CENTRE PHARMACY",
-  "type": "pharmacy",
-  "address": "74 Surrey Lane"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200018f"
-  },
-  "GPS": {
-    "latitude": 30.5911589,
-    "longitude": 50.234745
-  },
-  "city": "Behbahān",
-  "name": "KK Emergency Pharmacy",
-  "type": "pharmacy",
-  "address": "57 Redwing Hill"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000190"
-  },
-  "GPS": {
-    "latitude": 40.9392676,
-    "longitude": 46.3748931
-  },
-  "city": "Qırmızı Samux",
-  "name": "COVID CENTER 32",
-  "type": "specialized center",
-  "address": "09536 Melody Way"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000191"
-  },
-  "GPS": {
-    "latitude": 13.4945205,
-    "longitude": 102.2776838
-  },
-  "city": "Khlong Hat",
-  "name": "Jackson Medical Center",
-  "type": "hospital",
-  "address": "01712 Heath Lane",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000192"
-  },
-  "GPS": {
-    "latitude": 15.9858807,
-    "longitude": 120.5721737
-  },
-  "city": "Urdaneta",
-  "name": "Providence Hospital",
-  "type": "hospital",
-  "address": "91 Magdeline Drive",
+  "address": "39 Loftsgordon Court",
   "department": 7
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000193"
+    "$oid": "61b0ca15f6a0af5003000136"
   },
   "GPS": {
-    "latitude": 31.926481,
-    "longitude": 35.236911
+    "latitude": 59.3514599,
+    "longitude": 17.9843165
   },
-  "city": "Baytīn",
-  "name": "COVID CENTER 45",
+  "city": "Solna",
+  "name": "COVID CENTER 36",
   "type": "specialized center",
-  "address": "50993 Comanche Hill"
+  "address": "3292 Talmadge Way"
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000194"
+    "$oid": "61b0ca15f6a0af5003000137"
   },
   "GPS": {
-    "latitude": 17.7177253,
-    "longitude": 102.1175404
+    "latitude": -7.4220343,
+    "longitude": 106.7529514
   },
-  "city": "Nam Som",
-  "name": "D C H Regional Medical Center",
+  "city": "Tegalbuleud",
+  "name": "COVID CENTER 8",
+  "type": "specialized center",
+  "address": "55543 Northfield Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000138"
+  },
+  "GPS": {
+    "latitude": -7.71725,
+    "longitude": 108.07666
+  },
+  "city": "Leuwipicung",
+  "name": "Medical West",
   "type": "hospital",
-  "address": "10 Dixon Lane",
+  "address": "42384 Novick Terrace",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000139"
+  },
+  "GPS": {
+    "latitude": 59.3405742,
+    "longitude": 18.0667759
+  },
+  "city": "Stockholm",
+  "name": "Manapharma Pharmacy",
+  "type": "pharmacy",
+  "address": "531 Montana Road"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300013a"
+  },
+  "GPS": {
+    "latitude": 40.2715286,
+    "longitude": 44.633383
+  },
+  "city": "Abovyan",
+  "name": "COVID CENTER 24",
+  "type": "specialized center",
+  "address": "457 Merrick Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300013b"
+  },
+  "GPS": {
+    "latitude": 23.841237,
+    "longitude": 110.47479
+  },
+  "city": "Xinwu",
+  "name": "Crestwood Medical Center",
+  "type": "hospital",
+  "address": "282 Milwaukee Court",
   "department": 1
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000195"
+    "$oid": "61b0ca15f6a0af500300013c"
   },
   "GPS": {
-    "latitude": -7.5629468,
-    "longitude": 111.4559084
+    "latitude": -9.6701,
+    "longitude": 119.0511
   },
-  "city": "Tebon",
-  "name": "Mount Alvernia Hospital (Main Pharmacy)",
+  "city": "Panenggoede",
+  "name": "COVID CENTER 44",
+  "type": "specialized center",
+  "address": "3 Tomscot Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300013d"
+  },
+  "GPS": {
+    "latitude": -27.5571934,
+    "longitude": -53.9759139
+  },
+  "city": "Humaitá",
+  "name": "East Alabama Medical Center",
+  "type": "hospital",
+  "address": "858 Susan Junction",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300013e"
+  },
+  "GPS": {
+    "latitude": 10.9570221,
+    "longitude": -63.8699655
+  },
+  "city": "Porlamar",
+  "name": "National University Hospital (s) Pte Ltd (Pharmacy @ NCIS)",
   "type": "pharmacy",
-  "address": "74999 Miller Court"
+  "address": "5 Claremont Circle"
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e32000196"
+    "$oid": "61b0ca15f6a0af500300013f"
   },
   "GPS": {
-    "latitude": 15.1048617,
-    "longitude": 120.9216776
+    "latitude": 38.033281,
+    "longitude": 22.1103462
   },
-  "city": "Mapaniqui",
-  "name": "Samuel Simmonds Memorial Hospital",
+  "city": "Kalávryta",
+  "name": "Marshall Medical Center South",
   "type": "hospital",
-  "address": "429 Armistice Crossing",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000197"
-  },
-  "GPS": {
-    "latitude": 30.761853,
-    "longitude": 117.007039
-  },
-  "city": "Liantan",
-  "name": "COVID CENTER 15",
-  "type": "specialized center",
-  "address": "42 Dottie Trail"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000198"
-  },
-  "GPS": {
-    "latitude": 41.9986907,
-    "longitude": 21.4874715
-  },
-  "city": "Čair",
-  "name": "COVID CENTER 21",
-  "type": "specialized center",
-  "address": "68 Talisman Hill"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e32000199"
-  },
-  "GPS": {
-    "latitude": 48.8959487,
-    "longitude": 2.2679278
-  },
-  "city": "Neuilly-sur-Seine",
-  "name": "COVID CENTER 49",
-  "type": "specialized center",
-  "address": "53 Elka Street"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200019a"
-  },
-  "GPS": {
-    "latitude": 7.0389957,
-    "longitude": 126.4497814
-  },
-  "city": "Tarragona",
-  "name": "Northeast Alabama Regional Medical Center",
-  "type": "hospital",
-  "address": "068 Kinsman Crossing",
+  "address": "40060 Del Mar Park",
   "department": 3
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e3200019b"
+    "$oid": "61b0ca15f6a0af5003000140"
   },
   "GPS": {
-    "latitude": 5.87568,
-    "longitude": 121.29146
+    "latitude": 44.3337107,
+    "longitude": 40.7679998
   },
-  "city": "Kanlagay",
-  "name": "CGH Pharmacy B",
-  "type": "pharmacy",
-  "address": "23 Maryland Point"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200019c"
-  },
-  "GPS": {
-    "latitude": 41.7047388,
-    "longitude": 24.3697976
-  },
-  "city": "Devin",
-  "name": "COVID CENTER 18",
+  "city": "Perepravnaya",
+  "name": "COVID CENTER 16",
   "type": "specialized center",
-  "address": "87 Golf View Avenue"
+  "address": "6 Delaware Circle"
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e3200019d"
+    "$oid": "61b0ca15f6a0af5003000141"
   },
   "GPS": {
-    "latitude": 38.0515795,
-    "longitude": -87.6876112
+    "latitude": 23.70475,
+    "longitude": 114.849821
   },
-  "city": "Evansville",
-  "name": "Scottsdale Osborn Medical Center",
+  "city": "Baipu",
+  "name": "Norton Sound Regional Hospital",
   "type": "hospital",
-  "address": "048 Cambridge Place",
-  "department": 1
+  "address": "6 Veith Place",
+  "department": 9
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e3200019e"
+    "$oid": "61b0ca15f6a0af5003000142"
   },
   "GPS": {
-    "latitude": 14.6100657,
-    "longitude": 121.0078432
+    "latitude": 13.6991663,
+    "longitude": 123.5183334
   },
-  "city": "New Cebu",
-  "name": "COVID CENTER 4",
-  "type": "specialized center",
-  "address": "6724 Swallow Hill"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e3200019f"
-  },
-  "GPS": {
-    "latitude": 40.3258678,
-    "longitude": 23.9813901
-  },
-  "city": "Ouranoupolis",
-  "name": "Wrangell Medical Center",
+  "city": "Kinalansan",
+  "name": "Huntsville Hospital",
   "type": "hospital",
-  "address": "99 Becker Point",
+  "address": "57034 Canary Avenue",
   "department": 5
 },{
   "_id": {
-    "$oid": "61b07833fc13ae0e320001a0"
+    "$oid": "61b0ca15f6a0af5003000143"
+  },
+  "GPS": {
+    "latitude": 1.259619,
+    "longitude": 101.213097
+  },
+  "city": "Duri",
+  "name": "WESTMEAD PHARMACY PTE LTD",
+  "type": "pharmacy",
+  "address": "032 Farwell Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000144"
+  },
+  "GPS": {
+    "latitude": -7.3071,
+    "longitude": 107.1272
+  },
+  "city": "Ankola",
+  "name": "WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT)",
+  "type": "pharmacy",
+  "address": "425 Buena Vista Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000145"
+  },
+  "GPS": {
+    "latitude": -6.7455152,
+    "longitude": 111.2293563
+  },
+  "city": "Kuniran",
+  "name": "Nishino Pharmacy (Shaw House)",
+  "type": "pharmacy",
+  "address": "05834 Westridge Way"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000146"
+  },
+  "GPS": {
+    "latitude": -6.820816,
+    "longitude": 108.1992015
+  },
+  "city": "Jatipamor",
+  "name": "COVID CENTER 44",
+  "type": "specialized center",
+  "address": "66596 Karstens Trail"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000147"
+  },
+  "GPS": {
+    "latitude": 45.1216628,
+    "longitude": 19.0173647
+  },
+  "city": "Nijemci",
+  "name": "COVID CENTER 14",
+  "type": "specialized center",
+  "address": "277 Ruskin Way"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000148"
+  },
+  "GPS": {
+    "latitude": 36.10306,
+    "longitude": 127.48889
+  },
+  "city": "Kinzan",
+  "name": "Citizens Baptist Medical Center",
+  "type": "hospital",
+  "address": "0675 Roxbury Trail",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000149"
+  },
+  "GPS": {
+    "latitude": 13.674033,
+    "longitude": 108.9502232
+  },
+  "city": "Vân Canh",
+  "name": "Children's Hospital Of Alabama",
+  "type": "hospital",
+  "address": "36387 Pearson Point",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300014a"
+  },
+  "GPS": {
+    "latitude": 49.8905368,
+    "longitude": 2.3081396
+  },
+  "city": "Amiens",
+  "name": "Jurong Medical Centre Pharmacy",
+  "type": "pharmacy",
+  "address": "09 Oak Valley Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300014b"
+  },
+  "GPS": {
+    "latitude": 41.1213095,
+    "longitude": 69.0612582
+  },
+  "city": "Yangiyŭl",
+  "name": "WESTMEAD PHARMACY PTE LTD",
+  "type": "pharmacy",
+  "address": "08 Iowa Point"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300014c"
+  },
+  "GPS": {
+    "latitude": 10.21972,
+    "longitude": 169.97967
+  },
+  "city": "Ailuk",
+  "name": "TAN TOCK SENG HOSPITAL PTE LTD (EMERGENCY PHARMACY)",
+  "type": "pharmacy",
+  "address": "422 Sutteridge Alley"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300014d"
+  },
+  "GPS": {
+    "latitude": 23.505032,
+    "longitude": 110.454177
+  },
+  "city": "Qingshuitang",
+  "name": "Marion Regional Medical Center",
+  "type": "hospital",
+  "address": "27322 Blackbird Drive",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300014e"
+  },
+  "GPS": {
+    "latitude": 47.5688259,
+    "longitude": -52.7079539
+  },
+  "city": "Sainte-Martine",
+  "name": "St Vincent's East",
+  "type": "hospital",
+  "address": "71 Dennis Trail",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af500300014f"
+  },
+  "GPS": {
+    "latitude": 29.202542,
+    "longitude": 121.931606
+  },
+  "city": "Shipu",
+  "name": "Khoo Teck Puat Hospital Pharmacy",
+  "type": "pharmacy",
+  "address": "6034 East Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000150"
+  },
+  "GPS": {
+    "latitude": 8.972681,
+    "longitude": 125.408732
+  },
+  "city": "Buenavista",
+  "name": "MEDI-LINK PHARMACY",
+  "type": "pharmacy",
+  "address": "67152 David Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000151"
+  },
+  "GPS": {
+    "latitude": 23.3362272,
+    "longitude": 112.7222244
+  },
+  "city": "Taotang",
+  "name": "Vivahealth Pharmacy",
+  "type": "pharmacy",
+  "address": "12990 Portage Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000152"
+  },
+  "GPS": {
+    "latitude": -15.3122723,
+    "longitude": -49.1166441
+  },
+  "city": "Goianésia",
+  "name": "Pacific Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "25 Briar Crest Lane"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5003000153"
+  },
+  "GPS": {
+    "latitude": -13.5321991,
+    "longitude": -73.6760258
+  },
+  "city": "Uripa",
+  "name": "COVID CENTER 58",
+  "type": "specialized center",
+  "address": "4 Johnson Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000131"
+  },
+  "GPS": {
+    "latitude": 5.8719379,
+    "longitude": -56.3320773
+  },
+  "city": "Totness",
+  "name": "Chandler Regional Medical Center",
+  "type": "hospital",
+  "address": "236 Reinke Drive",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000132"
+  },
+  "GPS": {
+    "latitude": -30.0758479,
+    "longitude": -51.1787781
+  },
+  "city": "Porto Alegre",
+  "name": "Alaska Native Medical Center",
+  "type": "hospital",
+  "address": "967 Fuller Center",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000133"
+  },
+  "GPS": {
+    "latitude": -33.5295223,
+    "longitude": -58.216956
+  },
+  "city": "Soriano",
+  "name": "Lawrence Medical Center",
+  "type": "hospital",
+  "address": "31142 Johnson Court",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000134"
+  },
+  "GPS": {
+    "latitude": 50.5374117,
+    "longitude": 36.6913146
+  },
+  "city": "Razumnoye",
+  "name": "Medical Center Enterprise",
+  "type": "hospital",
+  "address": "73338 Knutson Terrace",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000135"
+  },
+  "GPS": {
+    "latitude": 39.1217895,
+    "longitude": 66.8856247
+  },
+  "city": "Kitob",
+  "name": "NATIONAL CANCER CENTRE PHARMACY (LEVEL 3)",
+  "type": "pharmacy",
+  "address": "868 Myrtle Hill"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000136"
+  },
+  "GPS": {
+    "latitude": -0.7069135,
+    "longitude": 31.5370003
+  },
+  "city": "Rakai",
+  "name": "Nishino Pharmacy (Takashimaya)",
+  "type": "pharmacy",
+  "address": "1804 Harbort Center"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000137"
+  },
+  "GPS": {
+    "latitude": 40.9900603,
+    "longitude": 21.4193769
+  },
+  "city": "Centar Župa",
+  "name": "COVID CENTER 24",
+  "type": "specialized center",
+  "address": "38 Morning Alley"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000138"
+  },
+  "GPS": {
+    "latitude": 5.1886762,
+    "longitude": 97.1344608
+  },
+  "city": "Kaom",
+  "name": "Medical Center Enterprise",
+  "type": "hospital",
+  "address": "641 Mandrake Court",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000139"
+  },
+  "GPS": {
+    "latitude": 78.221061,
+    "longitude": 15.6469321
+  },
+  "city": "Longyearbyen",
+  "name": "NHG Pharmacy (CCK Polyclinic)",
+  "type": "pharmacy",
+  "address": "29708 Heath Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00013a"
+  },
+  "GPS": {
+    "latitude": -7.4010055,
+    "longitude": 112.5900671
+  },
+  "city": "Krian",
+  "name": "NATIONAL CANCER CENTRE PHARMACY (LEVEL 1)",
+  "type": "pharmacy",
+  "address": "37 Marquette Place"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00013b"
+  },
+  "GPS": {
+    "latitude": 36.5888732,
+    "longitude": 138.8434833
+  },
+  "city": "Nakanojōmachi",
+  "name": "Clay County Hospital",
+  "type": "hospital",
+  "address": "24 Lighthouse Bay Way",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00013c"
+  },
+  "GPS": {
+    "latitude": 16.9905258,
+    "longitude": 121.637093
+  },
+  "city": "Bangui",
+  "name": "The Japanese Association Clinic Singapore",
+  "type": "pharmacy",
+  "address": "385 Fieldstone Alley"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00013d"
+  },
+  "GPS": {
+    "latitude": 14.6135888,
+    "longitude": 121.0957927
+  },
+  "city": "De la Paz",
+  "name": "Highlands Medical Center",
+  "type": "hospital",
+  "address": "2411 Orin Point",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00013e"
+  },
+  "GPS": {
+    "latitude": 17.8964345,
+    "longitude": -62.852201
+  },
+  "city": "Gustavia",
+  "name": "CGH Pharmacy B",
+  "type": "pharmacy",
+  "address": "98 Ohio Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00013f"
+  },
+  "GPS": {
+    "latitude": 32.7986666,
+    "longitude": -5.3193997
+  },
+  "city": "Kerrouchen",
+  "name": "Callahan Eye Hospital",
+  "type": "hospital",
+  "address": "801 Shoshone Pass",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000140"
+  },
+  "GPS": {
+    "latitude": 35.370505,
+    "longitude": 103.708354
+  },
+  "city": "Kangle",
+  "name": "St Vincent's East",
+  "type": "hospital",
+  "address": "35058 Gina Alley",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000141"
+  },
+  "GPS": {
+    "latitude": 29.714699,
+    "longitude": 118.337521
+  },
+  "city": "Huanshan",
+  "name": "COVID CENTER 9",
+  "type": "specialized center",
+  "address": "89043 Springview Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000142"
+  },
+  "GPS": {
+    "latitude": 57.6817979,
+    "longitude": 11.9836846
+  },
+  "city": "Göteborg",
+  "name": "Marshall Medical Center South",
+  "type": "hospital",
+  "address": "161 Bunker Hill Terrace",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000143"
+  },
+  "GPS": {
+    "latitude": 30.0130557,
+    "longitude": 31.2088526
+  },
+  "city": "Al Jīzah",
+  "name": "COVID CENTER 4",
+  "type": "specialized center",
+  "address": "94549 Kropf Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000144"
+  },
+  "GPS": {
+    "latitude": 18.8589196,
+    "longitude": -97.0909561
+  },
+  "city": "Adolfo Lopez Mateos",
+  "name": "Evergreen Medical Center",
+  "type": "hospital",
+  "address": "44837 Hauk Center",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000145"
+  },
+  "GPS": {
+    "latitude": 40.2982408,
+    "longitude": 70.419388
+  },
+  "city": "Konibodom",
+  "name": "University Of South Alabama Medical Center",
+  "type": "hospital",
+  "address": "5488 Independence Alley",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000146"
+  },
+  "GPS": {
+    "latitude": 39.630867,
+    "longitude": 118.180193
+  },
+  "city": "Tangzha",
+  "name": "Cullman Regional Medical Center",
+  "type": "hospital",
+  "address": "4 Bunker Hill Circle",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000147"
+  },
+  "GPS": {
+    "latitude": 36.77549,
+    "longitude": 119.219734
+  },
+  "city": "Hanting",
+  "name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
+  "type": "pharmacy",
+  "address": "235 Pepper Wood Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000148"
+  },
+  "GPS": {
+    "latitude": 32.7087439,
+    "longitude": -97.3617845
+  },
+  "city": "Fort Worth",
+  "name": "University Of South Alabama Medical Center",
+  "type": "hospital",
+  "address": "4067 Warrior Circle",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff000149"
+  },
+  "GPS": {
+    "latitude": 28.2412186,
+    "longitude": 112.9513185
+  },
+  "city": "Xiangrong",
+  "name": "Evergreen Medical Center",
+  "type": "hospital",
+  "address": "7263 Warbler Alley",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00014a"
+  },
+  "GPS": {
+    "latitude": 53.5862715,
+    "longitude": 16.3876584
+  },
+  "city": "Łubowo",
+  "name": "PARKWAY EAST HOSPITAL PHARMACY",
+  "type": "pharmacy",
+  "address": "63749 Kipling Center"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00014b"
+  },
+  "GPS": {
+    "latitude": 40.0672874,
+    "longitude": 20.1045229
+  },
+  "city": "Gjirokastër",
+  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
+  "type": "pharmacy",
+  "address": "9 Crowley Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00014c"
+  },
+  "GPS": {
+    "latitude": 44.3239335,
+    "longitude": 44.994265
+  },
+  "city": "Kayasula",
+  "name": "St. Joseph's Hospital And Medical Center",
+  "type": "hospital",
+  "address": "1 Summit Drive",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00014d"
+  },
+  "GPS": {
+    "latitude": -6.4534018,
+    "longitude": -39.6105142
+  },
+  "city": "Jucás",
+  "name": "COVID CENTER 29",
+  "type": "specialized center",
+  "address": "411 Bay Lane"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00014e"
+  },
+  "GPS": {
+    "latitude": 36.1180248,
+    "longitude": 137.9533657
+  },
+  "city": "Shiojiri",
+  "name": "ST LUKE'S HOSPITAL BLOCK A",
+  "type": "pharmacy",
+  "address": "1 Beilfuss Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fff00014f"
+  },
+  "GPS": {
+    "latitude": 31.7566264,
+    "longitude": -106.4852997
+  },
+  "city": "El Paso",
+  "name": "North Baldwin Infirmary",
+  "type": "hospital",
+  "address": "573 Westridge Plaza",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fff000150"
+  },
+  "GPS": {
+    "latitude": 30.107387,
+    "longitude": 121.402682
+  },
+  "city": "Duhu",
+  "name": "Pacific Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "3 Mariners Cove Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fff000151"
+  },
+  "GPS": {
+    "latitude": -9.4020529,
+    "longitude": 34.0195827
+  },
+  "city": "Kyela",
+  "name": "Highlands Medical Center",
+  "type": "hospital",
+  "address": "134 Elka Lane",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000131"
+  },
+  "GPS": {
+    "latitude": 30.638674,
+    "longitude": 119.680353
+  },
+  "city": "Anjie",
+  "name": "St. Joseph's Hospital And Medical Center",
+  "type": "hospital",
+  "address": "7960 Erie Place",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000132"
+  },
+  "GPS": {
+    "latitude": 27.817808,
+    "longitude": 114.917346
+  },
+  "city": "Xinyu",
+  "name": "Child Guidance Clinic Health Promotion Board",
+  "type": "pharmacy",
+  "address": "2 Northview Alley"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000133"
+  },
+  "GPS": {
+    "latitude": -14.2713338,
+    "longitude": 50.1678121
+  },
+  "city": "Sambava",
+  "name": "Marshall Medical Center South",
+  "type": "hospital",
+  "address": "00 Porter Avenue",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000134"
+  },
+  "GPS": {
+    "latitude": 28.408233,
+    "longitude": 112.932334
+  },
+  "city": "Qiaoyi",
+  "name": "Community Wellness Clinic Queenstown Pharmacy",
+  "type": "pharmacy",
+  "address": "2 Oriole Park"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000135"
+  },
+  "GPS": {
+    "latitude": 46.5736928,
+    "longitude": 108.3006134
+  },
+  "city": "Bayantal",
+  "name": "Fairbanks Memorial Hospital",
+  "type": "hospital",
+  "address": "569 Sutteridge Place",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000136"
+  },
+  "GPS": {
+    "latitude": 63.2803099,
+    "longitude": 118.3618985
+  },
+  "city": "Nyurba",
+  "name": "Lake Martin Community Hospital",
+  "type": "hospital",
+  "address": "8508 Monterey Street",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000137"
+  },
+  "GPS": {
+    "latitude": 10.2007985,
+    "longitude": -64.6334643
+  },
+  "city": "Puerto La Cruz",
+  "name": "Greene County Hospital",
+  "type": "hospital",
+  "address": "76647 Blackbird Court",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000138"
+  },
+  "GPS": {
+    "latitude": -28.3833642,
+    "longitude": -53.929557
+  },
+  "city": "Ijuí",
+  "name": "COVID CENTER 9",
+  "type": "specialized center",
+  "address": "031 Dahle Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000139"
+  },
+  "GPS": {
+    "latitude": 12.5450478,
+    "longitude": -87.1659731
+  },
+  "city": "El Realejo",
+  "name": "COVID CENTER 58",
+  "type": "specialized center",
+  "address": "21 Algoma Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900013a"
+  },
+  "GPS": {
+    "latitude": 8.3487476,
+    "longitude": -80.5924449
+  },
+  "city": "El Cortezo",
+  "name": "Manapharma Pharmacy",
+  "type": "pharmacy",
+  "address": "5666 Forest Dale Hill"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900013b"
+  },
+  "GPS": {
+    "latitude": 14.5424287,
+    "longitude": 121.0343936
+  },
+  "city": "Balete",
+  "name": "COVID CENTER 31",
+  "type": "specialized center",
+  "address": "28199 Kings Alley"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900013c"
+  },
+  "GPS": {
+    "latitude": 13.7401075,
+    "longitude": -87.7135671
+  },
+  "city": "Aramecina",
+  "name": "Pickens County Medical Center",
+  "type": "hospital",
+  "address": "54494 Lukken Center",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900013d"
+  },
+  "GPS": {
+    "latitude": 40.6236334,
+    "longitude": -8.503294
+  },
+  "city": "Alquerubim",
+  "name": "Russell Medical Center",
+  "type": "hospital",
+  "address": "2 Northfield Plaza",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900013e"
+  },
+  "GPS": {
+    "latitude": 26.433417,
+    "longitude": 110.856622
+  },
+  "city": "Xinning",
+  "name": "Evergreen Medical Center",
+  "type": "hospital",
+  "address": "9 Ryan Park",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900013f"
+  },
+  "GPS": {
+    "latitude": 54.0114023,
+    "longitude": 55.8925281
+  },
+  "city": "Tolbazy",
+  "name": "Providence Seward Hospital",
+  "type": "hospital",
+  "address": "2834 Hintze Hill",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000140"
+  },
+  "GPS": {
+    "latitude": 53.0985458,
+    "longitude": 6.0694
+  },
+  "city": "Drachten",
+  "name": "Nishino Pharmacy (Shaw House)",
+  "type": "pharmacy",
+  "address": "8837 Lakewood Gardens Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000141"
+  },
+  "GPS": {
+    "latitude": 3.1523104,
+    "longitude": 101.7178316
+  },
+  "city": "Kuala Lumpur",
+  "name": "Wiregrass Medical Center",
+  "type": "hospital",
+  "address": "60 Oneill Crossing",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000142"
+  },
+  "GPS": {
+    "latitude": 50.5079152,
+    "longitude": 16.0789406
+  },
+  "city": "Rtyně v Podkrkonoší",
+  "name": "Yuma Regional Medical Center",
+  "type": "hospital",
+  "address": "37 Butternut Park",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000143"
+  },
+  "GPS": {
+    "latitude": 16.4336105,
+    "longitude": 120.3435365
+  },
+  "city": "Bacungan",
+  "name": "L V Stabler Memorial Hospital",
+  "type": "hospital",
+  "address": "75 Northport Crossing",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000144"
+  },
+  "GPS": {
+    "latitude": 44.9248682,
+    "longitude": 38.0110797
+  },
+  "city": "Novoukrainskiy",
+  "name": "WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT)",
+  "type": "pharmacy",
+  "address": "90405 Randy Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000145"
+  },
+  "GPS": {
+    "latitude": 39.9602601,
+    "longitude": -83.0092803
+  },
+  "city": "Columbus",
+  "name": "Pharmacy Services Centre NHG (Blk 9)",
+  "type": "pharmacy",
+  "address": "155 Milwaukee Drive"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000146"
+  },
+  "GPS": {
+    "latitude": 49.7001031,
+    "longitude": 39.8634775
+  },
+  "city": "Kantemirovka",
+  "name": "PARKWAY EAST HOSPITAL PHARMACY",
+  "type": "pharmacy",
+  "address": "195 Twin Pines Way"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000147"
+  },
+  "GPS": {
+    "latitude": 3.2359747,
+    "longitude": 98.6875659
+  },
+  "city": "Tanjung Timur",
+  "name": "MUSTAFA PHARMACY",
+  "type": "pharmacy",
+  "address": "3608 Linden Avenue"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000148"
+  },
+  "GPS": {
+    "latitude": -7.6832323,
+    "longitude": 110.670528
+  },
+  "city": "Ceper",
+  "name": "WOODS PHARMACY PTE LTD",
+  "type": "pharmacy",
+  "address": "7 Sheridan Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000149"
+  },
+  "GPS": {
+    "latitude": 34.6399443,
+    "longitude": 50.8759419
+  },
+  "city": "Qom",
+  "name": "COVID CENTER 17",
+  "type": "specialized center",
+  "address": "53 Loftsgordon Point"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900014a"
+  },
+  "GPS": {
+    "latitude": 12.4537943,
+    "longitude": 102.2290442
+  },
+  "city": "Khlung",
+  "name": "Gadsden Regional Medical Center",
+  "type": "hospital",
+  "address": "8 Myrtle Trail",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900014b"
+  },
+  "GPS": {
+    "latitude": 40.323749,
+    "longitude": -8.7980385
+  },
+  "city": "Praia da Tocha",
+  "name": "Medical West",
+  "type": "hospital",
+  "address": "4 Blaine Plaza",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900014c"
+  },
+  "GPS": {
+    "latitude": 36.649364,
+    "longitude": 51.4887307
+  },
+  "city": "Nowshahr",
+  "name": "COVID CENTER 44",
+  "type": "specialized center",
+  "address": "288 Redwing Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900014d"
+  },
+  "GPS": {
+    "latitude": 50.7852989,
+    "longitude": 16.164006
+  },
+  "city": "Boguszów-Gorce",
+  "name": "Rmc Jacksonville",
+  "type": "hospital",
+  "address": "2 Dayton Center",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900014e"
+  },
+  "GPS": {
+    "latitude": 48.749354,
+    "longitude": 2.480322
+  },
+  "city": "Limeil-Brévannes",
+  "name": "COVID CENTER 23",
+  "type": "specialized center",
+  "address": "0 Heffernan Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503900014f"
+  },
+  "GPS": {
+    "latitude": -32.9377962,
+    "longitude": -60.6961061
+  },
+  "city": "La Rioja",
+  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
+  "type": "pharmacy",
+  "address": "42636 4th Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000150"
+  },
+  "GPS": {
+    "latitude": 25.4765601,
+    "longitude": -108.0887656
+  },
+  "city": "Los Angeles",
+  "name": "COVID CENTER 30",
+  "type": "specialized center",
+  "address": "6 Old Gate Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5039000151"
+  },
+  "GPS": {
+    "latitude": 15.8229771,
+    "longitude": 120.2604675
+  },
+  "city": "Pogonsili",
+  "name": "South Peninsula Hospital",
+  "type": "hospital",
+  "address": "6902 Saint Paul Plaza",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000012b"
+  },
+  "GPS": {
+    "latitude": 41.3044511,
+    "longitude": -8.5943326
+  },
+  "city": "Quintão",
+  "name": "Alaska Regional Hospital",
+  "type": "hospital",
+  "address": "675 Buena Vista Plaza",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000012c"
+  },
+  "GPS": {
+    "latitude": 18.791255,
+    "longitude": 109.410699
+  },
+  "city": "Maodao",
+  "name": "UrbanRx Compounding Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "035 Evergreen Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000012d"
+  },
+  "GPS": {
+    "latitude": 2.9716241,
+    "longitude": 45.5334515
+  },
+  "city": "Mahaddayweyne",
+  "name": "UrbanRx Compounding Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "469 Homewood Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000012e"
+  },
+  "GPS": {
+    "latitude": -8.7367925,
+    "longitude": 116.4872482
+  },
+  "city": "Bungtiang Barat",
+  "name": "COVID CENTER 49",
+  "type": "specialized center",
+  "address": "29311 Melby Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000012f"
+  },
+  "GPS": {
+    "latitude": 46.1998296,
+    "longitude": 47.9221616
+  },
+  "city": "Volgo-Kaspiyskiy",
+  "name": "Specialist Compounding Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "483 Warbler Park"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000130"
+  },
+  "GPS": {
+    "latitude": 17.3595778,
+    "longitude": 120.4571858
+  },
+  "city": "Suso",
+  "name": "WELCIA-BHG LOT ONE",
+  "type": "pharmacy",
+  "address": "214 Melrose Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000131"
+  },
+  "GPS": {
+    "latitude": 14.7976183,
+    "longitude": 45.7189412
+  },
+  "city": "Bayḩān",
+  "name": "COVID CENTER 26",
+  "type": "specialized center",
+  "address": "2 Sycamore Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000132"
+  },
+  "GPS": {
+    "latitude": 40.23921,
+    "longitude": 116.12895
+  },
+  "city": "Nankou",
+  "name": "Farrer Park Pharmacy",
+  "type": "pharmacy",
+  "address": "60 Morning Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000133"
+  },
+  "GPS": {
+    "latitude": 26.393274,
+    "longitude": 118.502373
+  },
+  "city": "Zhanghuban",
+  "name": "COVID CENTER 38",
+  "type": "specialized center",
+  "address": "20 Acker Trail"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000134"
+  },
+  "GPS": {
+    "latitude": -6.3385652,
+    "longitude": 106.9447146
+  },
+  "city": "Jatisari",
+  "name": "Shelby Baptist Medical Center",
+  "type": "hospital",
+  "address": "13 Golden Leaf Point",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000135"
+  },
+  "GPS": {
+    "latitude": 36.4320046,
+    "longitude": 127.3809362
+  },
+  "city": "Songgang-dong",
+  "name": "Essentials Pharmacy",
+  "type": "pharmacy",
+  "address": "13788 Eagle Crest Way"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000136"
+  },
+  "GPS": {
+    "latitude": 13.7825775,
+    "longitude": 121.0492638
+  },
+  "city": "Bolboc",
+  "name": "Jurong Community Hospital Pharmacy",
+  "type": "pharmacy",
+  "address": "14 Columbus Way"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000137"
+  },
+  "GPS": {
+    "latitude": 31.627447,
+    "longitude": 121.022581
+  },
+  "city": "Hengli",
+  "name": "COVID CENTER 31",
+  "type": "specialized center",
+  "address": "198 Di Loreto Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000138"
+  },
+  "GPS": {
+    "latitude": -6.8654713,
+    "longitude": 111.6571293
+  },
+  "city": "Bader",
+  "name": "NHG Pharmacy (CCK Polyclinic)",
+  "type": "pharmacy",
+  "address": "07 Transport Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd0000139"
+  },
+  "GPS": {
+    "latitude": -16.3753091,
+    "longitude": -58.4059227
+  },
+  "city": "San Matías",
+  "name": "Bartlett Regional Hospital",
+  "type": "hospital",
+  "address": "0995 Acker Lane",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000013a"
+  },
+  "GPS": {
+    "latitude": 28.138525,
+    "longitude": 109.326383
+  },
+  "city": "La’ershan",
+  "name": "WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA)",
+  "type": "pharmacy",
+  "address": "9396 8th Way"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000013b"
+  },
+  "GPS": {
+    "latitude": 31.499202,
+    "longitude": 98.21843
+  },
+  "city": "Jomda",
+  "name": "COVID CENTER 15",
+  "type": "specialized center",
+  "address": "58200 Autumn Leaf Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000013c"
+  },
+  "GPS": {
+    "latitude": 14.6333181,
+    "longitude": -90.6703399
+  },
+  "city": "San Lucas Sacatepéquez",
+  "name": "COVID CENTER 38",
+  "type": "specialized center",
+  "address": "500 Prentice Road"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000013d"
+  },
+  "GPS": {
+    "latitude": 0.0090686,
+    "longitude": 103.5089907
+  },
+  "city": "Khairiahmandah",
+  "name": "Banner - University Medical Center Phoenix",
+  "type": "hospital",
+  "address": "5310 Wayridge Street",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fd000013e"
+  },
+  "GPS": {
+    "latitude": 13.5570718,
+    "longitude": -88.3494328
+  },
+  "city": "Lolotique",
+  "name": "ALPS PHARMACY",
+  "type": "pharmacy",
+  "address": "56 Old Shore Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd000013f"
+  },
+  "GPS": {
+    "latitude": 59.3356305,
+    "longitude": 18.3861127
+  },
+  "city": "Gustavsberg",
+  "name": "NATIONAL CANCER CENTRE PHARMACY (LEVEL 3)",
+  "type": "pharmacy",
+  "address": "17212 Crescent Oaks Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000140"
+  },
+  "GPS": {
+    "latitude": 53.5234017,
+    "longitude": 27.8299056
+  },
+  "city": "Prawdzinski",
+  "name": "Evergreen Medical Center",
+  "type": "hospital",
+  "address": "529 Maywood Parkway",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000141"
+  },
+  "GPS": {
+    "latitude": 58.2834894,
+    "longitude": 12.2858206
+  },
+  "city": "Trollhättan",
+  "name": "D W Mcmillan Memorial Hospital",
+  "type": "hospital",
+  "address": "010 Parkside Junction",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000142"
+  },
+  "GPS": {
+    "latitude": -6.3811392,
+    "longitude": 107.1854181
+  },
+  "city": "Sukamahi Satu",
+  "name": "Russellville Hospital",
+  "type": "hospital",
+  "address": "1746 Anderson Trail",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000143"
+  },
+  "GPS": {
+    "latitude": 41.7371087,
+    "longitude": 20.3241791
+  },
+  "city": "Arras",
+  "name": "COVID CENTER 35",
+  "type": "specialized center",
+  "address": "36 Tennessee Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000144"
+  },
+  "GPS": {
+    "latitude": 43.88719,
+    "longitude": 81.621986
+  },
+  "city": "Yuqunweng",
+  "name": "Verde Valley Medical Center",
+  "type": "hospital",
+  "address": "4139 Clyde Gallagher Center",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000145"
+  },
+  "GPS": {
+    "latitude": 14.7673872,
+    "longitude": -16.685136
+  },
+  "city": "Khombole",
+  "name": "Mizell Memorial Hospital",
+  "type": "hospital",
+  "address": "83598 Bluestem Avenue",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000146"
+  },
+  "GPS": {
+    "latitude": 51.9309719,
+    "longitude": 19.190298
+  },
+  "city": "Parzęczew",
+  "name": "Dekalb Regional Medical Center",
+  "type": "hospital",
+  "address": "33885 Lukken Drive",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000147"
+  },
+  "GPS": {
+    "latitude": 12.8371919,
+    "longitude": -4.9221114
+  },
+  "city": "Kinmparana",
+  "name": "Russellville Hospital",
+  "type": "hospital",
+  "address": "5130 Barnett Plaza",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000148"
+  },
+  "GPS": {
+    "latitude": 5.9031249,
+    "longitude": 0.9868468
+  },
+  "city": "Keta",
+  "name": "St Vincent's Birmingham",
+  "type": "hospital",
+  "address": "52 Merry Place",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd0000149"
+  },
+  "GPS": {
+    "latitude": -6.9888872,
+    "longitude": 106.9535691
+  },
+  "city": "Cijangkar",
+  "name": "National Addiction Management Services (NAMS) Clinic Pharmacy",
+  "type": "pharmacy",
+  "address": "342 Leroy Point"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd000014a"
+  },
+  "GPS": {
+    "latitude": 14.299475,
+    "longitude": -88.1706047
+  },
+  "city": "La Esperanza",
+  "name": "MUSTAFA PHARMACY",
+  "type": "pharmacy",
+  "address": "118 Evergreen Drive"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af4fd000014b"
+  },
+  "GPS": {
+    "latitude": 52.695844,
+    "longitude": 62.5884412
+  },
+  "city": "Tobol",
+  "name": "COVID CENTER 24",
+  "type": "specialized center",
+  "address": "5 Transport Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00012b"
+  },
+  "GPS": {
+    "latitude": 51.90218,
+    "longitude": 19.6055101
+  },
+  "city": "Stryków",
+  "name": "Choctaw General Hospital",
+  "type": "hospital",
+  "address": "8674 Vidon Junction",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00012c"
+  },
+  "GPS": {
+    "latitude": -6.2020256,
+    "longitude": 105.8466437
+  },
+  "city": "Bulakan",
+  "name": "St Luke's Medical Center",
+  "type": "hospital",
+  "address": "5 Bartelt Lane",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00012d"
+  },
+  "GPS": {
+    "latitude": -9.8798746,
+    "longitude": 124.6358702
+  },
+  "city": "Nunleu",
+  "name": "NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY)",
+  "type": "pharmacy",
+  "address": "9 North Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00012e"
+  },
+  "GPS": {
+    "latitude": 41.6690275,
+    "longitude": 48.3784919
+  },
+  "city": "Gaptsakh",
+  "name": "South Baldwin Regional Medical Center",
+  "type": "hospital",
+  "address": "611 Londonderry Road",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00012f"
+  },
+  "GPS": {
+    "latitude": 47.1892329,
+    "longitude": 8.7108197
+  },
+  "city": "Lian",
+  "name": "Baptist Medical Center East",
+  "type": "hospital",
+  "address": "27196 Prairie Rose Avenue",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000130"
+  },
+  "GPS": {
+    "latitude": 49.0261841,
+    "longitude": 1.1518478
+  },
+  "city": "Évreux",
+  "name": "WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT)",
+  "type": "pharmacy",
+  "address": "3 Maple Wood Center"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000131"
+  },
+  "GPS": {
+    "latitude": -20.7430332,
+    "longitude": -46.6096926
+  },
+  "city": "Passos",
+  "name": "Shelby Baptist Medical Center",
+  "type": "hospital",
+  "address": "36150 Sherman Drive",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000132"
+  },
+  "GPS": {
+    "latitude": 51.7173795,
+    "longitude": 15.4240467
+  },
+  "city": "Brzeźnica",
+  "name": "Mt Edgecumbe Hospital",
+  "type": "hospital",
+  "address": "2 Lakewood Center",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000133"
+  },
+  "GPS": {
+    "latitude": 52.06302,
+    "longitude": 37.40518
+  },
+  "city": "Vyshneye Dolgoye",
+  "name": "Monroe County Hospital",
+  "type": "hospital",
+  "address": "57737 Golf Lane",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000134"
+  },
+  "GPS": {
+    "latitude": 49.5048872,
+    "longitude": 5.6944757
+  },
+  "city": "Longwy",
+  "name": "Fairbanks Memorial Hospital",
+  "type": "hospital",
+  "address": "56767 Luster Pass",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000135"
+  },
+  "GPS": {
+    "latitude": 53.903083,
+    "longitude": 10.7533775
+  },
+  "city": "Lübeck",
+  "name": "Washington County Hospital",
+  "type": "hospital",
+  "address": "84570 East Street",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000136"
+  },
+  "GPS": {
+    "latitude": 41.2270631,
+    "longitude": -7.4666688
+  },
+  "city": "Castedo",
+  "name": "Flagstaff Medical Center",
+  "type": "hospital",
+  "address": "1 Colorado Center",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000137"
+  },
+  "GPS": {
+    "latitude": 46.3194856,
+    "longitude": -0.4546217
+  },
+  "city": "Niort",
+  "name": "COVID CENTER 7",
+  "type": "specialized center",
+  "address": "35285 Rutledge Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000138"
+  },
+  "GPS": {
+    "latitude": 8.3537158,
+    "longitude": -70.5770632
+  },
+  "city": "Ciudad Bolivia",
+  "name": "National University Hospital (s) Pte Ltd (Pharmacy @ NCIS)",
+  "type": "pharmacy",
+  "address": "4522 Starling Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000139"
+  },
+  "GPS": {
+    "latitude": 41.56,
+    "longitude": -73.05
+  },
+  "city": "Waterbury",
+  "name": "Clinic B Pharmacy",
+  "type": "pharmacy",
+  "address": "6 Bonner Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00013a"
+  },
+  "GPS": {
+    "latitude": 17.5946213,
+    "longitude": 120.6194139
+  },
+  "city": "Bangued",
+  "name": "SINGHEALTH POLY-OUTRAM",
+  "type": "pharmacy",
+  "address": "7864 Norway Maple Lane"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00013b"
+  },
+  "GPS": {
+    "latitude": 32.010214,
+    "longitude": 119.606439
+  },
+  "city": "Danyang",
+  "name": "COVID CENTER 26",
+  "type": "specialized center",
+  "address": "6 Nova Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00013c"
+  },
+  "GPS": {
+    "latitude": -21.4152377,
+    "longitude": -50.0773225
+  },
+  "city": "Penápolis",
+  "name": "Fayette Medical Center",
+  "type": "hospital",
+  "address": "99 Gulseth Road",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00013d"
+  },
+  "GPS": {
+    "latitude": 29.1560917,
+    "longitude": 16.1463317
+  },
+  "city": "Waddān",
+  "name": "Vivahealth Pharmacy",
+  "type": "pharmacy",
+  "address": "2 Grayhawk Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00013e"
+  },
+  "GPS": {
+    "latitude": 51.4393178,
+    "longitude": 18.3993464
+  },
+  "city": "Klonowa",
+  "name": "MT ALVERNIA HOSPITAL RETAIL PHARMACY",
+  "type": "pharmacy",
+  "address": "9 Tomscot Avenue"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e00013f"
+  },
+  "GPS": {
+    "latitude": -1.658501,
+    "longitude": 29.2204548
+  },
+  "city": "Goma",
+  "name": "Canyon Vista Medical Center",
+  "type": "hospital",
+  "address": "646 Canary Plaza",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000140"
+  },
+  "GPS": {
+    "latitude": 46.1740537,
+    "longitude": 45.3471492
+  },
+  "city": "Yashkul’",
+  "name": "NATIONAL CANCER CENTRE PHARMACY (LEVEL 1)",
+  "type": "pharmacy",
+  "address": "42 Warner Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000141"
+  },
+  "GPS": {
+    "latitude": 46.6669865,
+    "longitude": 3.590421
+  },
+  "city": "Valence",
+  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
+  "type": "pharmacy",
+  "address": "77544 Grasskamp Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000142"
+  },
+  "GPS": {
+    "latitude": 30.145729,
+    "longitude": 120.589457
+  },
+  "city": "Ma’an",
+  "name": "Medical Center Enterprise",
+  "type": "hospital",
+  "address": "44 Delladonna Court",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000143"
+  },
+  "GPS": {
+    "latitude": -6.9158,
+    "longitude": 112.5541
+  },
+  "city": "Krajan Pangkah Kulon",
+  "name": "COVID CENTER 27",
+  "type": "specialized center",
+  "address": "62 Acker Park"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000144"
+  },
+  "GPS": {
+    "latitude": 52.55106,
+    "longitude": 18.49897
+  },
+  "city": "Piotrków Kujawski",
+  "name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
+  "type": "pharmacy",
+  "address": "85 Evergreen Trail"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000145"
+  },
+  "GPS": {
+    "latitude": 23.718461,
+    "longitude": 113.734823
+  },
+  "city": "Liangkou",
+  "name": "Tan Tock Seng Hospital (Outpatient & Retail Pharmacy)",
+  "type": "pharmacy",
+  "address": "221 Bowman Road"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000146"
+  },
+  "GPS": {
+    "latitude": 30.786657,
+    "longitude": 108.761889
+  },
+  "city": "Wailang",
+  "name": "Tanner Medical Center-east Alabama",
+  "type": "hospital",
+  "address": "57691 Debs Place",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af501e000147"
   },
   "GPS": {
     "latitude": 26.641315,
     "longitude": 100.222545
   },
-  "city": "Baisha",
-  "name": "Alchemy Pharmacy",
-  "type": "pharmacy",
-  "address": "8 Mcbride Parkway"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a1"
-  },
-  "GPS": {
-    "latitude": -11.748639,
-    "longitude": -75.4854472
-  },
-  "city": "Pancan",
-  "name": "WELCIA-BHG LOT ONE",
-  "type": "pharmacy",
-  "address": "92021 Nelson Court"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a2"
-  },
-  "GPS": {
-    "latitude": -23.351784,
-    "longitude": -47.6931718
-  },
-  "city": "Iperó",
-  "name": "COVID CENTER 34",
-  "type": "specialized center",
-  "address": "810 Helena Road"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a3"
-  },
-  "GPS": {
-    "latitude": 24.3520171,
-    "longitude": 116.6930225
-  },
-  "city": "Hetou",
-  "name": "COVID CENTER 21",
-  "type": "specialized center",
-  "address": "34 Lillian Plaza"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a4"
-  },
-  "GPS": {
-    "latitude": 56.3615314,
-    "longitude": 41.0836902
-  },
-  "city": "Novki",
-  "name": "Alaska Native Medical Center",
-  "type": "hospital",
-  "address": "3 Melvin Road",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a5"
-  },
-  "GPS": {
-    "latitude": -8.605,
-    "longitude": 122.743
-  },
-  "city": "Watubuku",
-  "name": "MT ALVERNIA HOSPITAL RETAIL PHARMACY",
-  "type": "pharmacy",
-  "address": "2 Farwell Terrace"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a6"
-  },
-  "GPS": {
-    "latitude": 42.060385,
-    "longitude": 120.665667
-  },
-  "city": "Loujiadian",
-  "name": "COVID CENTER 11",
-  "type": "specialized center",
-  "address": "030 Nelson Junction"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a7"
-  },
-  "GPS": {
-    "latitude": 22.919228,
-    "longitude": 115.652151
-  },
-  "city": "Liufeng",
-  "name": "Citizens Baptist Medical Center",
-  "type": "hospital",
-  "address": "81350 Browning Plaza",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a8"
-  },
-  "GPS": {
-    "latitude": 24.945573,
-    "longitude": 114.030161
-  },
-  "city": "Shensuo",
-  "name": "COVID CENTER 43",
-  "type": "specialized center",
-  "address": "64450 Spenser Road"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001a9"
-  },
-  "GPS": {
-    "latitude": 31.364902,
-    "longitude": 108.249509
-  },
-  "city": "Gaoqiao",
-  "name": "MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "55287 Swallow Place"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001aa"
-  },
-  "GPS": {
-    "latitude": 14.6965,
-    "longitude": -87.578697
-  },
-  "city": "Jamalteca",
-  "name": "University Of Alabama Hospital",
-  "type": "hospital",
-  "address": "631 Melrose Alley",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ab"
-  },
-  "GPS": {
-    "latitude": -10.333333,
-    "longitude": -77.45
-  },
-  "city": "Congas",
-  "name": "Cullman Regional Medical Center",
-  "type": "hospital",
-  "address": "6011 Lukken Parkway",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ac"
-  },
-  "GPS": {
-    "latitude": 29.234232,
-    "longitude": 116.835701
-  },
-  "city": "Youcheng",
-  "name": "COVID CENTER 53",
-  "type": "specialized center",
-  "address": "7 Coleman Place"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ad"
-  },
-  "GPS": {
-    "latitude": 42.3604802,
-    "longitude": -71.0590624
-  },
-  "city": "Boston",
-  "name": "COVID CENTER 20",
-  "type": "specialized center",
-  "address": "60731 Prairie Rose Circle"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ae"
-  },
-  "GPS": {
-    "latitude": 25.63273,
-    "longitude": 118.980277
-  },
-  "city": "Zhuangbian",
-  "name": "COVID CENTER 23",
-  "type": "specialized center",
-  "address": "56 Graedel Pass"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001af"
-  },
-  "GPS": {
-    "latitude": -9.7239549,
-    "longitude": 124.272721
-  },
-  "city": "Obesi",
-  "name": "Jurong Medical Centre Pharmacy",
-  "type": "pharmacy",
-  "address": "41 David Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b0"
-  },
-  "GPS": {
-    "latitude": 39.193073,
-    "longitude": 112.865891
-  },
-  "city": "Yanmen",
-  "name": "Mobile Infirmary Medical Center",
-  "type": "hospital",
-  "address": "27746 Kenwood Pass",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b1"
-  },
-  "GPS": {
-    "latitude": 23.131797,
-    "longitude": 113.407143
-  },
-  "city": "Huangcun",
-  "name": "Amber Compounding Pharmacy Pte Ltd",
-  "type": "pharmacy",
-  "address": "42814 Florence Street"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b2"
-  },
-  "GPS": {
-    "latitude": -40.6607937,
-    "longitude": -72.6131562
-  },
-  "city": "Puyehue",
-  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
-  "type": "pharmacy",
-  "address": "2 Annamark Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b3"
-  },
-  "GPS": {
-    "latitude": -13.1612425,
-    "longitude": -74.2152331
-  },
-  "city": "Conchopata",
-  "name": "WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA)",
-  "type": "pharmacy",
-  "address": "625 Little Fleur Court"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b4"
-  },
-  "GPS": {
-    "latitude": -33.4442688,
-    "longitude": -70.7233493
-  },
-  "city": "Lo Prado",
-  "name": "Princeton Pharmacy (S) Pte Ltd",
-  "type": "pharmacy",
-  "address": "960 Arrowood Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b5"
-  },
-  "GPS": {
-    "latitude": 58.0312993,
-    "longitude": 38.6043668
-  },
-  "city": "Rybinsk",
-  "name": "COVID CENTER 35",
-  "type": "specialized center",
-  "address": "77 Northwestern Point"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b6"
-  },
-  "GPS": {
-    "latitude": 29.3738721,
-    "longitude": 71.6934843
-  },
-  "city": "Yazman",
-  "name": "Healing Hub @ Ang Mo Kio - Thye Hua Kwan Hospital",
-  "type": "pharmacy",
-  "address": "873 Westend Circle"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b7"
-  },
-  "GPS": {
-    "latitude": 43.1555152,
-    "longitude": 19.1226018
-  },
-  "city": "Žabljak",
-  "address": "852 Forest Dale Lane"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b8"
-  },
-  "GPS": {
-    "latitude": 40.9447008,
-    "longitude": -7.3883126
-  },
-  "city": "Antas",
-  "name": "Tanner Medical Center-east Alabama",
-  "type": "hospital",
-  "address": "1 Lyons Center",
-  "department": 5
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001b9"
-  },
-  "GPS": {
-    "latitude": -8.1924285,
-    "longitude": 112.7011258
-  },
-  "city": "Mentaraman Satu",
-  "name": "St. Mary's Hospital",
-  "type": "hospital",
-  "address": "30 Portage Court",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ba"
-  },
-  "GPS": {
-    "latitude": -7.0379245,
-    "longitude": 108.4187029
-  },
-  "city": "Sakerta Timur",
-  "name": "Georgiana Medical Center",
-  "type": "hospital",
-  "address": "409 Everett Pass",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001bb"
-  },
-  "GPS": {
-    "latitude": 21.850061,
-    "longitude": 111.197459
-  },
-  "city": "Shipaidong",
-  "name": "J Paul Jones Hospital",
-  "type": "hospital",
-  "address": "284 Summer Ridge Court",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001bc"
-  },
-  "GPS": {
-    "latitude": 14.3355782,
-    "longitude": -87.6457807
-  },
-  "city": "Yarumela",
-  "name": "COVID CENTER 53",
-  "type": "specialized center",
-  "address": "45 Oak Junction"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001bd"
-  },
-  "GPS": {
-    "latitude": 37.513068,
-    "longitude": 122.120419
-  },
-  "city": "Waihai",
-  "name": "National University Hospital (s) Pte Ltd (Pharmacy @ NCIS)",
-  "type": "pharmacy",
-  "address": "9 Kedzie Pass"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001be"
-  },
-  "GPS": {
-    "latitude": 9.3295342,
-    "longitude": 124.6133794
-  },
-  "city": "Balingoan",
-  "name": "Vaughan Regional Medical Center Parkway Campus",
-  "type": "hospital",
-  "address": "85167 Waxwing Drive",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001bf"
-  },
-  "GPS": {
-    "latitude": 53.1294318,
-    "longitude": 87.4792556
-  },
-  "city": "Novokuz’minki",
-  "name": "Princeton Baptist Medical Center",
-  "type": "hospital",
-  "address": "26 Del Mar Alley",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c0"
-  },
-  "GPS": {
-    "latitude": 23.1833095,
-    "longitude": 113.358579
-  },
-  "city": "Xomong",
-  "name": "COVID CENTER 40",
-  "type": "specialized center",
-  "address": "025 Helena Road"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c1"
-  },
-  "GPS": {
-    "latitude": -0.819175,
-    "longitude": 120.167297
-  },
-  "city": "Parigi",
-  "name": "COVID CENTER 39",
-  "type": "specialized center",
-  "address": "43 Melrose Park"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c2"
-  },
-  "GPS": {
-    "latitude": 44.8245862,
-    "longitude": 19.771335
-  },
-  "city": "Platičevo",
-  "name": "Raffles Health Holland V",
-  "type": "pharmacy",
-  "address": "9 1st Point"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c3"
-  },
-  "GPS": {
-    "latitude": -16.5062723,
-    "longitude": -151.7495305
-  },
-  "city": "Vaitape",
-  "name": "Marshall Medical Center South",
-  "type": "hospital",
-  "address": "08 Center Street",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c4"
-  },
-  "GPS": {
-    "latitude": 34.9565646,
-    "longitude": 135.7023712
-  },
-  "city": "Mukō",
-  "name": "WELCIA-BHG LOT ONE",
-  "type": "pharmacy",
-  "address": "40 Laurel Center"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c5"
-  },
-  "GPS": {
-    "latitude": -17.4328946,
-    "longitude": -41.9989718
-  },
-  "city": "Novo Cruzeiro",
-  "name": "Floyd Cherokee Medical Center",
-  "type": "hospital",
-  "address": "0 Crowley Alley",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c6"
-  },
-  "GPS": {
-    "latitude": 35.1083109,
-    "longitude": 136.1458137
-  },
-  "city": "Ōmihachiman",
-  "name": "COVID CENTER 15",
-  "type": "specialized center",
-  "address": "7 Graceland Plaza"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c7"
-  },
-  "GPS": {
-    "latitude": 10.729632,
-    "longitude": 124.795761
-  },
-  "city": "Kilim",
-  "name": "Banner - University Medical Center Phoenix",
-  "type": "hospital",
-  "address": "0756 Cambridge Parkway",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c8"
-  },
-  "GPS": {
-    "latitude": -23.047822,
-    "longitude": -50.068456
-  },
-  "city": "Cambará",
-  "name": "COVID CENTER 14",
-  "type": "specialized center",
-  "address": "2792 Corry Pass"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001c9"
-  },
-  "GPS": {
-    "latitude": 38.1162631,
-    "longitude": 140.8585745
-  },
-  "city": "Asahi",
-  "name": "SINGAPORE NATIONAL EYE CENTRE PTE LTD",
-  "type": "pharmacy",
-  "address": "5 Moland Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ca"
-  },
-  "GPS": {
-    "latitude": 30.6907753,
-    "longitude": 49.8240194
-  },
-  "city": "Aghajari",
-  "name": "COVID CENTER 57",
-  "type": "specialized center",
-  "address": "41075 Park Meadow Point"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001cb"
-  },
-  "GPS": {
-    "latitude": 37.1597899,
-    "longitude": -8.0359507
-  },
-  "city": "Valtelheiro",
-  "name": "St Vincent's Chilton",
-  "type": "hospital",
-  "address": "539 International Center",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001cc"
-  },
-  "GPS": {
-    "latitude": 19.5531189,
-    "longitude": -98.8755659
-  },
-  "city": "San Juan",
-  "name": "GRACE HEALTHCARE",
-  "type": "pharmacy",
-  "address": "2 Utah Circle"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001cd"
-  },
-  "GPS": {
-    "latitude": 29.9193861,
-    "longitude": 73.0747872
-  },
-  "city": "Chishtiān Mandi",
-  "name": "Decatur Morgan Hospital-decatur Campus",
-  "type": "hospital",
-  "address": "3 Morrow Pass",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001ce"
-  },
-  "GPS": {
-    "latitude": 25.66788,
-    "longitude": 110.547966
-  },
-  "city": "Baitao",
-  "name": "CONCORD HEALTHCARE RETAIL PHARMACY",
-  "type": "pharmacy",
-  "address": "43 Ridgeview Circle"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001cf"
-  },
-  "GPS": {
-    "latitude": 34.21422,
-    "longitude": 69.10026
-  },
-  "city": "Muḩammad Āghah Wuluswālī",
-  "name": "L V Stabler Memorial Hospital",
-  "type": "hospital",
-  "address": "3 Monument Point",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d0"
-  },
-  "GPS": {
-    "latitude": 35.6046794,
-    "longitude": 139.730028
-  },
-  "city": "Ōi",
-  "name": "Marshall Medical Center South",
-  "type": "hospital",
-  "address": "3258 Crescent Oaks Street",
-  "department": 10
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d1"
-  },
-  "GPS": {
-    "latitude": 18.9384732,
-    "longitude": -70.407981
-  },
-  "city": "Quisqueya",
-  "name": "Andalusia Health",
-  "type": "hospital",
-  "address": "97 Meadow Ridge Center",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d2"
-  },
-  "GPS": {
-    "latitude": 6.961969,
-    "longitude": -75.4190689
-  },
-  "city": "Yarumal",
-  "name": "PARKWAY EAST HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "5 1st Park"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d3"
-  },
-  "GPS": {
-    "latitude": -7.2558406,
-    "longitude": 112.525711
-  },
-  "city": "Kemendung",
-  "name": "COVID CENTER 35",
-  "type": "specialized center",
-  "address": "7 Crest Line Junction"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d4"
-  },
-  "GPS": {
-    "latitude": -10.5792295,
-    "longitude": -37.745028
-  },
-  "city": "Pinhão",
-  "name": "Dale Medical Center",
-  "type": "hospital",
-  "address": "72 Caliangt Crossing",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d5"
-  },
-  "GPS": {
-    "latitude": 30.63963,
-    "longitude": 114.385538
-  },
-  "city": "Qingshan",
-  "name": "Specialist Compounding Pharmacy Pte Ltd",
-  "type": "pharmacy",
-  "address": "6797 Kingsford Crossing"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d6"
-  },
-  "GPS": {
-    "latitude": 36.6919385,
-    "longitude": 38.9511518
-  },
-  "city": "Tall Abyaḑ",
-  "name": "Raffles Health Holland V",
-  "type": "pharmacy",
-  "address": "8090 Emmet Way"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d7"
-  },
-  "GPS": {
-    "latitude": 4.6096768,
-    "longitude": 101.1064003
-  },
-  "city": "Ipoh",
-  "name": "Clinic B Pharmacy",
-  "type": "pharmacy",
-  "address": "58 Randy Avenue"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d8"
-  },
-  "GPS": {
-    "latitude": 41.0394198,
-    "longitude": -8.5359207
-  },
-  "city": "Lavadorinhos",
-  "name": "SGH OUTPATIENT PHARMACY (BLK 3)",
-  "type": "pharmacy",
-  "address": "82 Derek Trail"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001d9"
-  },
-  "GPS": {
-    "latitude": 56.071894,
-    "longitude": 37.0625324
-  },
-  "city": "Povarovo",
-  "name": "St. Mary's Hospital",
-  "type": "hospital",
-  "address": "59182 Arapahoe Park",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001da"
-  },
-  "GPS": {
-    "latitude": 13.7876294,
-    "longitude": 101.3885001
-  },
-  "city": "Phanom Sarakham",
-  "name": "COVID CENTER 47",
-  "type": "specialized center",
-  "address": "08 Orin Point"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001db"
-  },
-  "GPS": {
-    "latitude": 18.714928,
-    "longitude": 110.401814
-  },
-  "city": "Dong’ao",
-  "name": "Nishino Pharmacy (Takashimaya)",
-  "type": "pharmacy",
-  "address": "3825 Kinsman Center"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001dc"
-  },
-  "GPS": {
-    "latitude": 55.1936526,
-    "longitude": 75.9684541
-  },
-  "city": "Tatarsk",
-  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
-  "type": "pharmacy",
-  "address": "82 Moose Parkway"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001dd"
-  },
-  "GPS": {
-    "latitude": 55.5192748,
-    "longitude": 26.3223328
-  },
-  "city": "Dūkštas",
-  "name": "Clinic B Pharmacy",
-  "type": "pharmacy",
-  "address": "418 John Wall Junction"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001de"
-  },
-  "GPS": {
-    "latitude": 37.444498,
-    "longitude": 114.498761
-  },
-  "city": "Lincheng",
-  "name": "Monroe County Hospital",
-  "type": "hospital",
-  "address": "71987 Bartelt Road",
-  "department": 10
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001df"
-  },
-  "GPS": {
-    "latitude": 14.5396049,
-    "longitude": 99.9970034
-  },
-  "city": "Suphan Buri",
-  "name": "COVID CENTER 24",
-  "type": "specialized center",
-  "address": "42 Algoma Alley"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001e0"
-  },
-  "GPS": {
-    "latitude": 21.355574,
-    "longitude": 106.8355372
-  },
-  "city": "An Châu",
-  "name": "Choctaw General Hospital",
-  "type": "hospital",
-  "address": "4032 Haas Alley",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001e1"
-  },
-  "GPS": {
-    "latitude": 25.748455,
-    "longitude": 116.747009
-  },
-  "city": "Gechuan",
-  "name": "Mizell Memorial Hospital",
-  "type": "hospital",
-  "address": "008 Comanche Hill",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001e2"
-  },
-  "GPS": {
-    "latitude": 23.028956,
-    "longitude": 113.143441
-  },
-  "city": "Nanwai",
-  "name": "Jurong Medical Centre Pharmacy",
-  "type": "pharmacy",
-  "address": "22027 Meadow Valley Center"
-},{
-  "_id": {
-    "$oid": "61b07833fc13ae0e320001e3"
-  },
-  "GPS": {
-    "latitude": 29.295,
-    "longitude": 47.93306
-  },
-  "city": "Ar Rābiyah",
-  "name": "Fairbanks Memorial Hospital",
-  "type": "hospital",
-  "address": "24976 Shelley Terrace",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001e4"
-  },
-  "GPS": {
-    "latitude": 43.0429124,
-    "longitude": 1.9038837
-  },
-  "city": "Lyon",
-  "name": "ALPS PHARMACY",
-  "type": "pharmacy",
-  "address": "13 Vernon Hill"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001e5"
-  },
-  "GPS": {
-    "latitude": 53.175543,
-    "longitude": 21.296838
-  },
-  "city": "Baranowo",
-  "name": "COVID CENTER 22",
-  "type": "specialized center",
-  "address": "3420 Bashford Way"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001e6"
-  },
-  "GPS": {
-    "latitude": 13.1782149,
-    "longitude": 30.2166519
-  },
-  "city": "El Obeid",
-  "name": "Crenshaw Community Hospital",
-  "type": "hospital",
-  "address": "32 Schurz Alley",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001e7"
-  },
-  "GPS": {
-    "latitude": -3.9318403,
-    "longitude": 114.9754175
-  },
-  "city": "Jorong",
-  "name": "COVID CENTER 5",
-  "type": "specialized center",
-  "address": "8 Stone Corner Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001e8"
-  },
-  "GPS": {
-    "latitude": 25.5020583,
-    "longitude": 117.3701447
-  },
-  "city": "Huhe",
-  "name": "COVID CENTER 8",
-  "type": "specialized center",
-  "address": "28990 Jana Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001e9"
-  },
-  "GPS": {
-    "latitude": 10.2995028,
-    "longitude": -61.175278
-  },
-  "city": "Rio Claro",
-  "name": "COVID CENTER 42",
-  "type": "specialized center",
-  "address": "9748 Bluestem Point"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001ea"
-  },
-  "GPS": {
-    "latitude": 13.7754325,
-    "longitude": 100.5127381
-  },
-  "city": "Dusit",
-  "name": "COVID CENTER 24",
-  "type": "specialized center",
-  "address": "49 Manley Terrace"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001eb"
-  },
-  "GPS": {
-    "latitude": 37.56702,
-    "longitude": 68.44668
-  },
-  "city": "Gharavŭtí",
-  "name": "Clay County Hospital",
-  "type": "hospital",
-  "address": "25 Homewood Crossing",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001ec"
-  },
-  "GPS": {
-    "latitude": 27.5828698,
-    "longitude": 85.5097226
-  },
-  "city": "Panaoti",
-  "name": "COVID CENTER 25",
-  "type": "specialized center",
-  "address": "83306 Forest Run Street"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001ed"
-  },
-  "GPS": {
-    "latitude": 37.1845893,
-    "longitude": 136.9002781
-  },
-  "city": "Kashima",
-  "name": "Maniilaq Health Center",
-  "type": "hospital",
-  "address": "7 Colorado Terrace",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001ee"
-  },
-  "GPS": {
-    "latitude": 55.9015576,
-    "longitude": 52.3550104
-  },
-  "city": "Mendeleyevsk",
-  "name": "COVID CENTER 29",
-  "type": "specialized center",
-  "address": "2583 Northfield Trail"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001ef"
-  },
-  "GPS": {
-    "latitude": 38.05106,
-    "longitude": 114.463347
-  },
-  "city": "Xinhua",
-  "name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
-  "type": "pharmacy",
-  "address": "399 Waywood Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f0"
-  },
-  "GPS": {
-    "latitude": 39.2674443,
-    "longitude": 141.8622297
-  },
-  "city": "Kamaishi",
-  "name": "COVID CENTER 55",
-  "type": "specialized center",
-  "address": "17855 Sommers Terrace"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f1"
-  },
-  "GPS": {
-    "latitude": 49.6470903,
-    "longitude": 18.1621577
-  },
-  "city": "Příbor",
-  "name": "Shelby Baptist Medical Center",
-  "type": "hospital",
-  "address": "8 Sunfield Place",
-  "department": 5
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f2"
-  },
-  "GPS": {
-    "latitude": 13.5616918,
-    "longitude": -15.8304975
-  },
-  "city": "No Kunda",
-  "name": "Russell Medical Center",
-  "type": "hospital",
-  "address": "763 Drewry Plaza",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f3"
-  },
-  "GPS": {
-    "latitude": -6.8907337,
-    "longitude": 111.2785407
-  },
-  "city": "Gaplokan",
-  "name": "Providence Valdez Medical Center",
-  "type": "hospital",
-  "address": "172 Ryan Crossing",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f4"
-  },
-  "GPS": {
-    "latitude": -22.790968,
-    "longitude": -43.369805
-  },
-  "city": "São João de Meriti",
-  "name": "MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "24 Raven Alley"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f5"
-  },
-  "GPS": {
-    "latitude": 13.6954096,
-    "longitude": 100.5127381
-  },
-  "city": "Bang Kho Laem",
-  "name": "Mount Elizabeth Hospital",
-  "type": "pharmacy",
-  "address": "6515 Macpherson Drive"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f6"
-  },
-  "GPS": {
-    "latitude": -10.37092,
-    "longitude": -77.492203
-  },
-  "city": "Copa",
-  "name": "Mount Elizabeth Hospital",
-  "type": "pharmacy",
-  "address": "26589 Quincy Hill"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f7"
-  },
-  "GPS": {
-    "latitude": 35.904442,
-    "longitude": 115.110483
-  },
-  "city": "Jindou",
-  "name": "SINGHEALTH POLY-OUTRAM",
-  "type": "pharmacy",
-  "address": "2355 Logan Parkway"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f8"
-  },
-  "GPS": {
-    "latitude": 50.0957911,
-    "longitude": 16.984906
-  },
-  "city": "Jindřichov",
-  "name": "Clinic B Pharmacy",
-  "type": "pharmacy",
-  "address": "57323 Summer Ridge Parkway"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001f9"
-  },
-  "GPS": {
-    "latitude": 39.6611469,
-    "longitude": 20.1789757
-  },
-  "city": "Konispol",
-  "name": "COVID CENTER 8",
-  "type": "specialized center",
-  "address": "304 Pawling Drive"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001fa"
-  },
-  "GPS": {
-    "latitude": 31.7751564,
-    "longitude": 117.2102637
-  },
-  "city": "Dartang",
-  "name": "Highlands Medical Center",
-  "type": "hospital",
-  "address": "02 Summer Ridge Center",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001fb"
-  },
-  "GPS": {
-    "latitude": 53.180879,
-    "longitude": 17.0835566
-  },
-  "city": "Wysoka",
-  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
-  "type": "pharmacy",
-  "address": "9196 Moland Park"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001fc"
-  },
-  "GPS": {
-    "latitude": 31.9339724,
-    "longitude": 118.670339
-  },
-  "city": "Hongmiao",
-  "name": "SINGHEALTH POLY-OUTRAM",
-  "type": "pharmacy",
-  "address": "07 Express Center"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001fd"
-  },
-  "GPS": {
-    "latitude": -7.3225,
-    "longitude": 107.86
-  },
-  "city": "Cikuray",
-  "name": "Russellville Hospital",
-  "type": "hospital",
-  "address": "7 Portage Trail",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001fe"
-  },
-  "GPS": {
-    "latitude": 49.9466816,
-    "longitude": 18.8244645
-  },
-  "city": "Radostowice",
-  "name": "Baptist Medical Center East",
-  "type": "hospital",
-  "address": "59 Manley Junction",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e320001ff"
-  },
-  "GPS": {
-    "latitude": 52.199771,
-    "longitude": 21.14523
-  },
-  "city": "Wawer",
-  "name": "COVID CENTER 28",
-  "type": "specialized center",
-  "address": "76982 Miller Way"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000200"
-  },
-  "GPS": {
-    "latitude": 14.6404686,
-    "longitude": 120.9915504
-  },
-  "city": "Cabatuan",
-  "name": "Maniilaq Health Center",
-  "type": "hospital",
-  "address": "815 Kensington Pass",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000201"
-  },
-  "GPS": {
-    "latitude": 56.0764809,
-    "longitude": 88.6780253
-  },
-  "city": "Tisul’",
-  "name": "Marion Regional Medical Center",
-  "type": "hospital",
-  "address": "52 Beilfuss Circle",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000202"
-  },
-  "GPS": {
-    "latitude": 39.9041999,
-    "longitude": 116.4073963
-  },
-  "city": "Baijiang",
-  "name": "COVID CENTER 5",
-  "type": "specialized center",
-  "address": "9980 Glendale Avenue"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000203"
-  },
-  "GPS": {
-    "latitude": 50.2837307,
-    "longitude": 2.7425682
-  },
-  "city": "Arras",
-  "name": "Jurong Community Hospital Pharmacy",
-  "type": "pharmacy",
-  "address": "34 Jenna Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000204"
-  },
-  "GPS": {
-    "latitude": -15.8272432,
-    "longitude": -50.265662
-  },
-  "city": "Goiás",
-  "name": "Vaughan Regional Medical Center Parkway Campus",
-  "type": "hospital",
-  "address": "5318 Grover Avenue",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000205"
-  },
-  "GPS": {
-    "latitude": 43.4945737,
-    "longitude": 5.8978018
-  },
-  "city": "Paris 04",
-  "name": "COVID CENTER 19",
-  "type": "specialized center",
-  "address": "688 Texas Terrace"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000206"
-  },
-  "GPS": {
-    "latitude": -10.9564306,
-    "longitude": -76.933337
-  },
-  "city": "Paccho",
-  "name": "St Vincents Blount",
-  "type": "hospital",
-  "address": "89 Steensland Street",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000207"
-  },
-  "GPS": {
-    "latitude": 54.2331,
-    "longitude": -125.7533
-  },
-  "city": "Burns Lake",
-  "name": "KK Emergency Pharmacy",
-  "type": "pharmacy",
-  "address": "338 Randy Parkway"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000208"
-  },
-  "GPS": {
-    "latitude": 59.9251831,
-    "longitude": 10.8203114
-  },
-  "city": "Oslo",
-  "name": "Mizell Memorial Hospital",
-  "type": "hospital",
-  "address": "63 Daystar Place",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000209"
-  },
-  "GPS": {
-    "latitude": 41.65041,
-    "longitude": 59.9164
-  },
-  "city": "Tagta",
-  "name": "COVID CENTER 5",
-  "type": "specialized center",
-  "address": "86389 Del Sol Plaza"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200020a"
-  },
-  "GPS": {
-    "latitude": 59.0541421,
-    "longitude": 12.695366
-  },
-  "city": "Åmål",
-  "name": "COVID CENTER 25",
-  "type": "specialized center",
-  "address": "1 Carpenter Center"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200020b"
-  },
-  "GPS": {
-    "latitude": 41.5728211,
-    "longitude": 23.7282719
-  },
-  "city": "Gotse Delchev",
-  "name": "Medical Center Barbour",
-  "type": "hospital",
-  "address": "3 Gina Place",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200020c"
-  },
-  "GPS": {
-    "latitude": 31.95402,
-    "longitude": 35.1624
-  },
-  "city": "Az Zaytūnīyah",
-  "name": "COVID CENTER 16",
-  "type": "specialized center",
-  "address": "34588 Kinsman Point"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200020d"
-  },
-  "GPS": {
-    "latitude": 55.61667,
-    "longitude": 23.18333
-  },
-  "city": "Tytuvėnėliai",
-  "name": "Mount Alvernia Hospital (Main Pharmacy)",
-  "type": "pharmacy",
-  "address": "85 Mallard Place"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200020e"
-  },
-  "GPS": {
-    "latitude": 41.0874823,
-    "longitude": -7.9582137
-  },
-  "city": "Mosteiro",
-  "name": "Community Hospital Inc",
-  "type": "hospital",
-  "address": "2893 American Court",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200020f"
-  },
-  "GPS": {
-    "latitude": 34.329605,
-    "longitude": 108.708991
-  },
-  "city": "Xianyan",
-  "name": "St Joseph's Hospital",
-  "type": "hospital",
-  "address": "0397 Fallview Circle",
-  "department": 5
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000210"
-  },
-  "GPS": {
-    "latitude": 10.0192191,
-    "longitude": -69.2519936
-  },
-  "city": "Cabudare",
-  "name": "COVID CENTER 57",
-  "type": "specialized center",
-  "address": "0 Graedel Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000211"
-  },
-  "GPS": {
-    "latitude": 55.6717773,
-    "longitude": 12.5605145
-  },
-  "city": "København",
-  "name": "Khoo Teck Puat Hospital Pharmacy",
-  "type": "pharmacy",
-  "address": "2299 Lawn Hill"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000212"
-  },
-  "GPS": {
-    "latitude": 41.000673,
-    "longitude": 123.2861901
-  },
-  "city": "Xiadahe",
-  "name": "Maricopa Medical Center",
-  "type": "hospital",
-  "address": "88 Mifflin Lane",
-  "department": 10
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000213"
-  },
-  "GPS": {
-    "latitude": 40.4529251,
-    "longitude": 49.7333235
-  },
-  "city": "Khirdalan",
-  "name": "COVID CENTER 58",
-  "type": "specialized center",
-  "address": "6429 Roxbury Court"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000214"
-  },
-  "GPS": {
-    "latitude": 42.0256471,
-    "longitude": 24.1082622
-  },
-  "city": "Rakitovo",
-  "name": "Alexandra Hospital Retail Pharmacy",
-  "type": "pharmacy",
-  "address": "15 Park Meadow Drive"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000215"
-  },
-  "GPS": {
-    "latitude": -12.5444681,
-    "longitude": -41.8402054
-  },
-  "city": "Seabra",
-  "name": "Floyd Cherokee Medical Center",
-  "type": "hospital",
-  "address": "4263 Welch Park",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000216"
-  },
-  "GPS": {
-    "latitude": 48.73808,
-    "longitude": -69.08478
-  },
-  "city": "Forestville",
-  "name": "Canyon Vista Medical Center",
-  "type": "hospital",
-  "address": "908 Colorado Place",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000217"
-  },
-  "GPS": {
-    "latitude": 41.1645867,
-    "longitude": -7.7937927
-  },
-  "city": "Peso da Régua",
-  "name": "COVID CENTER 30",
-  "type": "specialized center",
-  "address": "06 Oxford Drive"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000218"
-  },
-  "GPS": {
-    "latitude": 58.3958615,
-    "longitude": 13.8536226
-  },
-  "city": "Mariestad",
-  "name": "Dekalb Regional Medical Center",
-  "type": "hospital",
-  "address": "1155 Toban Trail",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000219"
-  },
-  "GPS": {
-    "latitude": 8.4677773,
-    "longitude": -82.3912892
-  },
-  "city": "El Quiteño",
-  "name": "University Of S A Children's And Women's Hos",
-  "type": "hospital",
-  "address": "36640 School Alley",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200021a"
-  },
-  "GPS": {
-    "latitude": 49.0285391,
-    "longitude": 2.3236877
-  },
-  "city": "Domont",
-  "name": "St Joseph's Hospital",
-  "type": "hospital",
-  "address": "4 Merry Road",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200021b"
-  },
-  "GPS": {
-    "latitude": 37.943121,
-    "longitude": 115.217658
-  },
-  "city": "Xinji",
-  "name": "Hill Hospital Of Sumter County",
-  "type": "hospital",
-  "address": "0006 Meadow Ridge Way",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200021c"
-  },
-  "GPS": {
-    "latitude": 52.1124967,
-    "longitude": 26.0634602
-  },
-  "city": "Pinsk",
-  "name": "COVID CENTER 56",
-  "type": "specialized center",
-  "address": "18312 Texas Point"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200021d"
-  },
-  "GPS": {
-    "latitude": 26.1218315,
-    "longitude": 32.4715312
-  },
-  "city": "Dishnā",
-  "name": "Northeast Alabama Regional Medical Center",
-  "type": "hospital",
-  "address": "9 Badeau Road",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200021e"
-  },
-  "GPS": {
-    "latitude": 41.2378592,
-    "longitude": -8.5349198
-  },
-  "city": "Alfena",
-  "name": "D C H Regional Medical Center",
-  "type": "hospital",
-  "address": "24 Mayfield Park",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200021f"
-  },
-  "GPS": {
-    "latitude": -9.6593944,
-    "longitude": 120.2761574
-  },
-  "city": "Kampungraja",
-  "name": "ST ANDREW'S COMMUNITY HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "133 Toban Alley"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000220"
-  },
-  "GPS": {
-    "latitude": -7.5450262,
-    "longitude": 111.6556388
-  },
-  "city": "Krajan",
-  "name": "Amber Compounding Pharmacy Pte Ltd",
-  "type": "pharmacy",
-  "address": "98295 Southridge Trail"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000221"
-  },
-  "GPS": {
-    "latitude": 42.785791,
-    "longitude": 124.111099
-  },
-  "city": "Changtu",
-  "name": "Cordova Community Medical Center",
-  "type": "hospital",
-  "address": "0288 Elmside Road",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000222"
-  },
-  "GPS": {
-    "latitude": -22.6053393,
-    "longitude": -46.914966
-  },
-  "city": "Santo Antônio de Posse",
-  "name": "COVID CENTER 1",
-  "type": "specialized center",
-  "address": "17751 Green Pass"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000223"
-  },
-  "GPS": {
-    "latitude": -7.6426348,
-    "longitude": 112.7032945
-  },
-  "city": "Pandean",
-  "name": "COVID CENTER 39",
-  "type": "specialized center",
-  "address": "31015 Sutteridge Road"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000224"
-  },
-  "GPS": {
-    "latitude": 41.11023,
-    "longitude": 20.0866554
-  },
-  "city": "Elbasan",
-  "name": "COVID CENTER 8",
-  "type": "specialized center",
-  "address": "61 Express Parkway"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000225"
-  },
-  "GPS": {
-    "latitude": 38.2792524,
-    "longitude": 111.6631302
-  },
-  "city": "Xiangyanglu",
-  "name": "Northeast Alabama Regional Medical Center",
-  "type": "hospital",
-  "address": "02395 Longview Plaza",
-  "department": 5
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000226"
-  },
-  "GPS": {
-    "latitude": 30.019858,
-    "longitude": 122.106773
-  },
-  "city": "Dingzhai",
-  "name": "Verde Valley Medical Center",
-  "type": "hospital",
-  "address": "07199 Autumn Leaf Junction",
-  "department": 5
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000227"
-  },
-  "GPS": {
-    "latitude": 44.521785,
-    "longitude": 125.72862
-  },
-  "city": "Dehui",
-  "name": "Pharmacy Services Centre NHG (Blk 9)",
-  "type": "pharmacy",
-  "address": "92630 Lyons Trail"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000228"
-  },
-  "GPS": {
-    "latitude": 15.0410586,
-    "longitude": 120.0745042
-  },
-  "city": "Bangad",
-  "name": "South Peninsula Hospital",
-  "type": "hospital",
-  "address": "03339 Stuart Center",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000229"
-  },
-  "GPS": {
-    "latitude": 36.0932201,
-    "longitude": 139.4440586
-  },
-  "city": "Kōnosu",
-  "name": "PARKWAY EAST HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "61562 Swallow Way"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200022a"
-  },
-  "GPS": {
-    "latitude": 41.4495777,
-    "longitude": -8.3894249
-  },
-  "city": "Vermil",
-  "name": "Grandview Medical Center",
-  "type": "hospital",
-  "address": "024 Manitowish Avenue",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200022b"
-  },
-  "GPS": {
-    "latitude": 41.3015266,
-    "longitude": -8.5820391
-  },
-  "city": "Vilares",
-  "name": "COVID CENTER 14",
-  "type": "specialized center",
-  "address": "15 Fremont Alley"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200022c"
-  },
-  "GPS": {
-    "latitude": 33.001096,
-    "longitude": 106.91786
-  },
-  "city": "Xieshui",
-  "name": "NHG Pharmacy (CCK Polyclinic)",
-  "type": "pharmacy",
-  "address": "881 Comanche Pass"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200022d"
-  },
-  "GPS": {
-    "latitude": 1.5245894,
-    "longitude": 110.3127541
-  },
-  "city": "Timurlorong",
-  "name": "Jackson Medical Center",
-  "type": "hospital",
-  "address": "6477 Fairfield Park",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200022e"
-  },
-  "GPS": {
-    "latitude": 47.6593594,
-    "longitude": -52.7383086
-  },
-  "city": "Torbay",
-  "name": "North Baldwin Infirmary",
-  "type": "hospital",
-  "address": "8 Little Fleur Drive",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200022f"
-  },
-  "GPS": {
-    "latitude": 38.8466225,
-    "longitude": 139.8744722
-  },
-  "city": "Fukagawa",
-  "name": "COVID CENTER 50",
-  "type": "specialized center",
-  "address": "930 Twin Pines Center"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000230"
-  },
-  "GPS": {
-    "latitude": 58.3958615,
-    "longitude": 13.8536226
-  },
-  "city": "Mariestad",
-  "name": "Walker Baptist Medical Center",
-  "type": "hospital",
-  "address": "39 Loftsgordon Alley",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000231"
-  },
-  "GPS": {
-    "latitude": 14.7292113,
-    "longitude": -88.0338631
-  },
-  "city": "San José de Comayagua",
-  "name": "National Centre for Infectious Disease (Outpatient Pharmacy)",
-  "type": "pharmacy",
-  "address": "8830 Raven Drive"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000232"
-  },
-  "GPS": {
-    "latitude": 9.1375974,
-    "longitude": -75.2128996
-  },
-  "city": "Corozal",
-  "name": "COVID CENTER 55",
-  "type": "specialized center",
-  "address": "65771 Kensington Lane"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000233"
-  },
-  "GPS": {
-    "latitude": 39.1955731,
-    "longitude": -9.263539
-  },
-  "city": "Cabeça Gorda",
-  "name": "Providence Kodiak Island Medical Ctr",
-  "type": "hospital",
-  "address": "837 Haas Park",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000234"
-  },
-  "GPS": {
-    "latitude": 43.30706,
-    "longitude": 124.33539
-  },
-  "city": "Lishu",
-  "address": "75817 Commercial Road"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000235"
-  },
-  "GPS": {
-    "latitude": -19.6238346,
-    "longitude": -43.2182878
-  },
-  "city": "Itabira",
-  "name": "COVID CENTER 20",
-  "type": "specialized center",
-  "address": "3 Lien Trail"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000236"
-  },
-  "GPS": {
-    "latitude": 14.136844,
-    "longitude": -90.008975
-  },
-  "city": "Jalpatagua",
-  "name": "University Of Alabama Hospital",
-  "type": "hospital",
-  "address": "886 Old Shore Road",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000237"
-  },
-  "GPS": {
-    "latitude": -7.9360667,
-    "longitude": 112.1787896
-  },
-  "city": "Ngancar",
-  "name": "Maricopa Medical Center",
-  "type": "hospital",
-  "address": "02 Clemons Place",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000238"
-  },
-  "GPS": {
-    "latitude": 7.0024321,
-    "longitude": -9.4728244
-  },
-  "city": "Gbarnga",
-  "name": "COVID CENTER 4",
-  "type": "specialized center",
-  "address": "5508 Buhler Point"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000239"
-  },
-  "GPS": {
-    "latitude": -14.8518869,
-    "longitude": -66.7486446
-  },
-  "city": "San Borja",
-  "name": "Evergreen Medical Center",
-  "type": "hospital",
-  "address": "402 Montana Drive",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200023a"
-  },
-  "GPS": {
-    "latitude": 17.1547981,
-    "longitude": 42.6268969
-  },
-  "city": "Şabyā",
-  "name": "MT ALVERNIA HOSPITAL RETAIL PHARMACY",
-  "type": "pharmacy",
-  "address": "37224 Hermina Alley"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200023b"
-  },
-  "GPS": {
-    "latitude": -9.7089,
-    "longitude": 124.2564
-  },
-  "city": "Oemollo",
-  "name": "Cordova Community Medical Center",
-  "type": "hospital",
-  "address": "10 Pepper Wood Parkway",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200023c"
-  },
-  "GPS": {
-    "latitude": 38.0970415,
-    "longitude": 21.4183073
-  },
-  "city": "Lápas",
-  "name": "Yukon Kuskokwim Delta Reg Hospital",
-  "type": "hospital",
-  "address": "1347 Oak Way",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200023d"
-  },
-  "GPS": {
-    "latitude": 47.0184615,
-    "longitude": -68.1430761
-  },
-  "city": "Stockholm",
-  "name": "COVID CENTER 3",
-  "type": "specialized center",
-  "address": "26665 Sundown Plaza"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200023e"
-  },
-  "GPS": {
-    "latitude": 49.8881618,
-    "longitude": 15.5262702
-  },
-  "city": "Ronov nad Doubravou",
-  "name": "COVID CENTER 39",
-  "type": "specialized center",
-  "address": "55792 Bartillon Place"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200023f"
-  },
-  "GPS": {
-    "latitude": -4.5329418,
-    "longitude": 105.2077798
-  },
-  "city": "Menggala",
-  "name": "COVID CENTER 56",
-  "type": "specialized center",
-  "address": "64265 Talisman Road"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000240"
-  },
-  "GPS": {
-    "latitude": 30.45,
-    "longitude": -91.15
-  },
-  "city": "Baton Rouge",
-  "name": "COVID CENTER 40",
-  "type": "specialized center",
-  "address": "282 Sugar Road"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000241"
-  },
-  "GPS": {
-    "latitude": 52.9002738,
-    "longitude": 20.7462079
-  },
-  "city": "Opinogóra Górna",
-  "name": "WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA)",
-  "type": "pharmacy",
-  "address": "71782 Jackson Plaza"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000242"
-  },
-  "GPS": {
-    "latitude": -8.170292,
-    "longitude": 124.854068
-  },
-  "city": "Taramana",
-  "name": "Petersburg Medical Center",
-  "type": "hospital",
-  "address": "52082 Eagan Avenue",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000243"
-  },
-  "GPS": {
-    "latitude": 38.8884333,
-    "longitude": 45.0304001
-  },
-  "city": "Qarah Ẕīā’ od Dīn",
-  "name": "Russell Medical Center",
-  "type": "hospital",
-  "address": "2787 Huxley Circle",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000244"
-  },
-  "GPS": {
-    "latitude": -6.9775856,
-    "longitude": 110.5424021
-  },
-  "city": "Bulusari",
-  "name": "COVID CENTER 34",
-  "type": "specialized center",
-  "address": "261 Vermont Avenue"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000245"
-  },
-  "GPS": {
-    "latitude": 27.3526033,
-    "longitude": 62.3447815
-  },
-  "city": "Sarāvān",
-  "name": "Tan Tock Seng Hospital (Pharmacy Level 2)",
-  "type": "pharmacy",
-  "address": "59 8th Trail"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000246"
-  },
-  "GPS": {
-    "latitude": 11.379367,
-    "longitude": 7.5599321
-  },
-  "city": "Danja",
-  "name": "Eliza Coffee Memorial Hospital",
-  "type": "hospital",
-  "address": "9832 Melrose Terrace",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000247"
-  },
-  "GPS": {
-    "latitude": -8.817396,
-    "longitude": 120.806198
-  },
-  "city": "Keli",
-  "name": "Petersburg Medical Center",
-  "type": "hospital",
-  "address": "89368 Carioca Hill",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000248"
-  },
-  "GPS": {
-    "latitude": 13.533238,
-    "longitude": -15.412011
-  },
-  "city": "Sara Kunda",
-  "name": "Alaska Native Medical Center",
-  "type": "hospital",
-  "address": "84594 Fallview Junction",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000249"
-  },
-  "GPS": {
-    "latitude": 47.1844184,
-    "longitude": 35.1072745
-  },
-  "city": "Tymoshivka",
-  "name": "COVID CENTER 54",
-  "type": "specialized center",
-  "address": "5 Kropf Park"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200024a"
-  },
-  "GPS": {
-    "latitude": 7.2149367,
-    "longitude": 124.2404727
-  },
-  "city": "Kiupo",
-  "name": "COVID CENTER 45",
-  "type": "specialized center",
-  "address": "6915 Mayer Pass"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200024b"
-  },
-  "GPS": {
-    "latitude": -14.2576342,
-    "longitude": -69.1692951
-  },
-  "city": "Yanahuaya",
-  "name": "Community Hospital Inc",
-  "type": "hospital",
-  "address": "43271 Ilene Plaza",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200024c"
-  },
-  "GPS": {
-    "latitude": 57.4249887,
-    "longitude": 60.0526098
-  },
-  "city": "Kirovgrad",
-  "name": "WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT)",
-  "type": "pharmacy",
-  "address": "4 Oneill Pass"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200024d"
-  },
-  "GPS": {
-    "latitude": 55.086808,
-    "longitude": 60.143301
-  },
-  "city": "Sinegor'ye",
-  "name": "COVID CENTER 47",
-  "type": "specialized center",
-  "address": "52630 Haas Lane"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200024e"
-  },
-  "GPS": {
-    "latitude": -6.4594857,
-    "longitude": 105.9141793
-  },
-  "city": "Kadubera",
-  "name": "COVID CENTER 52",
-  "type": "specialized center",
-  "address": "0080 Ohio Lane"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200024f"
-  },
-  "GPS": {
-    "latitude": 52.2871973,
-    "longitude": 21.2810466
-  },
-  "city": "Zielonka",
-  "name": "D C H Regional Medical Center",
-  "type": "hospital",
-  "address": "1 Oxford Point",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000250"
-  },
-  "GPS": {
-    "latitude": 14.7793575,
-    "longitude": 121.0489884
-  },
-  "city": "Bagombong",
-  "name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
-  "type": "pharmacy",
-  "address": "3036 Maple Avenue"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000251"
-  },
-  "GPS": {
-    "latitude": -29.962127,
-    "longitude": -51.7250108
-  },
-  "city": "São Jerônimo",
-  "name": "SMITH PHARMACY PTE LTD",
-  "type": "pharmacy",
-  "address": "9 6th Plaza"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000252"
-  },
-  "GPS": {
-    "latitude": 50.5904776,
-    "longitude": 30.4831983
-  },
-  "city": "Vyshhorod",
-  "name": "SGH BOWYER BLOCK PHARMACY",
-  "type": "pharmacy",
-  "address": "7 Tennessee Avenue"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000253"
-  },
-  "GPS": {
-    "latitude": 34.6322209,
-    "longitude": 137.1581462
-  },
-  "city": "Muramatsu",
-  "name": "MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY",
-  "type": "pharmacy",
-  "address": "8 Pepper Wood Way"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000254"
-  },
-  "GPS": {
-    "latitude": 23.350767,
-    "longitude": 112.284638
-  },
-  "city": "Hetai",
-  "name": "Choctaw General Hospital",
-  "type": "hospital",
-  "address": "7 Lunder Pass",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000255"
-  },
-  "GPS": {
-    "latitude": 55.5446591,
-    "longitude": 13.9636888
-  },
-  "city": "Simrishamn",
-  "name": "Jurong Medical Centre Pharmacy",
-  "type": "pharmacy",
-  "address": "75 Menomonie Plaza"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000256"
-  },
-  "GPS": {
-    "latitude": 13.928808,
-    "longitude": 121.421617
-  },
-  "city": "Bukal Sur",
-  "name": "Thomson Medical Centre",
-  "type": "pharmacy",
-  "address": "2 Hintze Place"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000257"
-  },
-  "GPS": {
-    "latitude": -26.4822209,
-    "longitude": -49.073477
-  },
-  "city": "Jaraguá do Sul",
-  "name": "WELCIA-BHG LOT ONE",
-  "type": "pharmacy",
-  "address": "63615 Anzinger Alley"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000258"
-  },
-  "GPS": {
-    "latitude": 49.4104,
-    "longitude": 1.032621
-  },
-  "city": "Le Grand-Quevilly",
-  "name": "Pickens County Medical Center",
-  "type": "hospital",
-  "address": "26431 Butterfield Place",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000259"
-  },
-  "GPS": {
-    "latitude": 29.4315861,
-    "longitude": 106.912251
-  },
-  "city": "Changkeng",
-  "name": "COVID CENTER 5",
-  "type": "specialized center",
-  "address": "54 Grayhawk Alley"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200025a"
-  },
-  "GPS": {
-    "latitude": 22.7315115,
-    "longitude": -98.9735333
-  },
-  "city": "Independencia",
-  "name": "Crestwood Medical Center",
-  "type": "hospital",
-  "address": "1 Maple Trail",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200025b"
-  },
-  "GPS": {
-    "latitude": 53.2737147,
-    "longitude": -9.0288689
-  },
-  "city": "Gweedore",
-  "name": "North Baldwin Infirmary",
-  "type": "hospital",
-  "address": "5 Arrowood Place",
-  "department": 9
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200025c"
-  },
-  "GPS": {
-    "latitude": 26.1656051,
-    "longitude": 50.5523828
-  },
-  "city": "Madīnat ‘Īsá",
-  "name": "L V Stabler Memorial Hospital",
-  "type": "hospital",
-  "address": "637 Dunning Junction",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200025d"
-  },
-  "GPS": {
-    "latitude": -8.7615563,
-    "longitude": 116.3574136
-  },
-  "city": "Mujur",
-  "name": "Tucson Medical Center",
-  "type": "hospital",
-  "address": "9859 School Avenue",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200025e"
-  },
-  "GPS": {
-    "latitude": 52.2063851,
-    "longitude": -0.9009942
-  },
-  "city": "Wootton",
-  "name": "Mobile Infirmary Medical Center",
-  "type": "hospital",
-  "address": "90 Monument Center",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200025f"
-  },
-  "GPS": {
-    "latitude": 54.141067,
-    "longitude": 25.0156941
-  },
-  "city": "Eišiškės",
-  "name": "COVID CENTER 28",
-  "type": "specialized center",
-  "address": "17428 Union Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000260"
-  },
-  "GPS": {
-    "latitude": 14.0790439,
-    "longitude": 5.956825
-  },
-  "city": "Madaoua",
-  "name": "Scottsdale Osborn Medical Center",
-  "type": "hospital",
-  "address": "82 Jenna Pass",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000261"
-  },
-  "GPS": {
-    "latitude": 35.719396,
-    "longitude": 117.953621
-  },
-  "city": "Mengyin",
-  "name": "Prattville Baptist Hospital",
-  "type": "hospital",
-  "address": "3 Vahlen Point",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000262"
-  },
-  "GPS": {
-    "latitude": 13.6361135,
-    "longitude": 123.1924955
-  },
-  "city": "Barayong",
-  "name": "KK Emergency Pharmacy",
-  "type": "pharmacy",
-  "address": "29 Maple Wood Trail"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000263"
-  },
-  "GPS": {
-    "latitude": 42.8408389,
-    "longitude": 20.1670628
-  },
-  "city": "Rožaje",
-  "name": "SGH Retail Pharmacy (Blk 4)",
-  "type": "pharmacy",
-  "address": "5 Becker Point"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000264"
-  },
-  "GPS": {
-    "latitude": -2.886385,
-    "longitude": -78.7759559
-  },
-  "city": "Gualaceo",
-  "name": "Crestwood Medical Center",
-  "type": "hospital",
-  "address": "98 Pearson Crossing",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000265"
-  },
-  "GPS": {
-    "latitude": 53.10672,
-    "longitude": -0.687802
-  },
-  "city": "Stapleford",
-  "name": "Alchemy Pharmacy",
-  "type": "pharmacy",
-  "address": "2898 Hermina Center"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000266"
-  },
-  "GPS": {
-    "latitude": 39.562646,
-    "longitude": 113.369956
-  },
-  "city": "Dalinhe",
-  "name": "Community Hospital Inc",
-  "type": "hospital",
-  "address": "83666 Fisk Place",
-  "department": 3
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000267"
-  },
-  "GPS": {
-    "latitude": 35.8413934,
-    "longitude": 14.5466374
-  },
-  "city": "Marsaxlokk",
-  "name": "East Alabama Medical Center",
-  "type": "hospital",
-  "address": "0506 Jana Way",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000268"
-  },
-  "GPS": {
-    "latitude": 33.45,
-    "longitude": -111.97
-  },
-  "city": "Phoenix",
-  "name": "Grandview Medical Center",
-  "type": "hospital",
-  "address": "1 Lake View Park",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000269"
-  },
-  "GPS": {
-    "latitude": 31.463475,
-    "longitude": 120.649341
-  },
-  "city": "Weitang",
-  "name": "Eliza Coffee Memorial Hospital",
-  "type": "hospital",
-  "address": "05376 Randy Park",
-  "department": 5
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200026a"
-  },
-  "GPS": {
-    "latitude": 27.991617,
-    "longitude": 114.387256
-  },
-  "city": "Changleng",
-  "name": "Highlands Medical Center",
-  "type": "hospital",
-  "address": "5 Sachtjen Street",
-  "department": 8
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200026b"
-  },
-  "GPS": {
-    "latitude": 5.7799851,
-    "longitude": 101.0372376
-  },
-  "city": "Betong",
-  "name": "St Vincent's St Clair",
-  "type": "hospital",
-  "address": "532 Arrowood Street",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200026c"
-  },
-  "GPS": {
-    "latitude": 18.6500708,
-    "longitude": -74.3066879
-  },
-  "city": "Abricots",
-  "name": "North Baldwin Infirmary",
-  "type": "hospital",
-  "address": "10599 Larry Lane",
-  "department": 6
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200026d"
-  },
-  "GPS": {
-    "latitude": 42.8494142,
-    "longitude": 27.7900409
-  },
-  "city": "Byala",
-  "name": "Providence Alaska Medical Center",
-  "type": "hospital",
-  "address": "8286 Hooker Street",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200026e"
-  },
-  "GPS": {
-    "latitude": 49.73554,
-    "longitude": 21.26331
-  },
-  "city": "Biecz",
-  "name": "COVID CENTER 10",
-  "type": "specialized center",
-  "address": "14791 Carberry Pass"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200026f"
-  },
-  "GPS": {
-    "latitude": 50.859278,
-    "longitude": 14.4868632
-  },
-  "city": "Chřibská",
+  "city": "Baishi",
   "name": "Alaska Regional Hospital",
   "type": "hospital",
-  "address": "78198 Welch Trail",
-  "department": 2
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000270"
-  },
-  "GPS": {
-    "latitude": 48.1547935,
-    "longitude": 25.7100722
-  },
-  "city": "Storozhynets’",
-  "name": "MEDI-LINK PHARMACY",
-  "type": "pharmacy",
-  "address": "3 Macpherson Lane"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000271"
-  },
-  "GPS": {
-    "latitude": 60.0203894,
-    "longitude": 41.0711197
-  },
-  "city": "Syamzha",
-  "name": "COVID CENTER 54",
-  "type": "specialized center",
-  "address": "22 Charing Cross Crossing"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000272"
-  },
-  "GPS": {
-    "latitude": 25.770509,
-    "longitude": 113.014717
-  },
-  "city": "Chenzhou",
-  "name": "Thomas Hospital",
-  "type": "hospital",
-  "address": "03480 New Castle Alley",
-  "department": 1
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000273"
-  },
-  "GPS": {
-    "latitude": 13.6532561,
-    "longitude": 100.5633676
-  },
-  "city": "Phra Pradaeng",
-  "name": "Marshall Medical Center South",
-  "type": "hospital",
-  "address": "5 Del Sol Pass",
-  "department": 10
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000274"
-  },
-  "GPS": {
-    "latitude": 29.18902,
-    "longitude": 103.236634
-  },
-  "city": "Qiping",
-  "name": "COVID CENTER 29",
-  "type": "specialized center",
-  "address": "429 Union Street"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000275"
-  },
-  "GPS": {
-    "latitude": -8.5575745,
-    "longitude": 116.5377213
-  },
-  "city": "Kembangkerang Satu",
-  "name": "GRACE HEALTHCARE",
-  "type": "pharmacy",
-  "address": "49 Jay Place"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000276"
-  },
-  "GPS": {
-    "latitude": 33.3594755,
-    "longitude": 35.5889282
-  },
-  "city": "Marjayoûn",
-  "name": "Ketchikan Medical Center",
-  "type": "hospital",
-  "address": "75 Kropf Circle",
-  "department": 4
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000277"
-  },
-  "GPS": {
-    "latitude": 32.7010866,
-    "longitude": -17.1340519
-  },
-  "city": "Madalena do Mar",
-  "name": "Coosa Valley Medical Center",
-  "type": "hospital",
-  "address": "8 Spenser Street",
-  "department": 7
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000278"
-  },
-  "GPS": {
-    "latitude": -6.1944094,
-    "longitude": 106.582844
-  },
-  "city": "Dahu Satu",
-  "name": "COVID CENTER 20",
-  "type": "specialized center",
-  "address": "58384 Stoughton Avenue"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e32000279"
-  },
-  "GPS": {
-    "latitude": -8.2357,
-    "longitude": 124.9124
-  },
-  "city": "Lakateng",
-  "name": "SMITH PHARMACY PTE LTD",
-  "type": "pharmacy",
-  "address": "1 Arizona Junction"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200027a"
-  },
-  "GPS": {
-    "latitude": 14.697103,
-    "longitude": 122.365336
-  },
-  "city": "Casuguran",
-  "name": "NATIONAL UNIVERSITY HOSPITAL(S) PTE LTD (MEDICAL CENTRE PHARMACY)",
-  "type": "pharmacy",
-  "address": "007 Iowa Parkway"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200027b"
-  },
-  "GPS": {
-    "latitude": 8.5273038,
-    "longitude": -82.7994194
-  },
-  "city": "Aserrío de Gariché",
-  "name": "MUSTAFA PHARMACY",
-  "type": "pharmacy",
-  "address": "81336 Melby Drive"
-},{
-  "_id": {
-    "$oid": "61b07834fc13ae0e3200027c"
-  },
-  "GPS": {
-    "latitude": 19.0779991,
-    "longitude": -71.8423092
-  },
-  "city": "Thomassique",
-  "name": "St Vincent's St Clair",
-  "type": "hospital",
-  "address": "0 Carioca Crossing",
+  "address": "8861 Columbus Center",
   "department": 9
 },{
   "_id": {
-    "$oid": "61b07834fc13ae0e3200027d"
+    "$oid": "61b0ca16f6a0af501e000148"
   },
   "GPS": {
-    "latitude": 45.9380817,
-    "longitude": 16.7806658
+    "latitude": -3.9389,
+    "longitude": 134.9696
   },
-  "city": "Predavac",
+  "city": "Kiruru",
+  "name": "National University Hospital - Kent Ridge Wing Pharmacy",
+  "type": "pharmacy",
+  "address": "59766 La Follette Court"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af501e000149"
+  },
+  "GPS": {
+    "latitude": 52.2467951,
+    "longitude": 15.800102
+  },
+  "city": "Zbąszynek",
   "name": "Community Hospital Inc",
   "type": "hospital",
-  "address": "623 Lighthouse Bay Road",
+  "address": "107 Holmberg Pass",
   "department": 4
 },{
   "_id": {
-    "$oid": "61b07834fc13ae0e3200027e"
+    "$oid": "61b0ca16f6a0af501e00014a"
   },
   "GPS": {
-    "latitude": 53.9240029,
-    "longitude": 53.873969
+    "latitude": 55.2259313,
+    "longitude": 36.6083916
   },
-  "city": "Priyutovo",
-  "name": "Manapharma Pharmacy",
-  "type": "pharmacy",
-  "address": "48 Summer Ridge Place"
+  "city": "Yermolino",
+  "name": "Providence Valdez Medical Center",
+  "type": "hospital",
+  "address": "5 Portage Court",
+  "department": 2
 },{
   "_id": {
-    "$oid": "61b07834fc13ae0e3200027f"
+    "$oid": "61b0ca16f6a0af501e00014b"
   },
   "GPS": {
-    "latitude": -7.9766381,
-    "longitude": -78.8134873
+    "latitude": 45.8836384,
+    "longitude": -73.2813569
   },
-  "city": "Simbal",
-  "name": "COVID CENTER 7",
+  "city": "Lavaltrie",
+  "name": "Alexandra Hospital Retail Pharmacy",
+  "type": "pharmacy",
+  "address": "9032 Shopko Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900012b"
+  },
+  "GPS": {
+    "latitude": 23.012915,
+    "longitude": 104.394157
+  },
+  "city": "Maguan",
+  "name": "Pharmacy@IB CGH (The Integrated Building)",
+  "type": "pharmacy",
+  "address": "668 Pepper Wood Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900012c"
+  },
+  "GPS": {
+    "latitude": 59.905383,
+    "longitude": 10.7674925
+  },
+  "city": "Oslo",
+  "name": "National University Hospital - Kent Ridge Wing Pharmacy",
+  "type": "pharmacy",
+  "address": "9164 Kim Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900012d"
+  },
+  "GPS": {
+    "latitude": 45.8486646,
+    "longitude": -66.4812859
+  },
+  "city": "Oromocto",
+  "name": "Atmore Community Hospital",
+  "type": "hospital",
+  "address": "09687 Pond Plaza",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900012e"
+  },
+  "GPS": {
+    "latitude": 49.7260952,
+    "longitude": 84.2733064
+  },
+  "city": "Zyryanovsk",
+  "name": "COVID CENTER 15",
   "type": "specialized center",
-  "address": "3436 Mosinee Circle"
+  "address": "65 Anthes Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900012f"
+  },
+  "GPS": {
+    "latitude": 49.9846292,
+    "longitude": 20.293343
+  },
+  "city": "Targowisko",
+  "name": "PHARMACY @ CGH MEDICAL CENTRE",
+  "type": "pharmacy",
+  "address": "8 Sauthoff Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000130"
+  },
+  "GPS": {
+    "latitude": 3.8366437,
+    "longitude": -75.2245693
+  },
+  "city": "Ortega",
+  "name": "COVID CENTER 54",
+  "type": "specialized center",
+  "address": "416 Karstens Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000131"
+  },
+  "GPS": {
+    "latitude": -7.2310934,
+    "longitude": 108.1324906
+  },
+  "city": "Sukasetia",
+  "name": "Medical Center Enterprise",
+  "type": "hospital",
+  "address": "0639 Merchant Road",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000132"
+  },
+  "GPS": {
+    "latitude": 39.9311729,
+    "longitude": -104.9739333
+  },
+  "city": "Denver",
+  "name": "Bibb Medical Center",
+  "type": "hospital",
+  "address": "28 Red Cloud Way",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000133"
+  },
+  "GPS": {
+    "latitude": 53.49417,
+    "longitude": -8.83565
+  },
+  "city": "Tuam",
+  "name": "Crestwood Medical Center",
+  "type": "hospital",
+  "address": "3500 Anderson Place",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000134"
+  },
+  "GPS": {
+    "latitude": 44.8601051,
+    "longitude": 78.7628605
+  },
+  "city": "Tekeli",
+  "name": "Clinic B Pharmacy",
+  "type": "pharmacy",
+  "address": "8 Logan Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000135"
+  },
+  "GPS": {
+    "latitude": 26.4524746,
+    "longitude": 87.271781
+  },
+  "city": "Birātnagar",
+  "name": "MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY",
+  "type": "pharmacy",
+  "address": "871 Morningstar Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000136"
+  },
+  "GPS": {
+    "latitude": 35.4660512,
+    "longitude": 136.236802
+  },
+  "city": "Takatsuki",
+  "name": "COVID CENTER 6",
+  "type": "specialized center",
+  "address": "84 Center Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000137"
+  },
+  "GPS": {
+    "latitude": 22.2724243,
+    "longitude": 105.8804085
+  },
+  "city": "Phủ Thông",
+  "name": "Russell Medical Center",
+  "type": "hospital",
+  "address": "65 Larry Circle",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000138"
+  },
+  "GPS": {
+    "latitude": 7.44891,
+    "longitude": -71.304474
+  },
+  "city": "Santa Cruz de Guacas",
+  "name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
+  "type": "pharmacy",
+  "address": "6334 Mockingbird Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000139"
+  },
+  "GPS": {
+    "latitude": 43.1619639,
+    "longitude": 45.1982495
+  },
+  "city": "Bamut",
+  "name": "Bullock County Hospital",
+  "type": "hospital",
+  "address": "148 Dapin Place",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900013a"
+  },
+  "GPS": {
+    "latitude": 5.7179173,
+    "longitude": 7.0821162
+  },
+  "city": "Amaigbo",
+  "name": "Walker Baptist Medical Center",
+  "type": "hospital",
+  "address": "84809 Dunning Court",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900013b"
+  },
+  "GPS": {
+    "latitude": 46.8619132,
+    "longitude": 42.1175494
+  },
+  "city": "Orlovskiy",
+  "name": "Thomson Medical Centre",
+  "type": "pharmacy",
+  "address": "3 Forest Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900013c"
+  },
+  "GPS": {
+    "latitude": 59.406891,
+    "longitude": 18.0157421
+  },
+  "city": "Danderyd",
+  "name": "COVID CENTER 50",
+  "type": "specialized center",
+  "address": "44 Clove Park"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900013d"
+  },
+  "GPS": {
+    "latitude": 23.119924,
+    "longitude": 113.309317
+  },
+  "city": "Hengshitang",
+  "name": "CONCORD HEALTHCARE RETAIL PHARMACY",
+  "type": "pharmacy",
+  "address": "98 5th Road"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900013e"
+  },
+  "GPS": {
+    "latitude": 35.1654999,
+    "longitude": 45.9896078
+  },
+  "city": "Ḩalabjah",
+  "name": "North Baldwin Infirmary",
+  "type": "hospital",
+  "address": "68 Buhler Point",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900013f"
+  },
+  "GPS": {
+    "latitude": 38.7508367,
+    "longitude": -9.2843236
+  },
+  "city": "Tercena",
+  "name": "COVID CENTER 28",
+  "type": "specialized center",
+  "address": "6 Maywood Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000140"
+  },
+  "GPS": {
+    "latitude": 13.6868163,
+    "longitude": -89.1181849
+  },
+  "city": "Ilopango",
+  "name": "NATIONAL SKIN CENTRE (S) PTE LTD (PHARMACY)",
+  "type": "pharmacy",
+  "address": "55 Ryan Road"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000141"
+  },
+  "GPS": {
+    "latitude": 25.639488,
+    "longitude": 115.432374
+  },
+  "city": "Pangushan",
+  "name": "Mount Elizabeth Hospital",
+  "type": "pharmacy",
+  "address": "913 Mallard Center"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000142"
+  },
+  "GPS": {
+    "latitude": 33.8787981,
+    "longitude": 10.850791
+  },
+  "city": "Houmt Souk",
+  "name": "Marshall Medical Center South",
+  "type": "hospital",
+  "address": "31 Prairie Rose Plaza",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000143"
+  },
+  "GPS": {
+    "latitude": 14.2712301,
+    "longitude": -90.0375295
+  },
+  "city": "Quesada",
+  "name": "COVID CENTER 15",
+  "type": "specialized center",
+  "address": "07191 Rockefeller Hill"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000144"
+  },
+  "GPS": {
+    "latitude": 39.0427929,
+    "longitude": -9.193864
+  },
+  "city": "Ribaldeira",
+  "name": "ST LUKE'S HOSPITAL BLOCK A",
+  "type": "pharmacy",
+  "address": "05 Judy Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000145"
+  },
+  "GPS": {
+    "latitude": 41.5725857,
+    "longitude": -8.129315
+  },
+  "city": "Penelas",
+  "name": "COVID CENTER 5",
+  "type": "specialized center",
+  "address": "76 Nobel Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000146"
+  },
+  "GPS": {
+    "latitude": 21.428436,
+    "longitude": 110.869567
+  },
+  "city": "Miyang",
+  "name": "Pacific Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "79 5th Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000147"
+  },
+  "GPS": {
+    "latitude": 9.1505664,
+    "longitude": -11.3913379
+  },
+  "city": "Alikalia",
+  "name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
+  "type": "pharmacy",
+  "address": "067 Cottonwood Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000148"
+  },
+  "GPS": {
+    "latitude": 33.8989467,
+    "longitude": 35.4733996
+  },
+  "city": "Ra’s Bayrūt",
+  "name": "THE DENTAL PHARM",
+  "type": "pharmacy",
+  "address": "1029 Mcbride Park"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe9000149"
+  },
+  "GPS": {
+    "latitude": 57.6540663,
+    "longitude": 59.5033087
+  },
+  "city": "Visim",
+  "name": "Troy Regional Medical Center",
+  "type": "hospital",
+  "address": "5833 Namekagon Junction",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900014a"
+  },
+  "GPS": {
+    "latitude": 37.146294,
+    "longitude": 111.778818
+  },
+  "city": "Xiaoyi",
+  "name": "Jackson Medical Center",
+  "type": "hospital",
+  "address": "0 Atwood Street",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af4fe900014b"
+  },
+  "GPS": {
+    "latitude": 45.7039688,
+    "longitude": 5.9492762
+  },
+  "city": "Aix-les-Bains",
+  "name": "Lake Martin Community Hospital",
+  "type": "hospital",
+  "address": "183 Gale Crossing",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300012b"
+  },
+  "GPS": {
+    "latitude": -9.4456381,
+    "longitude": 159.9728999
+  },
+  "city": "Honiara",
+  "name": "COVID CENTER 10",
+  "type": "specialized center",
+  "address": "972 Hooker Alley"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300012c"
+  },
+  "GPS": {
+    "latitude": 57.227222,
+    "longitude": 29.161111
+  },
+  "city": "Vybor",
+  "name": "NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY)",
+  "type": "pharmacy",
+  "address": "9 Monica Drive"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300012d"
+  },
+  "GPS": {
+    "latitude": -34.6381227,
+    "longitude": -58.3787726
+  },
+  "city": "Brandsen",
+  "name": "Community Wellness Clinic Queenstown Pharmacy",
+  "type": "pharmacy",
+  "address": "5 Forest Run Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300012e"
+  },
+  "GPS": {
+    "latitude": 42.3890735,
+    "longitude": 47.9897691
+  },
+  "city": "Novokayakent",
+  "name": "NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY)",
+  "type": "pharmacy",
+  "address": "654 Talmadge Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300012f"
+  },
+  "GPS": {
+    "latitude": 33.5760112,
+    "longitude": 130.6627355
+  },
+  "city": "Hiratsuka",
+  "name": "Samuel Simmonds Memorial Hospital",
+  "type": "hospital",
+  "address": "4709 Coleman Parkway",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000130"
+  },
+  "GPS": {
+    "latitude": 39.0327543,
+    "longitude": -76.5517132
+  },
+  "city": "Annapolis",
+  "name": "St Vincent's St Clair",
+  "type": "hospital",
+  "address": "4088 Tennyson Court",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000131"
+  },
+  "GPS": {
+    "latitude": 29.606391,
+    "longitude": 112.320413
+  },
+  "city": "Tuanshansi",
+  "name": "National University Hospital - Kent Ridge Wing Pharmacy",
+  "type": "pharmacy",
+  "address": "761 Monica Road"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000132"
+  },
+  "GPS": {
+    "latitude": 21.4674584,
+    "longitude": -71.1389101
+  },
+  "city": "Cockburn Town",
+  "name": "Yavapai Regional Medical Center",
+  "type": "hospital",
+  "address": "606 Upham Drive",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000133"
+  },
+  "GPS": {
+    "latitude": 39.91983,
+    "longitude": 116.41571
+  },
+  "city": "Sihe",
+  "name": "COVID CENTER 54",
+  "type": "specialized center",
+  "address": "8 Prentice Point"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000134"
+  },
+  "GPS": {
+    "latitude": 10.752961,
+    "longitude": 122.49448
+  },
+  "city": "Abilay",
+  "name": "Tucson Medical Center",
+  "type": "hospital",
+  "address": "35 Steensland Alley",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000135"
+  },
+  "GPS": {
+    "latitude": -24.7762704,
+    "longitude": 25.4141193
+  },
+  "city": "Mosopa",
+  "name": "D C H Regional Medical Center",
+  "type": "hospital",
+  "address": "2 Merrick Road",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000136"
+  },
+  "GPS": {
+    "latitude": 37.646108,
+    "longitude": 120.477813
+  },
+  "city": "Fengkou",
+  "name": "Alaska Regional Hospital",
+  "type": "hospital",
+  "address": "8477 Rutledge Point",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000137"
+  },
+  "GPS": {
+    "latitude": 40.8153071,
+    "longitude": 21.39509
+  },
+  "city": "Próti",
+  "name": "Alchemy Pharmacy",
+  "type": "pharmacy",
+  "address": "1765 Namekagon Lane"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000138"
+  },
+  "GPS": {
+    "latitude": 40.04,
+    "longitude": -76.31
+  },
+  "city": "Lancaster",
+  "name": "Medical West",
+  "type": "hospital",
+  "address": "3816 Hooker Center",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000139"
+  },
+  "GPS": {
+    "latitude": 20.2258318,
+    "longitude": -74.1533563
+  },
+  "city": "Maisí",
+  "name": "COVID CENTER 22",
+  "type": "specialized center",
+  "address": "92892 Spenser Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300013a"
+  },
+  "GPS": {
+    "latitude": -33.326671,
+    "longitude": -60.2336692
+  },
+  "city": "Viale",
+  "name": "Monroe County Hospital",
+  "type": "hospital",
+  "address": "859 Holy Cross Way",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300013b"
+  },
+  "GPS": {
+    "latitude": 21.270702,
+    "longitude": 110.359368
+  },
+  "city": "Zhangyang",
+  "name": "COVID CENTER 47",
+  "type": "specialized center",
+  "address": "8 Sherman Pass"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300013c"
+  },
+  "GPS": {
+    "latitude": 59.3938804,
+    "longitude": 15.8607653
+  },
+  "city": "Kungsör",
+  "name": "Canyon Vista Medical Center",
+  "type": "hospital",
+  "address": "45451 Arkansas Way",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300013d"
+  },
+  "GPS": {
+    "latitude": 12.1299094,
+    "longitude": 7.6724456
+  },
+  "city": "Musawa",
+  "name": "J Paul Jones Hospital",
+  "type": "hospital",
+  "address": "0581 Reindahl Terrace",
+  "department": 7
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300013e"
+  },
+  "GPS": {
+    "latitude": 14.6741293,
+    "longitude": 120.5112907
+  },
+  "city": "Cabog",
+  "name": "COVID CENTER 57",
+  "type": "specialized center",
+  "address": "3 Springview Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af503300013f"
+  },
+  "GPS": {
+    "latitude": -8.3434104,
+    "longitude": 118.9819731
+  },
+  "city": "Oitui",
+  "name": "Flagstaff Medical Center",
+  "type": "hospital",
+  "address": "175 Loeprich Plaza",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5033000140"
+  },
+  "GPS": {
+    "latitude": 1.1322476,
+    "longitude": 104.0115689
+  },
+  "city": "Wairiang",
+  "name": "Prattville Baptist Hospital",
+  "type": "hospital",
+  "address": "19 Arizona Street",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000141"
+  },
+  "GPS": {
+    "latitude": 47.9195813,
+    "longitude": 106.9211984
+  },
+  "city": "Nart",
+  "name": "Tanner Medical Center-east Alabama",
+  "type": "hospital",
+  "address": "820 Calypso Trail",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000142"
+  },
+  "GPS": {
+    "latitude": 50.9422707,
+    "longitude": 37.8024687
+  },
+  "city": "Chernyanka",
+  "name": "COVID CENTER 40",
+  "type": "specialized center",
+  "address": "92 Warrior Road"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000143"
+  },
+  "GPS": {
+    "latitude": 42.239717,
+    "longitude": 27.776119
+  },
+  "city": "Kiten",
+  "name": "Bullock County Hospital",
+  "type": "hospital",
+  "address": "31032 Golden Leaf Drive",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000144"
+  },
+  "GPS": {
+    "latitude": 60.5848255,
+    "longitude": 27.7095936
+  },
+  "city": "Virojoki",
+  "name": "COVID CENTER 48",
+  "type": "specialized center",
+  "address": "81537 Arizona Street"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000145"
+  },
+  "GPS": {
+    "latitude": 35.910325,
+    "longitude": 14.424426
+  },
+  "city": "Mosta",
+  "name": "COVID CENTER 47",
+  "type": "specialized center",
+  "address": "43732 Cottonwood Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000146"
+  },
+  "GPS": {
+    "latitude": 50.9076315,
+    "longitude": 128.4136847
+  },
+  "city": "Belogorsk",
+  "name": "NHG Pharmacy (CCK Polyclinic)",
+  "type": "pharmacy",
+  "address": "4256 Northland Court"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000147"
+  },
+  "GPS": {
+    "latitude": -6.8852308,
+    "longitude": 106.9007656
+  },
+  "city": "Panineungan",
+  "name": "Farrer Park Pharmacy",
+  "type": "pharmacy",
+  "address": "858 Clemons Hill"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000148"
+  },
+  "GPS": {
+    "latitude": 26.085391,
+    "longitude": 119.583599
+  },
+  "city": "Langchi",
+  "name": "Bartlett Regional Hospital",
+  "type": "hospital",
+  "address": "773 Kingsford Place",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5033000149"
+  },
+  "GPS": {
+    "latitude": -8.4019855,
+    "longitude": 114.3163148
+  },
+  "city": "Bagorejo",
+  "name": "Airport Pharmacy",
+  "type": "pharmacy",
+  "address": "751 Schurz Park"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af503300014a"
+  },
+  "GPS": {
+    "latitude": -31.4561755,
+    "longitude": -64.2111608
+  },
+  "city": "Palpalá",
+  "name": "Russell Medical Center",
+  "type": "hospital",
+  "address": "1002 Elka Alley",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af503300014b"
+  },
+  "GPS": {
+    "latitude": -1.0616193,
+    "longitude": -46.7830109
+  },
+  "city": "Bragança",
+  "name": "COVID CENTER 56",
+  "type": "specialized center",
+  "address": "08 Bartillon Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000147"
+  },
+  "GPS": {
+    "latitude": 13.2805504,
+    "longitude": -87.1285725
+  },
+  "city": "El Puente",
+  "name": "SMITH PHARMACY PTE LTD",
+  "type": "pharmacy",
+  "address": "28 Butterfield Hill"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000148"
+  },
+  "GPS": {
+    "latitude": 56.5614229,
+    "longitude": 52.9958953
+  },
+  "city": "Malaya Purga",
+  "name": "NHG Pharmacy (CCK Polyclinic)",
+  "type": "pharmacy",
+  "address": "198 Forster Point"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000149"
+  },
+  "GPS": {
+    "latitude": 59.0572129,
+    "longitude": 12.6642819
+  },
+  "city": "Bengtsfors",
+  "name": "Walker Baptist Medical Center",
+  "type": "hospital",
+  "address": "2 Tennessee Plaza",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600014a"
+  },
+  "GPS": {
+    "latitude": 53.6785169,
+    "longitude": -7.2979911
+  },
+  "city": "Castlepollard",
+  "name": "Dekalb Regional Medical Center",
+  "type": "hospital",
+  "address": "9073 Shasta Road",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600014b"
+  },
+  "GPS": {
+    "latitude": -7.3559,
+    "longitude": 107.8034
+  },
+  "city": "Padasono",
+  "name": "COVID CENTER 1",
+  "type": "specialized center",
+  "address": "2712 Lunder Crossing"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600014c"
+  },
+  "GPS": {
+    "latitude": -1.4923925,
+    "longitude": -78.0024134
+  },
+  "city": "Puyo",
+  "name": "Princeton Baptist Medical Center",
+  "type": "hospital",
+  "address": "623 Hallows Avenue",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600014d"
+  },
+  "GPS": {
+    "latitude": -32.9127799,
+    "longitude": 17.9946667
+  },
+  "city": "Vredenburg",
+  "name": "Providence Kodiak Island Medical Ctr",
+  "type": "hospital",
+  "address": "4 Homewood Terrace",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600014e"
+  },
+  "GPS": {
+    "latitude": 15.552727,
+    "longitude": 48.516388
+  },
+  "city": "Bi’r Ḩāt",
+  "name": "Singapore General Hospital Pharmacy",
+  "type": "pharmacy",
+  "address": "466 Grayhawk Avenue"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600014f"
+  },
+  "GPS": {
+    "latitude": -8.3202794,
+    "longitude": 111.6362619
+  },
+  "city": "Bendoroto",
+  "name": "North Baldwin Infirmary",
+  "type": "hospital",
+  "address": "975 Tennessee Terrace",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000150"
+  },
+  "GPS": {
+    "latitude": 59.3573204,
+    "longitude": 16.4823589
+  },
+  "city": "Eskilstuna",
+  "name": "COVID CENTER 39",
+  "type": "specialized center",
+  "address": "7 Esch Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000151"
+  },
+  "GPS": {
+    "latitude": 22.948016,
+    "longitude": 113.366904
+  },
+  "city": "Shiqiao",
+  "name": "ALPS PHARMACY",
+  "type": "pharmacy",
+  "address": "8 Reinke Drive"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000152"
+  },
+  "GPS": {
+    "latitude": 42.8414484,
+    "longitude": 21.5766407
+  },
+  "city": "Medveđa",
+  "name": "Providence Alaska Medical Center",
+  "type": "hospital",
+  "address": "630 Bunker Hill Avenue",
+  "department": 4
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000153"
+  },
+  "GPS": {
+    "latitude": 50.6749519,
+    "longitude": 113.5905613
+  },
+  "city": "Dul’durga",
+  "name": "COVID CENTER 27",
+  "type": "specialized center",
+  "address": "5547 Anderson Terrace"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000154"
+  },
+  "GPS": {
+    "latitude": 40.846108,
+    "longitude": 14.2352339
+  },
+  "city": "Napoli",
+  "name": "SGH OUTPATIENT PHARMACY (BLK 3)",
+  "type": "pharmacy",
+  "address": "1998 Old Shore Street"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000155"
+  },
+  "GPS": {
+    "latitude": -7.2652612,
+    "longitude": 109.3575011
+  },
+  "city": "Palumbungan",
+  "name": "Stringfellow Memorial Hospital",
+  "type": "hospital",
+  "address": "477 Fallview Plaza",
+  "department": 3
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000156"
+  },
+  "GPS": {
+    "latitude": 8.475987,
+    "longitude": 47.3657603
+  },
+  "city": "Laascaanood",
+  "name": "Jack Hughston Memorial Hospital",
+  "type": "hospital",
+  "address": "096 Schiller Center",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000157"
+  },
+  "GPS": {
+    "latitude": 45.3180513,
+    "longitude": 42.846668
+  },
+  "city": "Svetlograd",
+  "name": "COVID CENTER 55",
+  "type": "specialized center",
+  "address": "275 Waubesa Point"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000158"
+  },
+  "GPS": {
+    "latitude": 42.362461,
+    "longitude": 20.8319248
+  },
+  "city": "Suva Reka",
+  "name": "COVID CENTER 26",
+  "type": "specialized center",
+  "address": "610 Sauthoff Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000159"
+  },
+  "GPS": {
+    "latitude": -4.3695455,
+    "longitude": 15.3950939
+  },
+  "city": "Masina",
+  "name": "Cullman Regional Medical Center",
+  "type": "hospital",
+  "address": "47093 Commercial Plaza",
+  "department": 5
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600015a"
+  },
+  "GPS": {
+    "latitude": -28.8953831,
+    "longitude": 27.9073244
+  },
+  "city": "Maputsoe",
+  "name": "COVID CENTER 29",
+  "type": "specialized center",
+  "address": "3 North Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600015b"
+  },
+  "GPS": {
+    "latitude": 7.9632405,
+    "longitude": 123.8751554
+  },
+  "city": "Tubod",
+  "name": "COVID CENTER 57",
+  "type": "specialized center",
+  "address": "703 Melby Place"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600015c"
+  },
+  "GPS": {
+    "latitude": 2.7991084,
+    "longitude": 44.0793911
+  },
+  "city": "Buur Gaabo",
+  "name": "Marion Regional Medical Center",
+  "type": "hospital",
+  "address": "0854 Manley Hill",
+  "department": 10
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600015d"
+  },
+  "GPS": {
+    "latitude": 1.504786,
+    "longitude": 103.82287
+  },
+  "city": "Permas",
+  "name": "Pharmacy A Changi General Hospital",
+  "type": "pharmacy",
+  "address": "6031 Tennyson Avenue"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600015e"
+  },
+  "GPS": {
+    "latitude": 14.7342524,
+    "longitude": 121.0702642
+  },
+  "city": "Esperanza",
+  "name": "COVID CENTER 19",
+  "type": "specialized center",
+  "address": "44648 Calypso Center"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af502600015f"
+  },
+  "GPS": {
+    "latitude": -10.5971,
+    "longitude": 121.8889
+  },
+  "city": "Parajara",
+  "name": "SGH Retail Pharmacy (Blk 4)",
+  "type": "pharmacy",
+  "address": "17 Orin Junction"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000160"
+  },
+  "GPS": {
+    "latitude": 23.2082857,
+    "longitude": 112.8295654
+  },
+  "city": "Fenglu",
+  "name": "COVID CENTER 57",
+  "type": "specialized center",
+  "address": "05399 Becker Court"
+},{
+  "_id": {
+    "$oid": "61b0ca15f6a0af5026000161"
+  },
+  "GPS": {
+    "latitude": 39.8768811,
+    "longitude": -8.9140418
+  },
+  "city": "Passagem",
+  "name": "Pharmacy Services Centre NHG (Blk 9)",
+  "type": "pharmacy",
+  "address": "551 Marcy Parkway"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000162"
+  },
+  "GPS": {
+    "latitude": 46.4979131,
+    "longitude": 15.6702113
+  },
+  "city": "Rogoza",
+  "name": "KK Outpatient Pharmacy",
+  "type": "pharmacy",
+  "address": "90209 Autumn Leaf Plaza"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000163"
+  },
+  "GPS": {
+    "latitude": 30.9048784,
+    "longitude": 75.8332947
+  },
+  "city": "Dolod",
+  "name": "Russell Medical Center",
+  "type": "hospital",
+  "address": "143 Bluestem Center",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000164"
+  },
+  "GPS": {
+    "latitude": 9.0072301,
+    "longitude": 125.2122777
+  },
+  "city": "Kibonsod",
+  "name": "COVID CENTER 15",
+  "type": "specialized center",
+  "address": "71 3rd Lane"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000165"
+  },
+  "GPS": {
+    "latitude": 31.5977,
+    "longitude": 118.45323
+  },
+  "city": "Dongjiang Matoukou",
+  "name": "Southeast Alabama Medical Center",
+  "type": "hospital",
+  "address": "5 Melby Street",
+  "department": 1
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000166"
+  },
+  "GPS": {
+    "latitude": 48.1181855,
+    "longitude": 38.4585264
+  },
+  "city": "Stizhkivs’ke",
+  "name": "Bullock County Hospital",
+  "type": "hospital",
+  "address": "7 Barnett Hill",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000167"
+  },
+  "GPS": {
+    "latitude": -15.66758,
+    "longitude": -72.534439
+  },
+  "city": "Viraco",
+  "name": "East Alabama Medical Center",
+  "type": "hospital",
+  "address": "73 Graceland Point",
+  "department": 8
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000168"
+  },
+  "GPS": {
+    "latitude": 40.7553689,
+    "longitude": -8.6455126
+  },
+  "city": "Monte",
+  "name": "Clay County Hospital",
+  "type": "hospital",
+  "address": "8 Trailsway Pass",
+  "department": 6
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af5026000169"
+  },
+  "GPS": {
+    "latitude": 1.6054402,
+    "longitude": 32.8084496
+  },
+  "city": "Amolatar",
+  "name": "Lakeland Community Hospital",
+  "type": "hospital",
+  "address": "2 Lake View Alley",
+  "department": 2
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af502600016a"
+  },
+  "GPS": {
+    "latitude": -19.3352322,
+    "longitude": 30.1791357
+  },
+  "city": "Lalapanzi",
+  "name": "Alexandra Hospital Retail Pharmacy",
+  "type": "pharmacy",
+  "address": "65 Randy Circle"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af502600016b"
+  },
+  "GPS": {
+    "latitude": -7.3733703,
+    "longitude": 108.2822389
+  },
+  "city": "Gunajaya",
+  "name": "Tucson Medical Center",
+  "type": "hospital",
+  "address": "5 Corry Crossing",
+  "department": 9
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af502600016c"
+  },
+  "GPS": {
+    "latitude": 51.5487433,
+    "longitude": -1.7880953
+  },
+  "city": "Swindon",
+  "name": "Pacific Pharmacy Pte Ltd",
+  "type": "pharmacy",
+  "address": "69 Dunning Court"
+},{
+  "_id": {
+    "$oid": "61b0ca16f6a0af502600016d"
+  },
+  "GPS": {
+    "latitude": 40.0158487,
+    "longitude": 116.4551375
+  },
+  "city": "Laiguangying",
+  "name": "PARKWAY EAST HOSPITAL PHARMACY",
+  "type": "pharmacy",
+  "address": "48 Trailsway Court"
 }]
