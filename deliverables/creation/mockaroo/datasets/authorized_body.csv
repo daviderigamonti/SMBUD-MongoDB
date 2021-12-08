@@ -1,271 +1,271 @@
 key,_id,GPS.latitude,GPS.longitude,city,name,type,address,department
-1,61b07833fc13ae0e32000172,15.226768,102.496025,Phimai,Farrer Park Pharmacy,pharmacy,53416 Delladonna Place,
-2,61b07833fc13ae0e32000173,-6.3267969,107.2932396,Sukaharja,Fairbanks Memorial Hospital,hospital,4313 Pine View Point,8
-3,61b07833fc13ae0e32000174,40.6918277,20.9424673,Progër,KK Outpatient Pharmacy,pharmacy,007 Delaware Crossing,
-4,61b07833fc13ae0e32000175,10.5922194,123.4845632,Calatrava,Athens Limestone Hospital,hospital,45453 Mitchell Court,9
-5,61b07833fc13ae0e32000176,17.1390992,102.9715346,Ban Phan Don,NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY),pharmacy,4455 Carberry Pass,
-6,61b07833fc13ae0e32000177,10.2603809,13.2605763,Mubi,COVID CENTER 26,specialized center,776 Stone Corner Place,
-7,61b07833fc13ae0e32000178,-6.4045182,106.8341509,Jami,Tan Tock Seng Hospital (Outpatient & Retail Pharmacy),pharmacy,5848 Welch Drive,
-8,61b07833fc13ae0e32000179,57.5384659,25.4263618,Valmiera,SINGHEALTH POLY-OUTRAM,pharmacy,89 Waubesa Court,
-9,61b07833fc13ae0e3200017a,-7.55,111.116667,Balong,COVID CENTER 44,specialized center,27 Spaight Point,
-10,61b07833fc13ae0e3200017b,-7.9211147,111.4946618,Gandu,Citizens Baptist Medical Center,hospital,8162 Columbus Place,8
-11,61b07833fc13ae0e3200017c,59.2420906,18.1015207,Kristinehamn,Canyon Vista Medical Center,hospital,5393 Main Place,8
-12,61b07833fc13ae0e3200017d,35.1899597,25.7164166,Áyios Nikólaos,Northeast Alabama Regional Medical Center,hospital,2378 Sunnyside Hill,3
-13,61b07833fc13ae0e3200017e,51.8971298,17.7805434,Pleszew,Ketchikan Medical Center,hospital,00 Esch Pass,9
-14,61b07833fc13ae0e3200017f,55.0356736,23.5860512,Vilkija,COVID CENTER 35,specialized center,1 Glacier Hill Hill,
-15,61b07833fc13ae0e32000180,-9.6551739,124.2699432,Tutem,Verde Valley Medical Center,hospital,701 Butternut Center,9
-16,61b07833fc13ae0e32000181,39.9990626,-83.0173386,Columbus,Stringfellow Memorial Hospital,hospital,9 Garrison Center,10
-17,61b07833fc13ae0e32000182,-15.67164,-74.536774,Yauca,Cullman Regional Medical Center,hospital,839 Forest Dale Street,2
-18,61b07833fc13ae0e32000183,60.1946148,24.9584208,Pernå,NATIONAL HEART CENTRE PHARMACY,pharmacy,6 Eagan Park,
-19,61b07833fc13ae0e32000184,36.6085381,44.5238693,Rāwandūz,Specialist Compounding Pharmacy Pte Ltd,pharmacy,5 Sheridan Parkway,
-20,61b07833fc13ae0e32000185,40.0480392,23.4134501,Kassándreia,COVID CENTER 55,specialized center,4512 Bashford Hill,
-21,61b07833fc13ae0e32000186,2.0454995,100.6365483,Rantaupanjangkiri,Shoals Hospital,hospital,882 Stuart Point,2
-22,61b07833fc13ae0e32000187,51.669945,16.5376529,Góra,COVID CENTER 7,specialized center,13223 Arapahoe Center,
-23,61b07833fc13ae0e32000188,33.157445,106.834805,Xinjiezi,MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY,pharmacy,0 Arkansas Avenue,
-24,61b07833fc13ae0e32000189,14.8572534,120.6213379,Malusac,COVID CENTER 21,specialized center,77 Pawling Crossing,
-25,61b07833fc13ae0e3200018a,9.4362547,123.1893864,Silab,COVID CENTER 45,specialized center,946 Forster Way,
-26,61b07833fc13ae0e3200018b,-6.3398714,108.2970692,Sindang,COVID CENTER 6,specialized center,8655 Browning Crossing,
-27,61b07833fc13ae0e3200018c,31.520703,120.270218,Lihu,COVID CENTER 31,specialized center,739 Melvin Terrace,
-28,61b07833fc13ae0e3200018d,-7.698725,113.8465758,Pasirputih,Washington County Hospital,hospital,1311 Schlimgen Point,1
-29,61b07833fc13ae0e3200018e,34.341574,108.93977,Xi’an,NATIONAL HEART CENTRE PHARMACY,pharmacy,74 Surrey Lane,
-30,61b07833fc13ae0e3200018f,30.5911589,50.234745,Behbahān,KK Emergency Pharmacy,pharmacy,57 Redwing Hill,
-31,61b07833fc13ae0e32000190,40.9392676,46.3748931,Qırmızı Samux,COVID CENTER 32,specialized center,09536 Melody Way,
-32,61b07833fc13ae0e32000191,13.4945205,102.2776838,Khlong Hat,Jackson Medical Center,hospital,01712 Heath Lane,9
-33,61b07833fc13ae0e32000192,15.9858807,120.5721737,Urdaneta,Providence Hospital,hospital,91 Magdeline Drive,7
-34,61b07833fc13ae0e32000193,31.926481,35.236911,Baytīn,COVID CENTER 45,specialized center,50993 Comanche Hill,
-35,61b07833fc13ae0e32000194,17.7177253,102.1175404,Nam Som,D C H Regional Medical Center,hospital,10 Dixon Lane,1
-36,61b07833fc13ae0e32000195,-7.5629468,111.4559084,Tebon,Mount Alvernia Hospital (Main Pharmacy),pharmacy,74999 Miller Court,
-37,61b07833fc13ae0e32000196,15.1048617,120.9216776,Mapaniqui,Samuel Simmonds Memorial Hospital,hospital,429 Armistice Crossing,9
-38,61b07833fc13ae0e32000197,30.761853,117.007039,Liantan,COVID CENTER 15,specialized center,42 Dottie Trail,
-39,61b07833fc13ae0e32000198,41.9986907,21.4874715,Čair,COVID CENTER 21,specialized center,68 Talisman Hill,
-40,61b07833fc13ae0e32000199,48.8959487,2.2679278,Neuilly-sur-Seine,COVID CENTER 49,specialized center,53 Elka Street,
-41,61b07833fc13ae0e3200019a,7.0389957,126.4497814,Tarragona,Northeast Alabama Regional Medical Center,hospital,068 Kinsman Crossing,3
-42,61b07833fc13ae0e3200019b,5.87568,121.29146,Kanlagay,CGH Pharmacy B,pharmacy,23 Maryland Point,
-43,61b07833fc13ae0e3200019c,41.7047388,24.3697976,Devin,COVID CENTER 18,specialized center,87 Golf View Avenue,
-44,61b07833fc13ae0e3200019d,38.0515795,-87.6876112,Evansville,Scottsdale Osborn Medical Center,hospital,048 Cambridge Place,1
-45,61b07833fc13ae0e3200019e,14.6100657,121.0078432,New Cebu,COVID CENTER 4,specialized center,6724 Swallow Hill,
-46,61b07833fc13ae0e3200019f,40.3258678,23.9813901,Ouranoupolis,Wrangell Medical Center,hospital,99 Becker Point,5
-47,61b07833fc13ae0e320001a0,26.641315,100.222545,Baisha,Alchemy Pharmacy,pharmacy,8 Mcbride Parkway,
-48,61b07833fc13ae0e320001a1,-11.748639,-75.4854472,Pancan,WELCIA-BHG LOT ONE,pharmacy,92021 Nelson Court,
-49,61b07833fc13ae0e320001a2,-23.351784,-47.6931718,Iperó,COVID CENTER 34,specialized center,810 Helena Road,
-50,61b07833fc13ae0e320001a3,24.3520171,116.6930225,Hetou,COVID CENTER 21,specialized center,34 Lillian Plaza,
-51,61b07833fc13ae0e320001a4,56.3615314,41.0836902,Novki,Alaska Native Medical Center,hospital,3 Melvin Road,3
-52,61b07833fc13ae0e320001a5,-8.605,122.743,Watubuku,MT ALVERNIA HOSPITAL RETAIL PHARMACY,pharmacy,2 Farwell Terrace,
-53,61b07833fc13ae0e320001a6,42.060385,120.665667,Loujiadian,COVID CENTER 11,specialized center,030 Nelson Junction,
-54,61b07833fc13ae0e320001a7,22.919228,115.652151,Liufeng,Citizens Baptist Medical Center,hospital,81350 Browning Plaza,8
-55,61b07833fc13ae0e320001a8,24.945573,114.030161,Shensuo,COVID CENTER 43,specialized center,64450 Spenser Road,
-56,61b07833fc13ae0e320001a9,31.364902,108.249509,Gaoqiao,MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY,pharmacy,55287 Swallow Place,
-57,61b07833fc13ae0e320001aa,14.6965,-87.578697,Jamalteca,University Of Alabama Hospital,hospital,631 Melrose Alley,3
-58,61b07833fc13ae0e320001ab,-10.333333,-77.45,Congas,Cullman Regional Medical Center,hospital,6011 Lukken Parkway,3
-59,61b07833fc13ae0e320001ac,29.234232,116.835701,Youcheng,COVID CENTER 53,specialized center,7 Coleman Place,
-60,61b07833fc13ae0e320001ad,42.3604802,-71.0590624,Boston,COVID CENTER 20,specialized center,60731 Prairie Rose Circle,
-61,61b07833fc13ae0e320001ae,25.63273,118.980277,Zhuangbian,COVID CENTER 23,specialized center,56 Graedel Pass,
-62,61b07833fc13ae0e320001af,-9.7239549,124.272721,Obesi,Jurong Medical Centre Pharmacy,pharmacy,41 David Crossing,
-63,61b07833fc13ae0e320001b0,39.193073,112.865891,Yanmen,Mobile Infirmary Medical Center,hospital,27746 Kenwood Pass,1
-64,61b07833fc13ae0e320001b1,23.131797,113.407143,Huangcun,Amber Compounding Pharmacy Pte Ltd,pharmacy,42814 Florence Street,
-65,61b07833fc13ae0e320001b2,-40.6607937,-72.6131562,Puyehue,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,2 Annamark Crossing,
-66,61b07833fc13ae0e320001b3,-13.1612425,-74.2152331,Conchopata,WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA),pharmacy,625 Little Fleur Court,
-67,61b07833fc13ae0e320001b4,-33.4442688,-70.7233493,Lo Prado,Princeton Pharmacy (S) Pte Ltd,pharmacy,960 Arrowood Crossing,
-68,61b07833fc13ae0e320001b5,58.0312993,38.6043668,Rybinsk,COVID CENTER 35,specialized center,77 Northwestern Point,
-69,61b07833fc13ae0e320001b6,29.3738721,71.6934843,Yazman,Healing Hub @ Ang Mo Kio - Thye Hua Kwan Hospital,pharmacy,873 Westend Circle,
-70,61b07833fc13ae0e320001b7,43.1555152,19.1226018,Žabljak,,,852 Forest Dale Lane,
-71,61b07833fc13ae0e320001b8,40.9447008,-7.3883126,Antas,Tanner Medical Center-east Alabama,hospital,1 Lyons Center,5
-72,61b07833fc13ae0e320001b9,-8.1924285,112.7011258,Mentaraman Satu,St. Mary's Hospital,hospital,30 Portage Court,4
-73,61b07833fc13ae0e320001ba,-7.0379245,108.4187029,Sakerta Timur,Georgiana Medical Center,hospital,409 Everett Pass,6
-74,61b07833fc13ae0e320001bb,21.850061,111.197459,Shipaidong,J Paul Jones Hospital,hospital,284 Summer Ridge Court,8
-75,61b07833fc13ae0e320001bc,14.3355782,-87.6457807,Yarumela,COVID CENTER 53,specialized center,45 Oak Junction,
-76,61b07833fc13ae0e320001bd,37.513068,122.120419,Waihai,National University Hospital (s) Pte Ltd (Pharmacy @ NCIS),pharmacy,9 Kedzie Pass,
-77,61b07833fc13ae0e320001be,9.3295342,124.6133794,Balingoan,Vaughan Regional Medical Center Parkway Campus,hospital,85167 Waxwing Drive,3
-78,61b07833fc13ae0e320001bf,53.1294318,87.4792556,Novokuz’minki,Princeton Baptist Medical Center,hospital,26 Del Mar Alley,9
-79,61b07833fc13ae0e320001c0,23.1833095,113.358579,Xomong,COVID CENTER 40,specialized center,025 Helena Road,
-80,61b07833fc13ae0e320001c1,-0.819175,120.167297,Parigi,COVID CENTER 39,specialized center,43 Melrose Park,
-81,61b07833fc13ae0e320001c2,44.8245862,19.771335,Platičevo,Raffles Health Holland V,pharmacy,9 1st Point,
-82,61b07833fc13ae0e320001c3,-16.5062723,-151.7495305,Vaitape,Marshall Medical Center South,hospital,08 Center Street,1
-83,61b07833fc13ae0e320001c4,34.9565646,135.7023712,Mukō,WELCIA-BHG LOT ONE,pharmacy,40 Laurel Center,
-84,61b07833fc13ae0e320001c5,-17.4328946,-41.9989718,Novo Cruzeiro,Floyd Cherokee Medical Center,hospital,0 Crowley Alley,4
-85,61b07833fc13ae0e320001c6,35.1083109,136.1458137,Ōmihachiman,COVID CENTER 15,specialized center,7 Graceland Plaza,
-86,61b07833fc13ae0e320001c7,10.729632,124.795761,Kilim,Banner - University Medical Center Phoenix,hospital,0756 Cambridge Parkway,7
-87,61b07833fc13ae0e320001c8,-23.047822,-50.068456,Cambará,COVID CENTER 14,specialized center,2792 Corry Pass,
-88,61b07833fc13ae0e320001c9,38.1162631,140.8585745,Asahi,SINGAPORE NATIONAL EYE CENTRE PTE LTD,pharmacy,5 Moland Crossing,
-89,61b07833fc13ae0e320001ca,30.6907753,49.8240194,Aghajari,COVID CENTER 57,specialized center,41075 Park Meadow Point,
-90,61b07833fc13ae0e320001cb,37.1597899,-8.0359507,Valtelheiro,St Vincent's Chilton,hospital,539 International Center,3
-91,61b07833fc13ae0e320001cc,19.5531189,-98.8755659,San Juan,GRACE HEALTHCARE,pharmacy,2 Utah Circle,
-92,61b07833fc13ae0e320001cd,29.9193861,73.0747872,Chishtiān Mandi,Decatur Morgan Hospital-decatur Campus,hospital,3 Morrow Pass,8
-93,61b07833fc13ae0e320001ce,25.66788,110.547966,Baitao,CONCORD HEALTHCARE RETAIL PHARMACY,pharmacy,43 Ridgeview Circle,
-94,61b07833fc13ae0e320001cf,34.21422,69.10026,Muḩammad Āghah Wuluswālī,L V Stabler Memorial Hospital,hospital,3 Monument Point,9
-95,61b07833fc13ae0e320001d0,35.6046794,139.730028,Ōi,Marshall Medical Center South,hospital,3258 Crescent Oaks Street,10
-96,61b07833fc13ae0e320001d1,18.9384732,-70.407981,Quisqueya,Andalusia Health,hospital,97 Meadow Ridge Center,2
-97,61b07833fc13ae0e320001d2,6.961969,-75.4190689,Yarumal,PARKWAY EAST HOSPITAL PHARMACY,pharmacy,5 1st Park,
-98,61b07833fc13ae0e320001d3,-7.2558406,112.525711,Kemendung,COVID CENTER 35,specialized center,7 Crest Line Junction,
-99,61b07833fc13ae0e320001d4,-10.5792295,-37.745028,Pinhão,Dale Medical Center,hospital,72 Caliangt Crossing,7
-100,61b07833fc13ae0e320001d5,30.63963,114.385538,Qingshan,Specialist Compounding Pharmacy Pte Ltd,pharmacy,6797 Kingsford Crossing,
-101,61b07833fc13ae0e320001d6,36.6919385,38.9511518,Tall Abyaḑ,Raffles Health Holland V,pharmacy,8090 Emmet Way,
-102,61b07833fc13ae0e320001d7,4.6096768,101.1064003,Ipoh,Clinic B Pharmacy,pharmacy,58 Randy Avenue,
-103,61b07833fc13ae0e320001d8,41.0394198,-8.5359207,Lavadorinhos,SGH OUTPATIENT PHARMACY (BLK 3),pharmacy,82 Derek Trail,
-104,61b07833fc13ae0e320001d9,56.071894,37.0625324,Povarovo,St. Mary's Hospital,hospital,59182 Arapahoe Park,8
-105,61b07833fc13ae0e320001da,13.7876294,101.3885001,Phanom Sarakham,COVID CENTER 47,specialized center,08 Orin Point,
-106,61b07833fc13ae0e320001db,18.714928,110.401814,Dong’ao,Nishino Pharmacy (Takashimaya),pharmacy,3825 Kinsman Center,
-107,61b07833fc13ae0e320001dc,55.1936526,75.9684541,Tatarsk,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,82 Moose Parkway,
-108,61b07833fc13ae0e320001dd,55.5192748,26.3223328,Dūkštas,Clinic B Pharmacy,pharmacy,418 John Wall Junction,
-109,61b07833fc13ae0e320001de,37.444498,114.498761,Lincheng,Monroe County Hospital,hospital,71987 Bartelt Road,10
-110,61b07833fc13ae0e320001df,14.5396049,99.9970034,Suphan Buri,COVID CENTER 24,specialized center,42 Algoma Alley,
-111,61b07833fc13ae0e320001e0,21.355574,106.8355372,An Châu,Choctaw General Hospital,hospital,4032 Haas Alley,1
-112,61b07833fc13ae0e320001e1,25.748455,116.747009,Gechuan,Mizell Memorial Hospital,hospital,008 Comanche Hill,2
-113,61b07833fc13ae0e320001e2,23.028956,113.143441,Nanwai,Jurong Medical Centre Pharmacy,pharmacy,22027 Meadow Valley Center,
-114,61b07833fc13ae0e320001e3,29.295,47.93306,Ar Rābiyah,Fairbanks Memorial Hospital,hospital,24976 Shelley Terrace,9
-115,61b07834fc13ae0e320001e4,43.0429124,1.9038837,Lyon,ALPS PHARMACY,pharmacy,13 Vernon Hill,
-116,61b07834fc13ae0e320001e5,53.175543,21.296838,Baranowo,COVID CENTER 22,specialized center,3420 Bashford Way,
-117,61b07834fc13ae0e320001e6,13.1782149,30.2166519,El Obeid,Crenshaw Community Hospital,hospital,32 Schurz Alley,1
-118,61b07834fc13ae0e320001e7,-3.9318403,114.9754175,Jorong,COVID CENTER 5,specialized center,8 Stone Corner Junction,
-119,61b07834fc13ae0e320001e8,25.5020583,117.3701447,Huhe,COVID CENTER 8,specialized center,28990 Jana Junction,
-120,61b07834fc13ae0e320001e9,10.2995028,-61.175278,Rio Claro,COVID CENTER 42,specialized center,9748 Bluestem Point,
-121,61b07834fc13ae0e320001ea,13.7754325,100.5127381,Dusit,COVID CENTER 24,specialized center,49 Manley Terrace,
-122,61b07834fc13ae0e320001eb,37.56702,68.44668,Gharavŭtí,Clay County Hospital,hospital,25 Homewood Crossing,4
-123,61b07834fc13ae0e320001ec,27.5828698,85.5097226,Panaoti,COVID CENTER 25,specialized center,83306 Forest Run Street,
-124,61b07834fc13ae0e320001ed,37.1845893,136.9002781,Kashima,Maniilaq Health Center,hospital,7 Colorado Terrace,6
-125,61b07834fc13ae0e320001ee,55.9015576,52.3550104,Mendeleyevsk,COVID CENTER 29,specialized center,2583 Northfield Trail,
-126,61b07834fc13ae0e320001ef,38.05106,114.463347,Xinhua,MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE),pharmacy,399 Waywood Junction,
-127,61b07834fc13ae0e320001f0,39.2674443,141.8622297,Kamaishi,COVID CENTER 55,specialized center,17855 Sommers Terrace,
-128,61b07834fc13ae0e320001f1,49.6470903,18.1621577,Příbor,Shelby Baptist Medical Center,hospital,8 Sunfield Place,5
-129,61b07834fc13ae0e320001f2,13.5616918,-15.8304975,No Kunda,Russell Medical Center,hospital,763 Drewry Plaza,1
-130,61b07834fc13ae0e320001f3,-6.8907337,111.2785407,Gaplokan,Providence Valdez Medical Center,hospital,172 Ryan Crossing,7
-131,61b07834fc13ae0e320001f4,-22.790968,-43.369805,São João de Meriti,MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY,pharmacy,24 Raven Alley,
-132,61b07834fc13ae0e320001f5,13.6954096,100.5127381,Bang Kho Laem,Mount Elizabeth Hospital,pharmacy,6515 Macpherson Drive,
-133,61b07834fc13ae0e320001f6,-10.37092,-77.492203,Copa,Mount Elizabeth Hospital,pharmacy,26589 Quincy Hill,
-134,61b07834fc13ae0e320001f7,35.904442,115.110483,Jindou,SINGHEALTH POLY-OUTRAM,pharmacy,2355 Logan Parkway,
-135,61b07834fc13ae0e320001f8,50.0957911,16.984906,Jindřichov,Clinic B Pharmacy,pharmacy,57323 Summer Ridge Parkway,
-136,61b07834fc13ae0e320001f9,39.6611469,20.1789757,Konispol,COVID CENTER 8,specialized center,304 Pawling Drive,
-137,61b07834fc13ae0e320001fa,31.7751564,117.2102637,Dartang,Highlands Medical Center,hospital,02 Summer Ridge Center,4
-138,61b07834fc13ae0e320001fb,53.180879,17.0835566,Wysoka,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,9196 Moland Park,
-139,61b07834fc13ae0e320001fc,31.9339724,118.670339,Hongmiao,SINGHEALTH POLY-OUTRAM,pharmacy,07 Express Center,
-140,61b07834fc13ae0e320001fd,-7.3225,107.86,Cikuray,Russellville Hospital,hospital,7 Portage Trail,3
-141,61b07834fc13ae0e320001fe,49.9466816,18.8244645,Radostowice,Baptist Medical Center East,hospital,59 Manley Junction,7
-142,61b07834fc13ae0e320001ff,52.199771,21.14523,Wawer,COVID CENTER 28,specialized center,76982 Miller Way,
-143,61b07834fc13ae0e32000200,14.6404686,120.9915504,Cabatuan,Maniilaq Health Center,hospital,815 Kensington Pass,4
-144,61b07834fc13ae0e32000201,56.0764809,88.6780253,Tisul’,Marion Regional Medical Center,hospital,52 Beilfuss Circle,2
-145,61b07834fc13ae0e32000202,39.9041999,116.4073963,Baijiang,COVID CENTER 5,specialized center,9980 Glendale Avenue,
-146,61b07834fc13ae0e32000203,50.2837307,2.7425682,Arras,Jurong Community Hospital Pharmacy,pharmacy,34 Jenna Junction,
-147,61b07834fc13ae0e32000204,-15.8272432,-50.265662,Goiás,Vaughan Regional Medical Center Parkway Campus,hospital,5318 Grover Avenue,9
-148,61b07834fc13ae0e32000205,43.4945737,5.8978018,Paris 04,COVID CENTER 19,specialized center,688 Texas Terrace,
-149,61b07834fc13ae0e32000206,-10.9564306,-76.933337,Paccho,St Vincents Blount,hospital,89 Steensland Street,9
-150,61b07834fc13ae0e32000207,54.2331,-125.7533,Burns Lake,KK Emergency Pharmacy,pharmacy,338 Randy Parkway,
-151,61b07834fc13ae0e32000208,59.9251831,10.8203114,Oslo,Mizell Memorial Hospital,hospital,63 Daystar Place,7
-152,61b07834fc13ae0e32000209,41.65041,59.9164,Tagta,COVID CENTER 5,specialized center,86389 Del Sol Plaza,
-153,61b07834fc13ae0e3200020a,59.0541421,12.695366,Åmål,COVID CENTER 25,specialized center,1 Carpenter Center,
-154,61b07834fc13ae0e3200020b,41.5728211,23.7282719,Gotse Delchev,Medical Center Barbour,hospital,3 Gina Place,8
-155,61b07834fc13ae0e3200020c,31.95402,35.1624,Az Zaytūnīyah,COVID CENTER 16,specialized center,34588 Kinsman Point,
-156,61b07834fc13ae0e3200020d,55.61667,23.18333,Tytuvėnėliai,Mount Alvernia Hospital (Main Pharmacy),pharmacy,85 Mallard Place,
-157,61b07834fc13ae0e3200020e,41.0874823,-7.9582137,Mosteiro,Community Hospital Inc,hospital,2893 American Court,2
-158,61b07834fc13ae0e3200020f,34.329605,108.708991,Xianyan,St Joseph's Hospital,hospital,0397 Fallview Circle,5
-159,61b07834fc13ae0e32000210,10.0192191,-69.2519936,Cabudare,COVID CENTER 57,specialized center,0 Graedel Junction,
-160,61b07834fc13ae0e32000211,55.6717773,12.5605145,København,Khoo Teck Puat Hospital Pharmacy,pharmacy,2299 Lawn Hill,
-161,61b07834fc13ae0e32000212,41.000673,123.2861901,Xiadahe,Maricopa Medical Center,hospital,88 Mifflin Lane,10
-162,61b07834fc13ae0e32000213,40.4529251,49.7333235,Khirdalan,COVID CENTER 58,specialized center,6429 Roxbury Court,
-163,61b07834fc13ae0e32000214,42.0256471,24.1082622,Rakitovo,Alexandra Hospital Retail Pharmacy,pharmacy,15 Park Meadow Drive,
-164,61b07834fc13ae0e32000215,-12.5444681,-41.8402054,Seabra,Floyd Cherokee Medical Center,hospital,4263 Welch Park,1
-165,61b07834fc13ae0e32000216,48.73808,-69.08478,Forestville,Canyon Vista Medical Center,hospital,908 Colorado Place,4
-166,61b07834fc13ae0e32000217,41.1645867,-7.7937927,Peso da Régua,COVID CENTER 30,specialized center,06 Oxford Drive,
-167,61b07834fc13ae0e32000218,58.3958615,13.8536226,Mariestad,Dekalb Regional Medical Center,hospital,1155 Toban Trail,1
-168,61b07834fc13ae0e32000219,8.4677773,-82.3912892,El Quiteño,University Of S A Children's And Women's Hos,hospital,36640 School Alley,7
-169,61b07834fc13ae0e3200021a,49.0285391,2.3236877,Domont,St Joseph's Hospital,hospital,4 Merry Road,3
-170,61b07834fc13ae0e3200021b,37.943121,115.217658,Xinji,Hill Hospital Of Sumter County,hospital,0006 Meadow Ridge Way,1
-171,61b07834fc13ae0e3200021c,52.1124967,26.0634602,Pinsk,COVID CENTER 56,specialized center,18312 Texas Point,
-172,61b07834fc13ae0e3200021d,26.1218315,32.4715312,Dishnā,Northeast Alabama Regional Medical Center,hospital,9 Badeau Road,7
-173,61b07834fc13ae0e3200021e,41.2378592,-8.5349198,Alfena,D C H Regional Medical Center,hospital,24 Mayfield Park,9
-174,61b07834fc13ae0e3200021f,-9.6593944,120.2761574,Kampungraja,ST ANDREW'S COMMUNITY HOSPITAL PHARMACY,pharmacy,133 Toban Alley,
-175,61b07834fc13ae0e32000220,-7.5450262,111.6556388,Krajan,Amber Compounding Pharmacy Pte Ltd,pharmacy,98295 Southridge Trail,
-176,61b07834fc13ae0e32000221,42.785791,124.111099,Changtu,Cordova Community Medical Center,hospital,0288 Elmside Road,6
-177,61b07834fc13ae0e32000222,-22.6053393,-46.914966,Santo Antônio de Posse,COVID CENTER 1,specialized center,17751 Green Pass,
-178,61b07834fc13ae0e32000223,-7.6426348,112.7032945,Pandean,COVID CENTER 39,specialized center,31015 Sutteridge Road,
-179,61b07834fc13ae0e32000224,41.11023,20.0866554,Elbasan,COVID CENTER 8,specialized center,61 Express Parkway,
-180,61b07834fc13ae0e32000225,38.2792524,111.6631302,Xiangyanglu,Northeast Alabama Regional Medical Center,hospital,02395 Longview Plaza,5
-181,61b07834fc13ae0e32000226,30.019858,122.106773,Dingzhai,Verde Valley Medical Center,hospital,07199 Autumn Leaf Junction,5
-182,61b07834fc13ae0e32000227,44.521785,125.72862,Dehui,Pharmacy Services Centre NHG (Blk 9),pharmacy,92630 Lyons Trail,
-183,61b07834fc13ae0e32000228,15.0410586,120.0745042,Bangad,South Peninsula Hospital,hospital,03339 Stuart Center,8
-184,61b07834fc13ae0e32000229,36.0932201,139.4440586,Kōnosu,PARKWAY EAST HOSPITAL PHARMACY,pharmacy,61562 Swallow Way,
-185,61b07834fc13ae0e3200022a,41.4495777,-8.3894249,Vermil,Grandview Medical Center,hospital,024 Manitowish Avenue,3
-186,61b07834fc13ae0e3200022b,41.3015266,-8.5820391,Vilares,COVID CENTER 14,specialized center,15 Fremont Alley,
-187,61b07834fc13ae0e3200022c,33.001096,106.91786,Xieshui,NHG Pharmacy (CCK Polyclinic),pharmacy,881 Comanche Pass,
-188,61b07834fc13ae0e3200022d,1.5245894,110.3127541,Timurlorong,Jackson Medical Center,hospital,6477 Fairfield Park,1
-189,61b07834fc13ae0e3200022e,47.6593594,-52.7383086,Torbay,North Baldwin Infirmary,hospital,8 Little Fleur Drive,7
-190,61b07834fc13ae0e3200022f,38.8466225,139.8744722,Fukagawa,COVID CENTER 50,specialized center,930 Twin Pines Center,
-191,61b07834fc13ae0e32000230,58.3958615,13.8536226,Mariestad,Walker Baptist Medical Center,hospital,39 Loftsgordon Alley,4
-192,61b07834fc13ae0e32000231,14.7292113,-88.0338631,San José de Comayagua,National Centre for Infectious Disease (Outpatient Pharmacy),pharmacy,8830 Raven Drive,
-193,61b07834fc13ae0e32000232,9.1375974,-75.2128996,Corozal,COVID CENTER 55,specialized center,65771 Kensington Lane,
-194,61b07834fc13ae0e32000233,39.1955731,-9.263539,Cabeça Gorda,Providence Kodiak Island Medical Ctr,hospital,837 Haas Park,6
-195,61b07834fc13ae0e32000234,43.30706,124.33539,Lishu,,,75817 Commercial Road,
-196,61b07834fc13ae0e32000235,-19.6238346,-43.2182878,Itabira,COVID CENTER 20,specialized center,3 Lien Trail,
-197,61b07834fc13ae0e32000236,14.136844,-90.008975,Jalpatagua,University Of Alabama Hospital,hospital,886 Old Shore Road,7
-198,61b07834fc13ae0e32000237,-7.9360667,112.1787896,Ngancar,Maricopa Medical Center,hospital,02 Clemons Place,3
-199,61b07834fc13ae0e32000238,7.0024321,-9.4728244,Gbarnga,COVID CENTER 4,specialized center,5508 Buhler Point,
-200,61b07834fc13ae0e32000239,-14.8518869,-66.7486446,San Borja,Evergreen Medical Center,hospital,402 Montana Drive,4
-201,61b07834fc13ae0e3200023a,17.1547981,42.6268969,Şabyā,MT ALVERNIA HOSPITAL RETAIL PHARMACY,pharmacy,37224 Hermina Alley,
-202,61b07834fc13ae0e3200023b,-9.7089,124.2564,Oemollo,Cordova Community Medical Center,hospital,10 Pepper Wood Parkway,6
-203,61b07834fc13ae0e3200023c,38.0970415,21.4183073,Lápas,Yukon Kuskokwim Delta Reg Hospital,hospital,1347 Oak Way,7
-204,61b07834fc13ae0e3200023d,47.0184615,-68.1430761,Stockholm,COVID CENTER 3,specialized center,26665 Sundown Plaza,
-205,61b07834fc13ae0e3200023e,49.8881618,15.5262702,Ronov nad Doubravou,COVID CENTER 39,specialized center,55792 Bartillon Place,
-206,61b07834fc13ae0e3200023f,-4.5329418,105.2077798,Menggala,COVID CENTER 56,specialized center,64265 Talisman Road,
-207,61b07834fc13ae0e32000240,30.45,-91.15,Baton Rouge,COVID CENTER 40,specialized center,282 Sugar Road,
-208,61b07834fc13ae0e32000241,52.9002738,20.7462079,Opinogóra Górna,WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA),pharmacy,71782 Jackson Plaza,
-209,61b07834fc13ae0e32000242,-8.170292,124.854068,Taramana,Petersburg Medical Center,hospital,52082 Eagan Avenue,1
-210,61b07834fc13ae0e32000243,38.8884333,45.0304001,Qarah Ẕīā’ od Dīn,Russell Medical Center,hospital,2787 Huxley Circle,9
-211,61b07834fc13ae0e32000244,-6.9775856,110.5424021,Bulusari,COVID CENTER 34,specialized center,261 Vermont Avenue,
-212,61b07834fc13ae0e32000245,27.3526033,62.3447815,Sarāvān,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,59 8th Trail,
-213,61b07834fc13ae0e32000246,11.379367,7.5599321,Danja,Eliza Coffee Memorial Hospital,hospital,9832 Melrose Terrace,9
-214,61b07834fc13ae0e32000247,-8.817396,120.806198,Keli,Petersburg Medical Center,hospital,89368 Carioca Hill,4
-215,61b07834fc13ae0e32000248,13.533238,-15.412011,Sara Kunda,Alaska Native Medical Center,hospital,84594 Fallview Junction,2
-216,61b07834fc13ae0e32000249,47.1844184,35.1072745,Tymoshivka,COVID CENTER 54,specialized center,5 Kropf Park,
-217,61b07834fc13ae0e3200024a,7.2149367,124.2404727,Kiupo,COVID CENTER 45,specialized center,6915 Mayer Pass,
-218,61b07834fc13ae0e3200024b,-14.2576342,-69.1692951,Yanahuaya,Community Hospital Inc,hospital,43271 Ilene Plaza,2
-219,61b07834fc13ae0e3200024c,57.4249887,60.0526098,Kirovgrad,WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT),pharmacy,4 Oneill Pass,
-220,61b07834fc13ae0e3200024d,55.086808,60.143301,Sinegor'ye,COVID CENTER 47,specialized center,52630 Haas Lane,
-221,61b07834fc13ae0e3200024e,-6.4594857,105.9141793,Kadubera,COVID CENTER 52,specialized center,0080 Ohio Lane,
-222,61b07834fc13ae0e3200024f,52.2871973,21.2810466,Zielonka,D C H Regional Medical Center,hospital,1 Oxford Point,7
-223,61b07834fc13ae0e32000250,14.7793575,121.0489884,Bagombong,MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE),pharmacy,3036 Maple Avenue,
-224,61b07834fc13ae0e32000251,-29.962127,-51.7250108,São Jerônimo,SMITH PHARMACY PTE LTD,pharmacy,9 6th Plaza,
-225,61b07834fc13ae0e32000252,50.5904776,30.4831983,Vyshhorod,SGH BOWYER BLOCK PHARMACY,pharmacy,7 Tennessee Avenue,
-226,61b07834fc13ae0e32000253,34.6322209,137.1581462,Muramatsu,MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY,pharmacy,8 Pepper Wood Way,
-227,61b07834fc13ae0e32000254,23.350767,112.284638,Hetai,Choctaw General Hospital,hospital,7 Lunder Pass,8
-228,61b07834fc13ae0e32000255,55.5446591,13.9636888,Simrishamn,Jurong Medical Centre Pharmacy,pharmacy,75 Menomonie Plaza,
-229,61b07834fc13ae0e32000256,13.928808,121.421617,Bukal Sur,Thomson Medical Centre,pharmacy,2 Hintze Place,
-230,61b07834fc13ae0e32000257,-26.4822209,-49.073477,Jaraguá do Sul,WELCIA-BHG LOT ONE,pharmacy,63615 Anzinger Alley,
-231,61b07834fc13ae0e32000258,49.4104,1.032621,Le Grand-Quevilly,Pickens County Medical Center,hospital,26431 Butterfield Place,6
-232,61b07834fc13ae0e32000259,29.4315861,106.912251,Changkeng,COVID CENTER 5,specialized center,54 Grayhawk Alley,
-233,61b07834fc13ae0e3200025a,22.7315115,-98.9735333,Independencia,Crestwood Medical Center,hospital,1 Maple Trail,9
-234,61b07834fc13ae0e3200025b,53.2737147,-9.0288689,Gweedore,North Baldwin Infirmary,hospital,5 Arrowood Place,9
-235,61b07834fc13ae0e3200025c,26.1656051,50.5523828,Madīnat ‘Īsá,L V Stabler Memorial Hospital,hospital,637 Dunning Junction,4
-236,61b07834fc13ae0e3200025d,-8.7615563,116.3574136,Mujur,Tucson Medical Center,hospital,9859 School Avenue,3
-237,61b07834fc13ae0e3200025e,52.2063851,-0.9009942,Wootton,Mobile Infirmary Medical Center,hospital,90 Monument Center,8
-238,61b07834fc13ae0e3200025f,54.141067,25.0156941,Eišiškės,COVID CENTER 28,specialized center,17428 Union Junction,
-239,61b07834fc13ae0e32000260,14.0790439,5.956825,Madaoua,Scottsdale Osborn Medical Center,hospital,82 Jenna Pass,6
-240,61b07834fc13ae0e32000261,35.719396,117.953621,Mengyin,Prattville Baptist Hospital,hospital,3 Vahlen Point,6
-241,61b07834fc13ae0e32000262,13.6361135,123.1924955,Barayong,KK Emergency Pharmacy,pharmacy,29 Maple Wood Trail,
-242,61b07834fc13ae0e32000263,42.8408389,20.1670628,Rožaje,SGH Retail Pharmacy (Blk 4),pharmacy,5 Becker Point,
-243,61b07834fc13ae0e32000264,-2.886385,-78.7759559,Gualaceo,Crestwood Medical Center,hospital,98 Pearson Crossing,7
-244,61b07834fc13ae0e32000265,53.10672,-0.687802,Stapleford,Alchemy Pharmacy,pharmacy,2898 Hermina Center,
-245,61b07834fc13ae0e32000266,39.562646,113.369956,Dalinhe,Community Hospital Inc,hospital,83666 Fisk Place,3
-246,61b07834fc13ae0e32000267,35.8413934,14.5466374,Marsaxlokk,East Alabama Medical Center,hospital,0506 Jana Way,6
-247,61b07834fc13ae0e32000268,33.45,-111.97,Phoenix,Grandview Medical Center,hospital,1 Lake View Park,7
-248,61b07834fc13ae0e32000269,31.463475,120.649341,Weitang,Eliza Coffee Memorial Hospital,hospital,05376 Randy Park,5
-249,61b07834fc13ae0e3200026a,27.991617,114.387256,Changleng,Highlands Medical Center,hospital,5 Sachtjen Street,8
-250,61b07834fc13ae0e3200026b,5.7799851,101.0372376,Betong,St Vincent's St Clair,hospital,532 Arrowood Street,4
-251,61b07834fc13ae0e3200026c,18.6500708,-74.3066879,Abricots,North Baldwin Infirmary,hospital,10599 Larry Lane,6
-252,61b07834fc13ae0e3200026d,42.8494142,27.7900409,Byala,Providence Alaska Medical Center,hospital,8286 Hooker Street,4
-253,61b07834fc13ae0e3200026e,49.73554,21.26331,Biecz,COVID CENTER 10,specialized center,14791 Carberry Pass,
-254,61b07834fc13ae0e3200026f,50.859278,14.4868632,Chřibská,Alaska Regional Hospital,hospital,78198 Welch Trail,2
-255,61b07834fc13ae0e32000270,48.1547935,25.7100722,Storozhynets’,MEDI-LINK PHARMACY,pharmacy,3 Macpherson Lane,
-256,61b07834fc13ae0e32000271,60.0203894,41.0711197,Syamzha,COVID CENTER 54,specialized center,22 Charing Cross Crossing,
-257,61b07834fc13ae0e32000272,25.770509,113.014717,Chenzhou,Thomas Hospital,hospital,03480 New Castle Alley,1
-258,61b07834fc13ae0e32000273,13.6532561,100.5633676,Phra Pradaeng,Marshall Medical Center South,hospital,5 Del Sol Pass,10
-259,61b07834fc13ae0e32000274,29.18902,103.236634,Qiping,COVID CENTER 29,specialized center,429 Union Street,
-260,61b07834fc13ae0e32000275,-8.5575745,116.5377213,Kembangkerang Satu,GRACE HEALTHCARE,pharmacy,49 Jay Place,
-261,61b07834fc13ae0e32000276,33.3594755,35.5889282,Marjayoûn,Ketchikan Medical Center,hospital,75 Kropf Circle,4
-262,61b07834fc13ae0e32000277,32.7010866,-17.1340519,Madalena do Mar,Coosa Valley Medical Center,hospital,8 Spenser Street,7
-263,61b07834fc13ae0e32000278,-6.1944094,106.582844,Dahu Satu,COVID CENTER 20,specialized center,58384 Stoughton Avenue,
-264,61b07834fc13ae0e32000279,-8.2357,124.9124,Lakateng,SMITH PHARMACY PTE LTD,pharmacy,1 Arizona Junction,
-265,61b07834fc13ae0e3200027a,14.697103,122.365336,Casuguran,NATIONAL UNIVERSITY HOSPITAL(S) PTE LTD (MEDICAL CENTRE PHARMACY),pharmacy,007 Iowa Parkway,
-266,61b07834fc13ae0e3200027b,8.5273038,-82.7994194,Aserrío de Gariché,MUSTAFA PHARMACY,pharmacy,81336 Melby Drive,
-267,61b07834fc13ae0e3200027c,19.0779991,-71.8423092,Thomassique,St Vincent's St Clair,hospital,0 Carioca Crossing,9
-268,61b07834fc13ae0e3200027d,45.9380817,16.7806658,Predavac,Community Hospital Inc,hospital,623 Lighthouse Bay Road,4
-269,61b07834fc13ae0e3200027e,53.9240029,53.873969,Priyutovo,Manapharma Pharmacy,pharmacy,48 Summer Ridge Place,
-270,61b07834fc13ae0e3200027f,-7.9766381,-78.8134873,Simbal,COVID CENTER 7,specialized center,3436 Mosinee Circle,
+1,61b0ca15f6a0af5003000133,-8.7334983,121.7508912,Wolofeo,Banner - University Medical Center Phoenix,hospital,6732 Luster Street,8
+2,61b0ca15f6a0af5003000134,-21.2370782,-45.7592067,Campos Gerais,L V Stabler Memorial Hospital,hospital,0 Armistice Crossing,10
+3,61b0ca15f6a0af5003000135,14.6933122,121.0806979,Batobato,Mobile Infirmary Medical Center,hospital,39 Loftsgordon Court,7
+4,61b0ca15f6a0af5003000136,59.3514599,17.9843165,Solna,COVID CENTER 36,specialized center,3292 Talmadge Way,
+5,61b0ca15f6a0af5003000137,-7.4220343,106.7529514,Tegalbuleud,COVID CENTER 8,specialized center,55543 Northfield Parkway,
+6,61b0ca15f6a0af5003000138,-7.71725,108.07666,Leuwipicung,Medical West,hospital,42384 Novick Terrace,2
+7,61b0ca15f6a0af5003000139,59.3405742,18.0667759,Stockholm,Manapharma Pharmacy,pharmacy,531 Montana Road,
+8,61b0ca15f6a0af500300013a,40.2715286,44.633383,Abovyan,COVID CENTER 24,specialized center,457 Merrick Court,
+9,61b0ca15f6a0af500300013b,23.841237,110.47479,Xinwu,Crestwood Medical Center,hospital,282 Milwaukee Court,1
+10,61b0ca15f6a0af500300013c,-9.6701,119.0511,Panenggoede,COVID CENTER 44,specialized center,3 Tomscot Terrace,
+11,61b0ca15f6a0af500300013d,-27.5571934,-53.9759139,Humaitá,East Alabama Medical Center,hospital,858 Susan Junction,4
+12,61b0ca15f6a0af500300013e,10.9570221,-63.8699655,Porlamar,National University Hospital (s) Pte Ltd (Pharmacy @ NCIS),pharmacy,5 Claremont Circle,
+13,61b0ca15f6a0af500300013f,38.033281,22.1103462,Kalávryta,Marshall Medical Center South,hospital,40060 Del Mar Park,3
+14,61b0ca15f6a0af5003000140,44.3337107,40.7679998,Perepravnaya,COVID CENTER 16,specialized center,6 Delaware Circle,
+15,61b0ca15f6a0af5003000141,23.70475,114.849821,Baipu,Norton Sound Regional Hospital,hospital,6 Veith Place,9
+16,61b0ca15f6a0af5003000142,13.6991663,123.5183334,Kinalansan,Huntsville Hospital,hospital,57034 Canary Avenue,5
+17,61b0ca15f6a0af5003000143,1.259619,101.213097,Duri,WESTMEAD PHARMACY PTE LTD,pharmacy,032 Farwell Junction,
+18,61b0ca15f6a0af5003000144,-7.3071,107.1272,Ankola,WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT),pharmacy,425 Buena Vista Crossing,
+19,61b0ca15f6a0af5003000145,-6.7455152,111.2293563,Kuniran,Nishino Pharmacy (Shaw House),pharmacy,05834 Westridge Way,
+20,61b0ca15f6a0af5003000146,-6.820816,108.1992015,Jatipamor,COVID CENTER 44,specialized center,66596 Karstens Trail,
+21,61b0ca15f6a0af5003000147,45.1216628,19.0173647,Nijemci,COVID CENTER 14,specialized center,277 Ruskin Way,
+22,61b0ca15f6a0af5003000148,36.10306,127.48889,Kinzan,Citizens Baptist Medical Center,hospital,0675 Roxbury Trail,4
+23,61b0ca15f6a0af5003000149,13.674033,108.9502232,Vân Canh,Children's Hospital Of Alabama,hospital,36387 Pearson Point,8
+24,61b0ca15f6a0af500300014a,49.8905368,2.3081396,Amiens,Jurong Medical Centre Pharmacy,pharmacy,09 Oak Valley Circle,
+25,61b0ca15f6a0af500300014b,41.1213095,69.0612582,Yangiyŭl,WESTMEAD PHARMACY PTE LTD,pharmacy,08 Iowa Point,
+26,61b0ca15f6a0af500300014c,10.21972,169.97967,Ailuk,TAN TOCK SENG HOSPITAL PTE LTD (EMERGENCY PHARMACY),pharmacy,422 Sutteridge Alley,
+27,61b0ca15f6a0af500300014d,23.505032,110.454177,Qingshuitang,Marion Regional Medical Center,hospital,27322 Blackbird Drive,7
+28,61b0ca15f6a0af500300014e,47.5688259,-52.7079539,Sainte-Martine,St Vincent's East,hospital,71 Dennis Trail,3
+29,61b0ca15f6a0af500300014f,29.202542,121.931606,Shipu,Khoo Teck Puat Hospital Pharmacy,pharmacy,6034 East Street,
+30,61b0ca15f6a0af5003000150,8.972681,125.408732,Buenavista,MEDI-LINK PHARMACY,pharmacy,67152 David Parkway,
+31,61b0ca15f6a0af5003000151,23.3362272,112.7222244,Taotang,Vivahealth Pharmacy,pharmacy,12990 Portage Crossing,
+32,61b0ca15f6a0af5003000152,-15.3122723,-49.1166441,Goianésia,Pacific Pharmacy Pte Ltd,pharmacy,25 Briar Crest Lane,
+33,61b0ca15f6a0af5003000153,-13.5321991,-73.6760258,Uripa,COVID CENTER 58,specialized center,4 Johnson Terrace,
+34,61b0ca15f6a0af4fff000131,5.8719379,-56.3320773,Totness,Chandler Regional Medical Center,hospital,236 Reinke Drive,10
+35,61b0ca15f6a0af4fff000132,-30.0758479,-51.1787781,Porto Alegre,Alaska Native Medical Center,hospital,967 Fuller Center,2
+36,61b0ca15f6a0af4fff000133,-33.5295223,-58.216956,Soriano,Lawrence Medical Center,hospital,31142 Johnson Court,5
+37,61b0ca15f6a0af4fff000134,50.5374117,36.6913146,Razumnoye,Medical Center Enterprise,hospital,73338 Knutson Terrace,9
+38,61b0ca15f6a0af4fff000135,39.1217895,66.8856247,Kitob,NATIONAL CANCER CENTRE PHARMACY (LEVEL 3),pharmacy,868 Myrtle Hill,
+39,61b0ca15f6a0af4fff000136,-0.7069135,31.5370003,Rakai,Nishino Pharmacy (Takashimaya),pharmacy,1804 Harbort Center,
+40,61b0ca15f6a0af4fff000137,40.9900603,21.4193769,Centar Župa,COVID CENTER 24,specialized center,38 Morning Alley,
+41,61b0ca15f6a0af4fff000138,5.1886762,97.1344608,Kaom,Medical Center Enterprise,hospital,641 Mandrake Court,1
+42,61b0ca15f6a0af4fff000139,78.221061,15.6469321,Longyearbyen,NHG Pharmacy (CCK Polyclinic),pharmacy,29708 Heath Court,
+43,61b0ca15f6a0af4fff00013a,-7.4010055,112.5900671,Krian,NATIONAL CANCER CENTRE PHARMACY (LEVEL 1),pharmacy,37 Marquette Place,
+44,61b0ca15f6a0af4fff00013b,36.5888732,138.8434833,Nakanojōmachi,Clay County Hospital,hospital,24 Lighthouse Bay Way,6
+45,61b0ca15f6a0af4fff00013c,16.9905258,121.637093,Bangui,The Japanese Association Clinic Singapore,pharmacy,385 Fieldstone Alley,
+46,61b0ca15f6a0af4fff00013d,14.6135888,121.0957927,De la Paz,Highlands Medical Center,hospital,2411 Orin Point,1
+47,61b0ca15f6a0af4fff00013e,17.8964345,-62.852201,Gustavia,CGH Pharmacy B,pharmacy,98 Ohio Street,
+48,61b0ca15f6a0af4fff00013f,32.7986666,-5.3193997,Kerrouchen,Callahan Eye Hospital,hospital,801 Shoshone Pass,9
+49,61b0ca15f6a0af4fff000140,35.370505,103.708354,Kangle,St Vincent's East,hospital,35058 Gina Alley,10
+50,61b0ca15f6a0af4fff000141,29.714699,118.337521,Huanshan,COVID CENTER 9,specialized center,89043 Springview Court,
+51,61b0ca15f6a0af4fff000142,57.6817979,11.9836846,Göteborg,Marshall Medical Center South,hospital,161 Bunker Hill Terrace,5
+52,61b0ca15f6a0af4fff000143,30.0130557,31.2088526,Al Jīzah,COVID CENTER 4,specialized center,94549 Kropf Crossing,
+53,61b0ca15f6a0af4fff000144,18.8589196,-97.0909561,Adolfo Lopez Mateos,Evergreen Medical Center,hospital,44837 Hauk Center,4
+54,61b0ca15f6a0af4fff000145,40.2982408,70.419388,Konibodom,University Of South Alabama Medical Center,hospital,5488 Independence Alley,6
+55,61b0ca15f6a0af4fff000146,39.630867,118.180193,Tangzha,Cullman Regional Medical Center,hospital,4 Bunker Hill Circle,5
+56,61b0ca15f6a0af4fff000147,36.77549,119.219734,Hanting,MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE),pharmacy,235 Pepper Wood Court,
+57,61b0ca15f6a0af4fff000148,32.7087439,-97.3617845,Fort Worth,University Of South Alabama Medical Center,hospital,4067 Warrior Circle,2
+58,61b0ca15f6a0af4fff000149,28.2412186,112.9513185,Xiangrong,Evergreen Medical Center,hospital,7263 Warbler Alley,3
+59,61b0ca15f6a0af4fff00014a,53.5862715,16.3876584,Łubowo,PARKWAY EAST HOSPITAL PHARMACY,pharmacy,63749 Kipling Center,
+60,61b0ca15f6a0af4fff00014b,40.0672874,20.1045229,Gjirokastër,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,9 Crowley Court,
+61,61b0ca15f6a0af4fff00014c,44.3239335,44.994265,Kayasula,St. Joseph's Hospital And Medical Center,hospital,1 Summit Drive,6
+62,61b0ca15f6a0af4fff00014d,-6.4534018,-39.6105142,Jucás,COVID CENTER 29,specialized center,411 Bay Lane,
+63,61b0ca15f6a0af4fff00014e,36.1180248,137.9533657,Shiojiri,ST LUKE'S HOSPITAL BLOCK A,pharmacy,1 Beilfuss Parkway,
+64,61b0ca15f6a0af4fff00014f,31.7566264,-106.4852997,El Paso,North Baldwin Infirmary,hospital,573 Westridge Plaza,6
+65,61b0ca16f6a0af4fff000150,30.107387,121.402682,Duhu,Pacific Pharmacy Pte Ltd,pharmacy,3 Mariners Cove Pass,
+66,61b0ca16f6a0af4fff000151,-9.4020529,34.0195827,Kyela,Highlands Medical Center,hospital,134 Elka Lane,2
+67,61b0ca15f6a0af5039000131,30.638674,119.680353,Anjie,St. Joseph's Hospital And Medical Center,hospital,7960 Erie Place,4
+68,61b0ca15f6a0af5039000132,27.817808,114.917346,Xinyu,Child Guidance Clinic Health Promotion Board,pharmacy,2 Northview Alley,
+69,61b0ca15f6a0af5039000133,-14.2713338,50.1678121,Sambava,Marshall Medical Center South,hospital,00 Porter Avenue,5
+70,61b0ca15f6a0af5039000134,28.408233,112.932334,Qiaoyi,Community Wellness Clinic Queenstown Pharmacy,pharmacy,2 Oriole Park,
+71,61b0ca15f6a0af5039000135,46.5736928,108.3006134,Bayantal,Fairbanks Memorial Hospital,hospital,569 Sutteridge Place,6
+72,61b0ca15f6a0af5039000136,63.2803099,118.3618985,Nyurba,Lake Martin Community Hospital,hospital,8508 Monterey Street,4
+73,61b0ca15f6a0af5039000137,10.2007985,-64.6334643,Puerto La Cruz,Greene County Hospital,hospital,76647 Blackbird Court,3
+74,61b0ca15f6a0af5039000138,-28.3833642,-53.929557,Ijuí,COVID CENTER 9,specialized center,031 Dahle Pass,
+75,61b0ca15f6a0af5039000139,12.5450478,-87.1659731,El Realejo,COVID CENTER 58,specialized center,21 Algoma Junction,
+76,61b0ca15f6a0af503900013a,8.3487476,-80.5924449,El Cortezo,Manapharma Pharmacy,pharmacy,5666 Forest Dale Hill,
+77,61b0ca15f6a0af503900013b,14.5424287,121.0343936,Balete,COVID CENTER 31,specialized center,28199 Kings Alley,
+78,61b0ca15f6a0af503900013c,13.7401075,-87.7135671,Aramecina,Pickens County Medical Center,hospital,54494 Lukken Center,8
+79,61b0ca15f6a0af503900013d,40.6236334,-8.503294,Alquerubim,Russell Medical Center,hospital,2 Northfield Plaza,3
+80,61b0ca15f6a0af503900013e,26.433417,110.856622,Xinning,Evergreen Medical Center,hospital,9 Ryan Park,8
+81,61b0ca15f6a0af503900013f,54.0114023,55.8925281,Tolbazy,Providence Seward Hospital,hospital,2834 Hintze Hill,3
+82,61b0ca15f6a0af5039000140,53.0985458,6.0694,Drachten,Nishino Pharmacy (Shaw House),pharmacy,8837 Lakewood Gardens Terrace,
+83,61b0ca15f6a0af5039000141,3.1523104,101.7178316,Kuala Lumpur,Wiregrass Medical Center,hospital,60 Oneill Crossing,10
+84,61b0ca15f6a0af5039000142,50.5079152,16.0789406,Rtyně v Podkrkonoší,Yuma Regional Medical Center,hospital,37 Butternut Park,2
+85,61b0ca15f6a0af5039000143,16.4336105,120.3435365,Bacungan,L V Stabler Memorial Hospital,hospital,75 Northport Crossing,3
+86,61b0ca15f6a0af5039000144,44.9248682,38.0110797,Novoukrainskiy,WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT),pharmacy,90405 Randy Circle,
+87,61b0ca15f6a0af5039000145,39.9602601,-83.0092803,Columbus,Pharmacy Services Centre NHG (Blk 9),pharmacy,155 Milwaukee Drive,
+88,61b0ca15f6a0af5039000146,49.7001031,39.8634775,Kantemirovka,PARKWAY EAST HOSPITAL PHARMACY,pharmacy,195 Twin Pines Way,
+89,61b0ca15f6a0af5039000147,3.2359747,98.6875659,Tanjung Timur,MUSTAFA PHARMACY,pharmacy,3608 Linden Avenue,
+90,61b0ca15f6a0af5039000148,-7.6832323,110.670528,Ceper,WOODS PHARMACY PTE LTD,pharmacy,7 Sheridan Circle,
+91,61b0ca15f6a0af5039000149,34.6399443,50.8759419,Qom,COVID CENTER 17,specialized center,53 Loftsgordon Point,
+92,61b0ca15f6a0af503900014a,12.4537943,102.2290442,Khlung,Gadsden Regional Medical Center,hospital,8 Myrtle Trail,7
+93,61b0ca15f6a0af503900014b,40.323749,-8.7980385,Praia da Tocha,Medical West,hospital,4 Blaine Plaza,5
+94,61b0ca15f6a0af503900014c,36.649364,51.4887307,Nowshahr,COVID CENTER 44,specialized center,288 Redwing Junction,
+95,61b0ca15f6a0af503900014d,50.7852989,16.164006,Boguszów-Gorce,Rmc Jacksonville,hospital,2 Dayton Center,2
+96,61b0ca15f6a0af503900014e,48.749354,2.480322,Limeil-Brévannes,COVID CENTER 23,specialized center,0 Heffernan Junction,
+97,61b0ca15f6a0af503900014f,-32.9377962,-60.6961061,La Rioja,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,42636 4th Terrace,
+98,61b0ca15f6a0af5039000150,25.4765601,-108.0887656,Los Angeles,COVID CENTER 30,specialized center,6 Old Gate Plaza,
+99,61b0ca15f6a0af5039000151,15.8229771,120.2604675,Pogonsili,South Peninsula Hospital,hospital,6902 Saint Paul Plaza,7
+100,61b0ca15f6a0af4fd000012b,41.3044511,-8.5943326,Quintão,Alaska Regional Hospital,hospital,675 Buena Vista Plaza,2
+101,61b0ca15f6a0af4fd000012c,18.791255,109.410699,Maodao,UrbanRx Compounding Pharmacy Pte Ltd,pharmacy,035 Evergreen Circle,
+102,61b0ca15f6a0af4fd000012d,2.9716241,45.5334515,Mahaddayweyne,UrbanRx Compounding Pharmacy Pte Ltd,pharmacy,469 Homewood Plaza,
+103,61b0ca15f6a0af4fd000012e,-8.7367925,116.4872482,Bungtiang Barat,COVID CENTER 49,specialized center,29311 Melby Circle,
+104,61b0ca15f6a0af4fd000012f,46.1998296,47.9221616,Volgo-Kaspiyskiy,Specialist Compounding Pharmacy Pte Ltd,pharmacy,483 Warbler Park,
+105,61b0ca15f6a0af4fd0000130,17.3595778,120.4571858,Suso,WELCIA-BHG LOT ONE,pharmacy,214 Melrose Terrace,
+106,61b0ca15f6a0af4fd0000131,14.7976183,45.7189412,Bayḩān,COVID CENTER 26,specialized center,2 Sycamore Junction,
+107,61b0ca15f6a0af4fd0000132,40.23921,116.12895,Nankou,Farrer Park Pharmacy,pharmacy,60 Morning Circle,
+108,61b0ca15f6a0af4fd0000133,26.393274,118.502373,Zhanghuban,COVID CENTER 38,specialized center,20 Acker Trail,
+109,61b0ca15f6a0af4fd0000134,-6.3385652,106.9447146,Jatisari,Shelby Baptist Medical Center,hospital,13 Golden Leaf Point,2
+110,61b0ca15f6a0af4fd0000135,36.4320046,127.3809362,Songgang-dong,Essentials Pharmacy,pharmacy,13788 Eagle Crest Way,
+111,61b0ca15f6a0af4fd0000136,13.7825775,121.0492638,Bolboc,Jurong Community Hospital Pharmacy,pharmacy,14 Columbus Way,
+112,61b0ca15f6a0af4fd0000137,31.627447,121.022581,Hengli,COVID CENTER 31,specialized center,198 Di Loreto Pass,
+113,61b0ca15f6a0af4fd0000138,-6.8654713,111.6571293,Bader,NHG Pharmacy (CCK Polyclinic),pharmacy,07 Transport Plaza,
+114,61b0ca15f6a0af4fd0000139,-16.3753091,-58.4059227,San Matías,Bartlett Regional Hospital,hospital,0995 Acker Lane,1
+115,61b0ca15f6a0af4fd000013a,28.138525,109.326383,La’ershan,WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA),pharmacy,9396 8th Way,
+116,61b0ca15f6a0af4fd000013b,31.499202,98.21843,Jomda,COVID CENTER 15,specialized center,58200 Autumn Leaf Parkway,
+117,61b0ca15f6a0af4fd000013c,14.6333181,-90.6703399,San Lucas Sacatepéquez,COVID CENTER 38,specialized center,500 Prentice Road,
+118,61b0ca15f6a0af4fd000013d,0.0090686,103.5089907,Khairiahmandah,Banner - University Medical Center Phoenix,hospital,5310 Wayridge Street,10
+119,61b0ca15f6a0af4fd000013e,13.5570718,-88.3494328,Lolotique,ALPS PHARMACY,pharmacy,56 Old Shore Pass,
+120,61b0ca16f6a0af4fd000013f,59.3356305,18.3861127,Gustavsberg,NATIONAL CANCER CENTRE PHARMACY (LEVEL 3),pharmacy,17212 Crescent Oaks Terrace,
+121,61b0ca16f6a0af4fd0000140,53.5234017,27.8299056,Prawdzinski,Evergreen Medical Center,hospital,529 Maywood Parkway,7
+122,61b0ca16f6a0af4fd0000141,58.2834894,12.2858206,Trollhättan,D W Mcmillan Memorial Hospital,hospital,010 Parkside Junction,2
+123,61b0ca16f6a0af4fd0000142,-6.3811392,107.1854181,Sukamahi Satu,Russellville Hospital,hospital,1746 Anderson Trail,10
+124,61b0ca16f6a0af4fd0000143,41.7371087,20.3241791,Arras,COVID CENTER 35,specialized center,36 Tennessee Plaza,
+125,61b0ca16f6a0af4fd0000144,43.88719,81.621986,Yuqunweng,Verde Valley Medical Center,hospital,4139 Clyde Gallagher Center,9
+126,61b0ca16f6a0af4fd0000145,14.7673872,-16.685136,Khombole,Mizell Memorial Hospital,hospital,83598 Bluestem Avenue,9
+127,61b0ca16f6a0af4fd0000146,51.9309719,19.190298,Parzęczew,Dekalb Regional Medical Center,hospital,33885 Lukken Drive,4
+128,61b0ca16f6a0af4fd0000147,12.8371919,-4.9221114,Kinmparana,Russellville Hospital,hospital,5130 Barnett Plaza,5
+129,61b0ca16f6a0af4fd0000148,5.9031249,0.9868468,Keta,St Vincent's Birmingham,hospital,52 Merry Place,9
+130,61b0ca16f6a0af4fd0000149,-6.9888872,106.9535691,Cijangkar,National Addiction Management Services (NAMS) Clinic Pharmacy,pharmacy,342 Leroy Point,
+131,61b0ca16f6a0af4fd000014a,14.299475,-88.1706047,La Esperanza,MUSTAFA PHARMACY,pharmacy,118 Evergreen Drive,
+132,61b0ca16f6a0af4fd000014b,52.695844,62.5884412,Tobol,COVID CENTER 24,specialized center,5 Transport Crossing,
+133,61b0ca15f6a0af501e00012b,51.90218,19.6055101,Stryków,Choctaw General Hospital,hospital,8674 Vidon Junction,2
+134,61b0ca15f6a0af501e00012c,-6.2020256,105.8466437,Bulakan,St Luke's Medical Center,hospital,5 Bartelt Lane,10
+135,61b0ca15f6a0af501e00012d,-9.8798746,124.6358702,Nunleu,NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY),pharmacy,9 North Plaza,
+136,61b0ca15f6a0af501e00012e,41.6690275,48.3784919,Gaptsakh,South Baldwin Regional Medical Center,hospital,611 Londonderry Road,3
+137,61b0ca15f6a0af501e00012f,47.1892329,8.7108197,Lian,Baptist Medical Center East,hospital,27196 Prairie Rose Avenue,3
+138,61b0ca15f6a0af501e000130,49.0261841,1.1518478,Évreux,WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT),pharmacy,3 Maple Wood Center,
+139,61b0ca15f6a0af501e000131,-20.7430332,-46.6096926,Passos,Shelby Baptist Medical Center,hospital,36150 Sherman Drive,3
+140,61b0ca15f6a0af501e000132,51.7173795,15.4240467,Brzeźnica,Mt Edgecumbe Hospital,hospital,2 Lakewood Center,2
+141,61b0ca15f6a0af501e000133,52.06302,37.40518,Vyshneye Dolgoye,Monroe County Hospital,hospital,57737 Golf Lane,5
+142,61b0ca15f6a0af501e000134,49.5048872,5.6944757,Longwy,Fairbanks Memorial Hospital,hospital,56767 Luster Pass,1
+143,61b0ca15f6a0af501e000135,53.903083,10.7533775,Lübeck,Washington County Hospital,hospital,84570 East Street,2
+144,61b0ca15f6a0af501e000136,41.2270631,-7.4666688,Castedo,Flagstaff Medical Center,hospital,1 Colorado Center,2
+145,61b0ca15f6a0af501e000137,46.3194856,-0.4546217,Niort,COVID CENTER 7,specialized center,35285 Rutledge Court,
+146,61b0ca15f6a0af501e000138,8.3537158,-70.5770632,Ciudad Bolivia,National University Hospital (s) Pte Ltd (Pharmacy @ NCIS),pharmacy,4522 Starling Court,
+147,61b0ca15f6a0af501e000139,41.56,-73.05,Waterbury,Clinic B Pharmacy,pharmacy,6 Bonner Street,
+148,61b0ca15f6a0af501e00013a,17.5946213,120.6194139,Bangued,SINGHEALTH POLY-OUTRAM,pharmacy,7864 Norway Maple Lane,
+149,61b0ca15f6a0af501e00013b,32.010214,119.606439,Danyang,COVID CENTER 26,specialized center,6 Nova Plaza,
+150,61b0ca15f6a0af501e00013c,-21.4152377,-50.0773225,Penápolis,Fayette Medical Center,hospital,99 Gulseth Road,9
+151,61b0ca15f6a0af501e00013d,29.1560917,16.1463317,Waddān,Vivahealth Pharmacy,pharmacy,2 Grayhawk Crossing,
+152,61b0ca15f6a0af501e00013e,51.4393178,18.3993464,Klonowa,MT ALVERNIA HOSPITAL RETAIL PHARMACY,pharmacy,9 Tomscot Avenue,
+153,61b0ca15f6a0af501e00013f,-1.658501,29.2204548,Goma,Canyon Vista Medical Center,hospital,646 Canary Plaza,2
+154,61b0ca15f6a0af501e000140,46.1740537,45.3471492,Yashkul’,NATIONAL CANCER CENTRE PHARMACY (LEVEL 1),pharmacy,42 Warner Court,
+155,61b0ca15f6a0af501e000141,46.6669865,3.590421,Valence,Tan Tock Seng Hospital (Pharmacy Level 2),pharmacy,77544 Grasskamp Terrace,
+156,61b0ca15f6a0af501e000142,30.145729,120.589457,Ma’an,Medical Center Enterprise,hospital,44 Delladonna Court,10
+157,61b0ca15f6a0af501e000143,-6.9158,112.5541,Krajan Pangkah Kulon,COVID CENTER 27,specialized center,62 Acker Park,
+158,61b0ca15f6a0af501e000144,52.55106,18.49897,Piotrków Kujawski,MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE),pharmacy,85 Evergreen Trail,
+159,61b0ca15f6a0af501e000145,23.718461,113.734823,Liangkou,Tan Tock Seng Hospital (Outpatient & Retail Pharmacy),pharmacy,221 Bowman Road,
+160,61b0ca15f6a0af501e000146,30.786657,108.761889,Wailang,Tanner Medical Center-east Alabama,hospital,57691 Debs Place,7
+161,61b0ca15f6a0af501e000147,26.641315,100.222545,Baishi,Alaska Regional Hospital,hospital,8861 Columbus Center,9
+162,61b0ca16f6a0af501e000148,-3.9389,134.9696,Kiruru,National University Hospital - Kent Ridge Wing Pharmacy,pharmacy,59766 La Follette Court,
+163,61b0ca16f6a0af501e000149,52.2467951,15.800102,Zbąszynek,Community Hospital Inc,hospital,107 Holmberg Pass,4
+164,61b0ca16f6a0af501e00014a,55.2259313,36.6083916,Yermolino,Providence Valdez Medical Center,hospital,5 Portage Court,2
+165,61b0ca16f6a0af501e00014b,45.8836384,-73.2813569,Lavaltrie,Alexandra Hospital Retail Pharmacy,pharmacy,9032 Shopko Crossing,
+166,61b0ca15f6a0af4fe900012b,23.012915,104.394157,Maguan,Pharmacy@IB CGH (The Integrated Building),pharmacy,668 Pepper Wood Court,
+167,61b0ca15f6a0af4fe900012c,59.905383,10.7674925,Oslo,National University Hospital - Kent Ridge Wing Pharmacy,pharmacy,9164 Kim Parkway,
+168,61b0ca15f6a0af4fe900012d,45.8486646,-66.4812859,Oromocto,Atmore Community Hospital,hospital,09687 Pond Plaza,5
+169,61b0ca15f6a0af4fe900012e,49.7260952,84.2733064,Zyryanovsk,COVID CENTER 15,specialized center,65 Anthes Circle,
+170,61b0ca15f6a0af4fe900012f,49.9846292,20.293343,Targowisko,PHARMACY @ CGH MEDICAL CENTRE,pharmacy,8 Sauthoff Pass,
+171,61b0ca15f6a0af4fe9000130,3.8366437,-75.2245693,Ortega,COVID CENTER 54,specialized center,416 Karstens Circle,
+172,61b0ca15f6a0af4fe9000131,-7.2310934,108.1324906,Sukasetia,Medical Center Enterprise,hospital,0639 Merchant Road,4
+173,61b0ca15f6a0af4fe9000132,39.9311729,-104.9739333,Denver,Bibb Medical Center,hospital,28 Red Cloud Way,8
+174,61b0ca15f6a0af4fe9000133,53.49417,-8.83565,Tuam,Crestwood Medical Center,hospital,3500 Anderson Place,7
+175,61b0ca15f6a0af4fe9000134,44.8601051,78.7628605,Tekeli,Clinic B Pharmacy,pharmacy,8 Logan Street,
+176,61b0ca15f6a0af4fe9000135,26.4524746,87.271781,Birātnagar,MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY,pharmacy,871 Morningstar Terrace,
+177,61b0ca15f6a0af4fe9000136,35.4660512,136.236802,Takatsuki,COVID CENTER 6,specialized center,84 Center Crossing,
+178,61b0ca15f6a0af4fe9000137,22.2724243,105.8804085,Phủ Thông,Russell Medical Center,hospital,65 Larry Circle,7
+179,61b0ca15f6a0af4fe9000138,7.44891,-71.304474,Santa Cruz de Guacas,MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE),pharmacy,6334 Mockingbird Street,
+180,61b0ca15f6a0af4fe9000139,43.1619639,45.1982495,Bamut,Bullock County Hospital,hospital,148 Dapin Place,5
+181,61b0ca15f6a0af4fe900013a,5.7179173,7.0821162,Amaigbo,Walker Baptist Medical Center,hospital,84809 Dunning Court,7
+182,61b0ca15f6a0af4fe900013b,46.8619132,42.1175494,Orlovskiy,Thomson Medical Centre,pharmacy,3 Forest Pass,
+183,61b0ca15f6a0af4fe900013c,59.406891,18.0157421,Danderyd,COVID CENTER 50,specialized center,44 Clove Park,
+184,61b0ca15f6a0af4fe900013d,23.119924,113.309317,Hengshitang,CONCORD HEALTHCARE RETAIL PHARMACY,pharmacy,98 5th Road,
+185,61b0ca15f6a0af4fe900013e,35.1654999,45.9896078,Ḩalabjah,North Baldwin Infirmary,hospital,68 Buhler Point,1
+186,61b0ca15f6a0af4fe900013f,38.7508367,-9.2843236,Tercena,COVID CENTER 28,specialized center,6 Maywood Crossing,
+187,61b0ca15f6a0af4fe9000140,13.6868163,-89.1181849,Ilopango,NATIONAL SKIN CENTRE (S) PTE LTD (PHARMACY),pharmacy,55 Ryan Road,
+188,61b0ca15f6a0af4fe9000141,25.639488,115.432374,Pangushan,Mount Elizabeth Hospital,pharmacy,913 Mallard Center,
+189,61b0ca15f6a0af4fe9000142,33.8787981,10.850791,Houmt Souk,Marshall Medical Center South,hospital,31 Prairie Rose Plaza,6
+190,61b0ca15f6a0af4fe9000143,14.2712301,-90.0375295,Quesada,COVID CENTER 15,specialized center,07191 Rockefeller Hill,
+191,61b0ca15f6a0af4fe9000144,39.0427929,-9.193864,Ribaldeira,ST LUKE'S HOSPITAL BLOCK A,pharmacy,05 Judy Parkway,
+192,61b0ca15f6a0af4fe9000145,41.5725857,-8.129315,Penelas,COVID CENTER 5,specialized center,76 Nobel Street,
+193,61b0ca15f6a0af4fe9000146,21.428436,110.869567,Miyang,Pacific Pharmacy Pte Ltd,pharmacy,79 5th Crossing,
+194,61b0ca15f6a0af4fe9000147,9.1505664,-11.3913379,Alikalia,MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE),pharmacy,067 Cottonwood Street,
+195,61b0ca15f6a0af4fe9000148,33.8989467,35.4733996,Ra’s Bayrūt,THE DENTAL PHARM,pharmacy,1029 Mcbride Park,
+196,61b0ca15f6a0af4fe9000149,57.6540663,59.5033087,Visim,Troy Regional Medical Center,hospital,5833 Namekagon Junction,8
+197,61b0ca15f6a0af4fe900014a,37.146294,111.778818,Xiaoyi,Jackson Medical Center,hospital,0 Atwood Street,5
+198,61b0ca15f6a0af4fe900014b,45.7039688,5.9492762,Aix-les-Bains,Lake Martin Community Hospital,hospital,183 Gale Crossing,6
+199,61b0ca15f6a0af503300012b,-9.4456381,159.9728999,Honiara,COVID CENTER 10,specialized center,972 Hooker Alley,
+200,61b0ca15f6a0af503300012c,57.227222,29.161111,Vybor,NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY),pharmacy,9 Monica Drive,
+201,61b0ca15f6a0af503300012d,-34.6381227,-58.3787726,Brandsen,Community Wellness Clinic Queenstown Pharmacy,pharmacy,5 Forest Run Plaza,
+202,61b0ca15f6a0af503300012e,42.3890735,47.9897691,Novokayakent,NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY),pharmacy,654 Talmadge Street,
+203,61b0ca15f6a0af503300012f,33.5760112,130.6627355,Hiratsuka,Samuel Simmonds Memorial Hospital,hospital,4709 Coleman Parkway,8
+204,61b0ca15f6a0af5033000130,39.0327543,-76.5517132,Annapolis,St Vincent's St Clair,hospital,4088 Tennyson Court,7
+205,61b0ca15f6a0af5033000131,29.606391,112.320413,Tuanshansi,National University Hospital - Kent Ridge Wing Pharmacy,pharmacy,761 Monica Road,
+206,61b0ca15f6a0af5033000132,21.4674584,-71.1389101,Cockburn Town,Yavapai Regional Medical Center,hospital,606 Upham Drive,1
+207,61b0ca15f6a0af5033000133,39.91983,116.41571,Sihe,COVID CENTER 54,specialized center,8 Prentice Point,
+208,61b0ca15f6a0af5033000134,10.752961,122.49448,Abilay,Tucson Medical Center,hospital,35 Steensland Alley,1
+209,61b0ca15f6a0af5033000135,-24.7762704,25.4141193,Mosopa,D C H Regional Medical Center,hospital,2 Merrick Road,10
+210,61b0ca15f6a0af5033000136,37.646108,120.477813,Fengkou,Alaska Regional Hospital,hospital,8477 Rutledge Point,5
+211,61b0ca15f6a0af5033000137,40.8153071,21.39509,Próti,Alchemy Pharmacy,pharmacy,1765 Namekagon Lane,
+212,61b0ca15f6a0af5033000138,40.04,-76.31,Lancaster,Medical West,hospital,3816 Hooker Center,2
+213,61b0ca15f6a0af5033000139,20.2258318,-74.1533563,Maisí,COVID CENTER 22,specialized center,92892 Spenser Crossing,
+214,61b0ca15f6a0af503300013a,-33.326671,-60.2336692,Viale,Monroe County Hospital,hospital,859 Holy Cross Way,9
+215,61b0ca15f6a0af503300013b,21.270702,110.359368,Zhangyang,COVID CENTER 47,specialized center,8 Sherman Pass,
+216,61b0ca15f6a0af503300013c,59.3938804,15.8607653,Kungsör,Canyon Vista Medical Center,hospital,45451 Arkansas Way,6
+217,61b0ca15f6a0af503300013d,12.1299094,7.6724456,Musawa,J Paul Jones Hospital,hospital,0581 Reindahl Terrace,7
+218,61b0ca15f6a0af503300013e,14.6741293,120.5112907,Cabog,COVID CENTER 57,specialized center,3 Springview Parkway,
+219,61b0ca15f6a0af503300013f,-8.3434104,118.9819731,Oitui,Flagstaff Medical Center,hospital,175 Loeprich Plaza,4
+220,61b0ca15f6a0af5033000140,1.1322476,104.0115689,Wairiang,Prattville Baptist Hospital,hospital,19 Arizona Street,5
+221,61b0ca16f6a0af5033000141,47.9195813,106.9211984,Nart,Tanner Medical Center-east Alabama,hospital,820 Calypso Trail,8
+222,61b0ca16f6a0af5033000142,50.9422707,37.8024687,Chernyanka,COVID CENTER 40,specialized center,92 Warrior Road,
+223,61b0ca16f6a0af5033000143,42.239717,27.776119,Kiten,Bullock County Hospital,hospital,31032 Golden Leaf Drive,9
+224,61b0ca16f6a0af5033000144,60.5848255,27.7095936,Virojoki,COVID CENTER 48,specialized center,81537 Arizona Street,
+225,61b0ca16f6a0af5033000145,35.910325,14.424426,Mosta,COVID CENTER 47,specialized center,43732 Cottonwood Circle,
+226,61b0ca16f6a0af5033000146,50.9076315,128.4136847,Belogorsk,NHG Pharmacy (CCK Polyclinic),pharmacy,4256 Northland Court,
+227,61b0ca16f6a0af5033000147,-6.8852308,106.9007656,Panineungan,Farrer Park Pharmacy,pharmacy,858 Clemons Hill,
+228,61b0ca16f6a0af5033000148,26.085391,119.583599,Langchi,Bartlett Regional Hospital,hospital,773 Kingsford Place,8
+229,61b0ca16f6a0af5033000149,-8.4019855,114.3163148,Bagorejo,Airport Pharmacy,pharmacy,751 Schurz Park,
+230,61b0ca16f6a0af503300014a,-31.4561755,-64.2111608,Palpalá,Russell Medical Center,hospital,1002 Elka Alley,4
+231,61b0ca16f6a0af503300014b,-1.0616193,-46.7830109,Bragança,COVID CENTER 56,specialized center,08 Bartillon Junction,
+232,61b0ca15f6a0af5026000147,13.2805504,-87.1285725,El Puente,SMITH PHARMACY PTE LTD,pharmacy,28 Butterfield Hill,
+233,61b0ca15f6a0af5026000148,56.5614229,52.9958953,Malaya Purga,NHG Pharmacy (CCK Polyclinic),pharmacy,198 Forster Point,
+234,61b0ca15f6a0af5026000149,59.0572129,12.6642819,Bengtsfors,Walker Baptist Medical Center,hospital,2 Tennessee Plaza,10
+235,61b0ca15f6a0af502600014a,53.6785169,-7.2979911,Castlepollard,Dekalb Regional Medical Center,hospital,9073 Shasta Road,10
+236,61b0ca15f6a0af502600014b,-7.3559,107.8034,Padasono,COVID CENTER 1,specialized center,2712 Lunder Crossing,
+237,61b0ca15f6a0af502600014c,-1.4923925,-78.0024134,Puyo,Princeton Baptist Medical Center,hospital,623 Hallows Avenue,3
+238,61b0ca15f6a0af502600014d,-32.9127799,17.9946667,Vredenburg,Providence Kodiak Island Medical Ctr,hospital,4 Homewood Terrace,9
+239,61b0ca15f6a0af502600014e,15.552727,48.516388,Bi’r Ḩāt,Singapore General Hospital Pharmacy,pharmacy,466 Grayhawk Avenue,
+240,61b0ca15f6a0af502600014f,-8.3202794,111.6362619,Bendoroto,North Baldwin Infirmary,hospital,975 Tennessee Terrace,6
+241,61b0ca15f6a0af5026000150,59.3573204,16.4823589,Eskilstuna,COVID CENTER 39,specialized center,7 Esch Court,
+242,61b0ca15f6a0af5026000151,22.948016,113.366904,Shiqiao,ALPS PHARMACY,pharmacy,8 Reinke Drive,
+243,61b0ca15f6a0af5026000152,42.8414484,21.5766407,Medveđa,Providence Alaska Medical Center,hospital,630 Bunker Hill Avenue,4
+244,61b0ca15f6a0af5026000153,50.6749519,113.5905613,Dul’durga,COVID CENTER 27,specialized center,5547 Anderson Terrace,
+245,61b0ca15f6a0af5026000154,40.846108,14.2352339,Napoli,SGH OUTPATIENT PHARMACY (BLK 3),pharmacy,1998 Old Shore Street,
+246,61b0ca15f6a0af5026000155,-7.2652612,109.3575011,Palumbungan,Stringfellow Memorial Hospital,hospital,477 Fallview Plaza,3
+247,61b0ca15f6a0af5026000156,8.475987,47.3657603,Laascaanood,Jack Hughston Memorial Hospital,hospital,096 Schiller Center,10
+248,61b0ca15f6a0af5026000157,45.3180513,42.846668,Svetlograd,COVID CENTER 55,specialized center,275 Waubesa Point,
+249,61b0ca15f6a0af5026000158,42.362461,20.8319248,Suva Reka,COVID CENTER 26,specialized center,610 Sauthoff Court,
+250,61b0ca15f6a0af5026000159,-4.3695455,15.3950939,Masina,Cullman Regional Medical Center,hospital,47093 Commercial Plaza,5
+251,61b0ca15f6a0af502600015a,-28.8953831,27.9073244,Maputsoe,COVID CENTER 29,specialized center,3 North Court,
+252,61b0ca15f6a0af502600015b,7.9632405,123.8751554,Tubod,COVID CENTER 57,specialized center,703 Melby Place,
+253,61b0ca15f6a0af502600015c,2.7991084,44.0793911,Buur Gaabo,Marion Regional Medical Center,hospital,0854 Manley Hill,10
+254,61b0ca15f6a0af502600015d,1.504786,103.82287,Permas,Pharmacy A Changi General Hospital,pharmacy,6031 Tennyson Avenue,
+255,61b0ca15f6a0af502600015e,14.7342524,121.0702642,Esperanza,COVID CENTER 19,specialized center,44648 Calypso Center,
+256,61b0ca15f6a0af502600015f,-10.5971,121.8889,Parajara,SGH Retail Pharmacy (Blk 4),pharmacy,17 Orin Junction,
+257,61b0ca15f6a0af5026000160,23.2082857,112.8295654,Fenglu,COVID CENTER 57,specialized center,05399 Becker Court,
+258,61b0ca15f6a0af5026000161,39.8768811,-8.9140418,Passagem,Pharmacy Services Centre NHG (Blk 9),pharmacy,551 Marcy Parkway,
+259,61b0ca16f6a0af5026000162,46.4979131,15.6702113,Rogoza,KK Outpatient Pharmacy,pharmacy,90209 Autumn Leaf Plaza,
+260,61b0ca16f6a0af5026000163,30.9048784,75.8332947,Dolod,Russell Medical Center,hospital,143 Bluestem Center,8
+261,61b0ca16f6a0af5026000164,9.0072301,125.2122777,Kibonsod,COVID CENTER 15,specialized center,71 3rd Lane,
+262,61b0ca16f6a0af5026000165,31.5977,118.45323,Dongjiang Matoukou,Southeast Alabama Medical Center,hospital,5 Melby Street,1
+263,61b0ca16f6a0af5026000166,48.1181855,38.4585264,Stizhkivs’ke,Bullock County Hospital,hospital,7 Barnett Hill,9
+264,61b0ca16f6a0af5026000167,-15.66758,-72.534439,Viraco,East Alabama Medical Center,hospital,73 Graceland Point,8
+265,61b0ca16f6a0af5026000168,40.7553689,-8.6455126,Monte,Clay County Hospital,hospital,8 Trailsway Pass,6
+266,61b0ca16f6a0af5026000169,1.6054402,32.8084496,Amolatar,Lakeland Community Hospital,hospital,2 Lake View Alley,2
+267,61b0ca16f6a0af502600016a,-19.3352322,30.1791357,Lalapanzi,Alexandra Hospital Retail Pharmacy,pharmacy,65 Randy Circle,
+268,61b0ca16f6a0af502600016b,-7.3733703,108.2822389,Gunajaya,Tucson Medical Center,hospital,5 Corry Crossing,9
+269,61b0ca16f6a0af502600016c,51.5487433,-1.7880953,Swindon,Pacific Pharmacy Pte Ltd,pharmacy,69 Dunning Court,
+270,61b0ca16f6a0af502600016d,40.0158487,116.4551375,Laiguangying,PARKWAY EAST HOSPITAL PHARMACY,pharmacy,48 Trailsway Court,

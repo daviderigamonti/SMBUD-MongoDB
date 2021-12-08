@@ -76,7 +76,7 @@
       "name": "organization",
       "null_percentage": 0,
       "type": "Formula",
-      "value": "from_dataset(\"authorized_body\", \"id\", key: random(1, 270))",
+      "value": "from_dataset(\"authorized_body\", \"_id\", key: random(1, 270))",
       "formula": null
     },
     {

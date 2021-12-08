@@ -1,5 +1,5 @@
 {
-  "num_rows": 400,
+  "num_rows": 300,
   "file_format": "csv",
   "name": "test",
   "include_header": true,
@@ -22,7 +22,7 @@
       "null_percentage": 0,
       "type": "Custom List",
       "values": [
-        "Positive",
+        "Healed",
         "Negative"
       ],
       "selectionStyle": "custom",
@@ -30,8 +30,8 @@
         {
           "rule": "",
           "frequencies": {
-            "Positive": "1",
-            "Negative": "5"
+            "Negative": "5",
+            "Healed": "1"
           }
         }
       ],
@@ -41,7 +41,7 @@
       "name": "organization",
       "null_percentage": 0,
       "type": "Formula",
-      "value": "from_dataset(\"authorized_body\",\"id\", key: random(1, 270))",
+      "value": "from_dataset(\"authorized_body\",\"_id\", key: random(1, 270))",
       "formula": null
     },
     {

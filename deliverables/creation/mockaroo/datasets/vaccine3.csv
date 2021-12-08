@@ -1,21 +1,21 @@
 id,vaccine_info.brand,vaccine_info.type,vaccine_info.lot,vaccine_info.production_date,organization,doses,date,doctor
-1,Johnson & Johnson's Janssen,Viral vector,235,2021-08-23,61b07834fc13ae0e32000210,3,2021-11-27,Concordia Christescu
-2,Pfizer-BioNTech,Genetic,285,2021-10-11,61b07834fc13ae0e3200020b,3,2021-11-26,Amberly O'Farris
-3,Pfizer-BioNTech,Genetic,294,2021-10-21,61b07834fc13ae0e320001f1,3,2021-11-25,Rebbecca Raffan
-4,Johnson & Johnson's Janssen,Viral vector,62,2021-03-02,61b07833fc13ae0e320001d3,3,2021-11-26,Doralin Lidell
-5,Johnson & Johnson's Janssen,Viral vector,84,2021-03-25,61b07833fc13ae0e320001d7,3,2021-11-26,Matty Felgate
-6,Pfizer-BioNTech,Genetic,63,2021-03-03,61b07834fc13ae0e3200021a,3,2021-11-22,Annalise Putton
-7,Johnson & Johnson's Janssen,Viral vector,99,2021-04-08,61b07833fc13ae0e3200019a,3,2021-11-27,Bogey Elphinstone
-8,Moderna,Genetic,148,2021-05-28,61b07834fc13ae0e3200023e,3,2021-10-26,Flori Nail
-9,Moderna,Genetic,64,2021-03-05,61b07833fc13ae0e32000180,3,2021-11-01,Melonie Clewarth
-10,Johnson & Johnson's Janssen,Viral vector,236,2021-08-24,61b07833fc13ae0e320001dc,3,2021-11-16,Margot Dillistone
-11,Johnson & Johnson's Janssen,Viral vector,230,2021-08-18,61b07833fc13ae0e320001e3,3,2021-11-18,Emory Antoniat
-12,Pfizer-BioNTech,Genetic,294,2021-10-21,61b07834fc13ae0e32000248,3,2021-11-25,Rosalyn Victoria
-13,Pfizer-BioNTech,Genetic,290,2021-10-16,61b07833fc13ae0e320001cb,3,2021-11-04,Malanie Tivolier
-14,AstraZeneca,Viral vector,181,2021-06-30,61b07834fc13ae0e3200026f,3,2021-11-28,Flossy Vedeshkin
-15,Pfizer-BioNTech,Genetic,2,2021-01-01,61b07834fc13ae0e32000201,3,2021-11-26,Natalie Crowcum
-16,AstraZeneca,Viral vector,86,2021-03-27,61b07833fc13ae0e320001ce,3,2021-10-03,Stillman MacKean
-17,AstraZeneca,Viral vector,219,2021-08-07,61b07834fc13ae0e32000228,3,2021-11-14,Osmond Cocke
-18,AstraZeneca,Viral vector,242,2021-08-29,61b07834fc13ae0e32000228,3,2021-11-24,Deny Lamputt
-19,Johnson & Johnson's Janssen,Viral vector,81,2021-03-22,61b07833fc13ae0e320001a2,3,2021-11-26,Valdemar Cragg
-20,Moderna,Genetic,300,2021-10-26,61b07833fc13ae0e32000185,3,2021-11-24,Alexei Firmage
+1,AstraZeneca,Viral vector,275,2021-10-02,61b0ca15f6a0af501e00013d,3,2021-11-23,Jaye Petrashov
+2,Johnson & Johnson's Janssen,Viral vector,105,2021-04-15,61b0ca15f6a0af5033000131,3,2021-10-20,Beverlee Wilding
+3,Moderna,Genetic,151,2021-05-31,61b0ca16f6a0af503300014b,3,2021-11-23,Binni Broomhall
+4,Moderna,Genetic,61,2021-03-01,61b0ca16f6a0af502600016a,3,2021-11-27,Warde Rillett
+5,Moderna,Genetic,238,2021-08-25,61b0ca15f6a0af4fff000136,3,2021-11-18,Chic Keune
+6,Johnson & Johnson's Janssen,Viral vector,87,2021-03-28,61b0ca15f6a0af4fff00014b,3,2021-11-10,Lawry Stannah
+7,AstraZeneca,Viral vector,146,2021-05-26,61b0ca16f6a0af5033000149,3,2021-11-21,Emmalynn Rathe
+8,AstraZeneca,Viral vector,307,2021-11-02,61b0ca15f6a0af5039000140,3,2021-11-19,Orv Wicklen
+9,Pfizer-BioNTech,Genetic,9,2021-01-08,61b0ca16f6a0af4fff000151,3,2021-11-28,Gaven Tatchell
+10,Moderna,Genetic,36,2021-02-04,61b0ca15f6a0af5033000136,3,2021-11-20,Tiffanie Roskeilly
+11,Johnson & Johnson's Janssen,Viral vector,43,2021-02-11,61b0ca15f6a0af5039000137,3,2021-10-30,Jessee MacQuaker
+12,Johnson & Johnson's Janssen,Viral vector,8,2021-01-08,61b0ca15f6a0af4fff000140,3,2021-11-19,Orlando Barltrop
+13,Pfizer-BioNTech,Genetic,309,2021-11-05,61b0ca15f6a0af501e000131,3,2021-11-14,Jillie Van Giffen
+14,AstraZeneca,Viral vector,301,2021-10-27,61b0ca15f6a0af501e000134,3,2021-11-27,Marybelle Gislebert
+15,Pfizer-BioNTech,Genetic,171,2021-06-19,61b0ca15f6a0af501e00013a,3,2021-11-23,Ingrim Innwood
+16,Pfizer-BioNTech,Genetic,138,2021-05-18,61b0ca15f6a0af503300012f,3,2021-11-05,Mano Wardhaugh
+17,Johnson & Johnson's Janssen,Viral vector,330,2021-11-25,61b0ca15f6a0af4fd0000136,3,2021-11-26,Adey Scroxton
+18,Moderna,Genetic,311,2021-11-07,61b0ca15f6a0af5003000140,3,2021-11-27,Zerk Constantine
+19,Johnson & Johnson's Janssen,Viral vector,236,2021-08-24,61b0ca15f6a0af5039000148,3,2021-10-06,Erin Milmoe
+20,Johnson & Johnson's Janssen,Viral vector,201,2021-07-19,61b0ca15f6a0af5003000147,3,2021-11-22,Enrika Leigh
