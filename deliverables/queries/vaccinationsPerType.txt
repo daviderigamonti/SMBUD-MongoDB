@@ -1,0 +1,2 @@
+// number of vaccinations for each type of vaccine ('Genetic' or 'Viral vector')
+db.certificate.aggregate( [ { $sortByCount: "$vaccine.vaccine_info.type" } ] )

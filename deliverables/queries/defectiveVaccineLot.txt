@@ -1,0 +1,6 @@
+// find all people vaccinated with a lot (in case of defective vaccine lot)
+db.certificate.find(  {'vaccine.vaccine_info.lot':XXX},
+				{'person.ssn':1,
+				'person.name':1,
+				'person.surname':1})
+				

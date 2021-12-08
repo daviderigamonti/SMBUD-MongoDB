@@ -1,0 +1,4 @@
+// find the number of vaccinations per organization
+
+db.certificate_authorizedBodies.aggregate( [  
+{ $sortByCount: "$vaccine.organization.name" } ] )

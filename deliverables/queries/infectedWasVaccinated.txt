@@ -1,0 +1,5 @@
+// given an infected person, find if he/she had at least one vaccine dose done before the date of the positive test
+db.certificate.find({
+'vaccine': {'$exists':true}, 
+'person.ssn': 'XXXXXXX',
+'vaccine.date': {'$lte': 'TEST DATE'} }).sort({'vaccine.date':-1}).limit(1)

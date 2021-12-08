@@ -1,0 +1,21 @@
+// percentage of vaccinated people over the total number of people
+
+// find total number of distinct vaccinated people (i.e. the ones having at least the first dose)
+var total_vaccinated = db.runCommand(
+   {
+      distinct: "certificate",
+      key: "person.ssn",
+      query: {'vaccine.doses':1}
+   }
+).values.length
+
+// find total number of people
+var total_people = db.runCommand(
+   {
+      distinct: "certificate",
+      key: "person.ssn",
+   }
+).values.length
+
+// calculate the percentage
+total_vaccinated/total_people * 100

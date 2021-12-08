@@ -1,0 +1,5 @@
+// find the number of tests per organization
+
+db.certificate_authorizedBodies.aggregate( [  
+{ $sortByCount: "$test.organization.name" } ] )
+

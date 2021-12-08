@@ -1,0 +1,2 @@
+// number of vaccinations for each brand (Moderna','Johnson & Johnson\'s Janssen','Pfizer-BioNTech', 'AstraZeneca')
+db.certificate.aggregate( [ { $sortByCount: "$vaccine.vaccine_info.brand" } ] )
