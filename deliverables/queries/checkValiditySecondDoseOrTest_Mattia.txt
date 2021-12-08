@@ -1,0 +1,58 @@
+db.certificate.aggregate(
+    {$project: {
+      vaccineDate: {$dateFromString: {dateString: "$vaccine.date", format: "%Y-%m-%d"}},
+      endVaccineValidationDate: {
+        $dateFromParts: {
+          year: { $year: {$dateFromString: {dateString: "$vaccine.date", format: "%Y-%m-%d"}}},
+          month: { $add: [{$month: {$dateFromString: {dateString: "$vaccine.date", format: "%Y-%m-%d"}}}, 9]},
+          day: {$dayOfMonth: {$dateFromString: {dateString: "$vaccine.date", format: "%Y-%m-%d"}}}
+        }
+      },
+      testDate: {$dateFromString: {dateString: "$test.date", format: "%Y-%m-%d"}},
+      endTestValidationDate: {
+        $dateFromParts: {
+          year: { $year: {$dateFromString: {dateString: "$test.date", format: "%Y-%m-%d"}}},
+          month: { $month: {$dateFromString: {dateString: "$test.date", format: "%Y-%m-%d"}}},
+          day: { $add: [{$dayOfMonth: {$dateFromString: {dateString: "$test.date", format: "%Y-%m-%d"}}}, 2]},
+        }
+      },
+      currentDate: new Date(),
+      "vaccine": true,
+      "person.ssn": true,
+    }},
+    {$match: {
+      "person.ssn": "416-96-2228",
+      $and: [
+        {$or: [{"vaccine.doses": 2}, {"vaccine": null}]},
+        {$or: [
+          {
+            $expr: {
+              $gte: [
+                "$currentDate",
+                "$testDate"
+              ]
+            },
+            $expr: {
+              $lt: [
+              "$currentDate",
+              "$endTestValidationDate"
+              ] 
+            }
+          },
+          {
+            $expr: {
+              $gte: [
+                "$currentDate",
+                "$vaccineDate"
+              ]
+            },
+            $expr: {
+              $lt: [
+              "$currentDate",
+              "$endVaccineValidationDate"
+              ] 
+            }
+          }]
+        }]
+    }}
+  )
