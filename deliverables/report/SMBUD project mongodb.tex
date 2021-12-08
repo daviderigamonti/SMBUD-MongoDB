@@ -91,9 +91,14 @@
 
 \subsection{Problem Specification}
 
-\todo{Problem Specification}
-The idea of the project is that of building a dataset containing information about green passes ad organization releasing them. A certificate is released when a person does a vaccination or takes a test to check the presence of Covid-19. All certificates contain information about the person involved, the organization issuing the certificate and information about the vaccine or the test. \\
-The purpose is to build a system allowing to check the validity of these certificates according to the latest government rules.
+The idea of the project is that of building a dataset containing information about 
+\emph{"green"} certifications and people/organizations acquiring and releasing them. \\ 
+A certificate is released when a person takes a vaccination shot or takes a test to check
+if they are infected with Covid-19, all certificates contain information about the person 
+involved, the organization issuing the certificate and information about the vaccine or 
+the test. \\
+The purpose of this project is to build a system that allows to check the validity of 
+these certificates according to the latest government rules.
 
 \subsection{Hypoteses}
 
@@ -103,9 +108,9 @@ The purpose is to build a system allowing to check the validity of these certifi
     \begin{itemize}
         \item[] We assumed that vaccines and tests don't expire and can be used 
             as soon as they are produced without accounting for delivery time.
-        \item[] Similarly to what happens in reality, we assumed that there is one certification
-	for each test/vaccine, so that a person can have different certifications associated, not all of them are valid.
-            as soon as they are produced without accounting for delivery time.
+        \item[] Similarly to what happens in reality, we assumed that there is one
+            certification for each test/vaccine, so that a person can have different 
+            certifications associated but not all of them may be valid at a given time.
         \item[] We also assumed that the minimum time elapsed between two doses
             for the same person is at least one day in order to have a better
             distribution of vaccinations inside the generated dataset;
@@ -151,7 +156,7 @@ The purpose is to build a system allowing to check the validity of these certifi
 \subsection{Dataset description}
 
 We represented a population of 200 people taking a total of 330 vaccinations
-(190 first doses, 120 second doses and 20 third doses) and 400 tests inside
+(190 first doses, 120 second doses and 20 third doses) and 300 tests inside
 a total of 270 authorized bodies (130 hospitals, 80 pharmacies and 60 
 specialized centers). \\
 Certifications are characterized by information about the related person
@@ -162,7 +167,8 @@ and information about the vaccine such as brand, type, lot and production
 date) or the test (lot, result, date, organization and doctor). \\
 There is also a document containing informations about the latest government rules
 on the time validity of tests and vaccines certifications; we assumed test validity is 
-24 hours, while vaccinations validity is 9 months.
+24 hours (in case a negative test implies that the person has healed, its duration is 
+extended to 6 months), while vaccinations validity is 9 months. \\
 The complete script used for the creation of the dataset, togheter with a 
 database dump will be provided alongside this document.
 
