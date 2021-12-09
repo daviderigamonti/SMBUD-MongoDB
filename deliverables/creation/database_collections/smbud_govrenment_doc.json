@@ -2,6 +2,7 @@
   "_id": {
     "$oid": "61a39a2f3b0459c2b8c5c824"
   },
-  "test_validity_time_h": 24,
+  "negative_test_validity_time_h": 24,
+  "healed_test_validity_time_month": 6,
   "vaccine_validity_time_month": 9
 }]
