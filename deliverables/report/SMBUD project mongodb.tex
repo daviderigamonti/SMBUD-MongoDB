@@ -128,6 +128,7 @@ these certificates according to the latest government rules.
             of 330 lots numbered from \emph{1} to \emph{330}.
         \item[] Tests are performed from 01/01/2021 to 26/11/20 21 and 
             their lots are numbered from \emph{1200} to \emph{1600}.
+        \item[] The validity check for green passes is performed by the application (more on this can be found in the Application section of this document).
     \end{itemize}
 
     \item Other entities
@@ -168,11 +169,13 @@ including the name, surname, phone number and description for a person to
 contact in case of emergency) and the vaccination (date, organization, doctor 
 and information about the vaccine such as brand, type, lot and production 
 date) or the test (lot, result, date, organization and doctor). \\
+Authorized bodies are characterized by: GPS coordinates (latitude and longitude), city,
+ name, type (pharmacy, hospital or specialized centers), address and department (only for hospitals).
 There is also a document containing informations about the latest government rules
 on the time validity of tests and vaccines certifications; we assumed test validity is 
 24 hours (whereas in case a negative test implies that the person has healed, its duration is 
 extended to 6 months), while vaccinations validity is 9 months. \\
-The complete script used for the creation of the dataset, togheter with a 
+The complete script used for the creation of the dataset, together with a 
 database dump will be provided alongside this document.
 
 % VIEWS
