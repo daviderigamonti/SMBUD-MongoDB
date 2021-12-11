@@ -93,8 +93,8 @@
 
 The idea of the project is that of building a dataset containing information about 
 \emph{"green"} certifications and people/organizations acquiring and releasing them. \\ 
-A certificate is released whenever a person takes a vaccination shot, takes a test to check
-if he/she is infected with Covid-19 of if she/he recovered from Covid-19. \\
+A certificate is released whenever a person takes a vaccination shot, takes a test to 
+check if they are infected with Covid-19 of if they recovered from Covid-19. \\
 All certificates contain information about the person 
 involved, the organization issuing the certificate and information about the vaccine or 
 the test. \\
@@ -128,7 +128,8 @@ these certificates according to the latest government rules.
             of 330 lots numbered from \emph{1} to \emph{330}.
         \item[] Tests are performed from 01/01/2021 to 26/11/20 21 and 
             their lots are numbered from \emph{1200} to \emph{1600}.
-        \item[] The validity check for green passes is performed by the application (more on this can be found in the Application section of this document).
+        \item[] The validity check for green passes is performed by the application 
+            (more on this can be found in the Application section of this document).
     \end{itemize}
 
     \item Other entities
@@ -170,11 +171,12 @@ contact in case of emergency) and the vaccination (date, organization, doctor
 and information about the vaccine such as brand, type, lot and production 
 date) or the test (lot, result, date, organization and doctor). \\
 Authorized bodies are characterized by: GPS coordinates (latitude and longitude), city,
- name, type (pharmacy, hospital or specialized centers), address and department (only for hospitals).
+name, type (pharmacy, hospital or specialized centers), address and department 
+(only for hospitals). \\
 There is also a document containing informations about the latest government rules
 on the time validity of tests and vaccines certifications; we assumed test validity is 
-24 hours (whereas in case a negative test implies that the person has healed, its duration is 
-extended to 6 months), while vaccinations validity is 9 months. \\
+24 hours (whereas in case a negative test implies that the person has healed, its 
+duration is extended to 6 months), while vaccinations validity is 9 months. \\
 The complete script used for the creation of the dataset, together with a 
 database dump will be provided alongside this document.
 
@@ -183,8 +185,8 @@ database dump will be provided alongside this document.
 Views are used to make queries easier to be executed.
 
 \subsubsection{Certificates with datetimes}
-This view is used to convert all dates contained in certificates to datetime format. Moreover, 
-we also add a field representing the age of the person.
+This view is used to convert all dates contained in certificates to datetime format. 
+Moreover, we also add a field representing the age of the person.
 
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
@@ -220,7 +222,8 @@ db.createView(
 \end{tcolorbox}
 
 \subsubsection{Join bewteen certificates and authorized bodies}
-This view is used to retrieve the information about the authorized bodies issuing vaccinations or tests.
+This view is used to retrieve the information about the authorized bodies issuing 
+vaccinations or tests.
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
 db.createView(
@@ -286,7 +289,8 @@ db.certificate.find(  {"vaccine.vaccine_info.lot": lot},
 \end{tcolorbox}
 
 \noindent % Removes indentation after box
-Returns SSN, name, surname and phone number of people vaccinated with the specified defective vaccine lot. \\
+Returns SSN, name, surname and phone number of people vaccinated with the specified 
+defective vaccine lot. \\
 It takes the following parameters:
 \begin{itemize}
     \item \texttt{lot} \emph{(int)}: number of the defective lot.
@@ -303,7 +307,8 @@ db.certificate.find(
 
 \noindent % Removes indentation after box
 Returns the certificate with a given id. The retrieved document is later used to check 
-its validity according to the date, the government rules and, in case of vaccine, the presence of newer vaccinations. \\
+its validity according to the date, the government rules and, in case of vaccine, the 
+presence of newer vaccinations. \\
 It takes the following parameters:
 \begin{itemize}
     \item \texttt{id} \emph{(string)}: id of the certificate.
@@ -315,21 +320,23 @@ It takes the following parameters:
 // total number of people
 var personNumber = db.certificate.distinct("person.ssn").length;
 
-// divide people into groups and calcultate the percentage of second doses for each 
+// divide people into groups and calcultate the percentage of second doses 
+// for each group 
 db.certificate_datetimes.aggregate(
       {$match: {"vaccine.doses": 2}},
       {$group: {
         _id: {
-          $concat: [
-              {$cond: [ {$and: [ {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+            $concat: [
+              {$cond: [ {$and: [ 
+                            {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, 
-                                 {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+                            {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, 
-                                 {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+                            {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, 
-                                 {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+                            {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, 
-                                 {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+                            {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
               {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
             ]
         },
@@ -344,8 +351,8 @@ db.certificate_datetimes.aggregate(
     \end{verbatim}
 \end{tcolorbox}
 \noindent 
-Returns the percentage of fully vaccinated people (i.e. the ones having at least the second dose of vaccine)
-divided by age groups.
+Returns the percentage of fully vaccinated people (i.e. the ones having at least the 
+second dose of vaccine) divided by age groups.
 
 \subsubsection{Percentage of boosters by age groups}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -358,15 +365,15 @@ db.certificate_datetimes.aggregate(
         _id: {
           $concat: [
               {$cond: [ {$and: [ {$gte: ["$person.age", 10]},
-                                 {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+                            {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, 
-                                 {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+                            {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, 
-                                 {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+                            {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, 
-                                 {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+                            {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, 
-                                 {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+                            {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
               {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
             ]
         },
@@ -394,15 +401,15 @@ db.certificate_datetimes.aggregate(
         _id: {
           $concat: [
               {$cond: [ {$and: [ {$gte: ["$person.age", 10]},
-                                 {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
+                            {$lt: ["$person.age", 20]} ]}, "Under 20", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 20]}, 
-                                 {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
+                            {$lt: ["$person.age", 40]} ]}, "20 - 40", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 40]}, 
-                                 {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
+                            {$lt: ["$person.age", 50]} ]}, "40 - 50", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 50]}, 
-                                 {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
+                            {$lt: ["$person.age", 60]} ]}, "50 - 60", ""]},
               {$cond: [ {$and: [ {$gte: ["$person.age", 60]}, 
-                                 {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
+                            {$lt: ["$person.age", 70]} ]}, "60 - 70", ""]},
               {$cond: [ {$gte: ["$person.age", 70]}, "Over 70", ""]},
             ]
         },
@@ -488,7 +495,13 @@ db.certificate.aggregate( [ { $sortByCount: "$vaccine.vaccine_info.brand" } ] )
 \end{tcolorbox}
 
 \noindent
-Returns the number of vaccines made for each brand ('Moderna','Johnson \& Johnson','Pfizer-BioNTech', 'AstraZeneca').
+Returns the number of vaccines made for each brand:
+\begin{itemize}
+    \item \emph{'Moderna'},
+    \item \emph{'Johnson \& Johnson'}
+    \item \emph{'Pfizer-BioNTech'}
+    \item \emph{'AstraZeneca'}
+\end{itemize}
 
 \subsubsection{Number of vaccines per type}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -533,13 +546,13 @@ db.certificate.insertOne(
 \end{tcolorbox}
 
 \noindent
-Inserts a new test in the database. \\
+Inserts a new test in the database. 
 
 \subsubsection{Delete old tests}
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
 db.certificate_datetimes.find({ 
-  "test.date": { "$lte": new Date(new Date().setMonth(new Date().getMonth() - 3)) }
+  "test.date": {"$lte": new Date(new Date().setMonth(new Date().getMonth()-3))}
 }).forEach(function(doc) {
     db.certificate.deleteMany({ "_id": doc._id });
   });
@@ -594,7 +607,8 @@ It takes the following parameters:
 \begin{itemize}
     \item \texttt{test\_time} \emph{(int)}: hours for which a negative test is valid;
     \item \texttt{vaccine\_months} \emph{(int)}: months for which a vaccine is valid;
-    \item \texttt{altro campo} \emph{(int)}: months for which a test obtained after healing from Covid-19 is valid; \todo{cambia}
+    \item \texttt{altro campo} \emph{(int)}: months for which a test obtained after 
+        healing from Covid-19 is valid; \todo{cambia}
  \end{itemize}
 
 \clearpage
@@ -604,20 +618,75 @@ It takes the following parameters:
 
 \subsection{Description}
 
-\todo{De-scription}
-\blindtext
+The app is split into 3 tabs: 
+\begin{itemize}
+    \item The first tab contains a panel where you can request the generation of a
+        QR code for a certificate given the SSN of a person. \\ 
+        You can choose to generate a certificate related to the vaccine doses' 
+        certificates, the most recent negative test or the most recent healed test. \\ 
+        After generating it, a \emph{.png} file containing the QR code is saved on your 
+        working directory where the JAR has been launched. 
+    \item The second tab contains a panel where you can choose an image containing a QR 
+        code and checks if the associated certificate is valid or not. \\
+        A certificate is judged as valid if the corresponding certificate is found inside
+        the databse (retrieved using its id encoded in \emph{base64}) and matches the 
+        validity conditions given for its certificate type.
+    \item (Please note that this works only if you run the application on Windows) The 
+        third tab contains a panel that integrates a webcam component capable of 
+        scanning the QR code and checks its validity.
+\end{itemize}
 
 \subsection{User Guide}
 
-\todo{User Guide}
-\blindtext
+The app is written in Java, therefore it requires Java 11 or newer versions in order to 
+run properly. \\
+There are two JAR files, one with the webcam version (intended to be run on Windows), 
+and the other one without the webcam. 
+It will work only if the cluster on MongoDB is created with a username called 
+\emph{‘admin’} and password \emph{‘psw’}, while database name must be \emph{‘project2’}. \\
+The collections' names must be: 
+\begin{itemize}
+    \item ‘authorized\_body‘;
+    \item ‘certificate‘;
+    \item ‘government\_doc‘.
+\end{itemize}
+
 
 \clearpage % Here otherwise the screenshots go in strange places
 
 \subsection{Screenshots}
 
-\todo{Screen-shots}
-\blindtext
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\linewidth]{app_1.png}
+    \caption*{Generation of a QR code.} % Caption
+\end{figure}
+\vspace{2cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\linewidth]{app_2.png}
+    \caption*{Trying to generate a QR code for a non-existing certificate.} % Caption
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\linewidth]{app_3.png}
+    \caption*{Scan of a valid QR code.} % Caption
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\linewidth]{app_4.png}
+    \caption*{Scan of an invalid Qr code.} % Caption
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\linewidth]{app_5.png}
+    \caption*{Scan of a valid QR code via webcam.} % Caption
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\linewidth]{app_6.png}
+    \caption*{Scan of an invalid Qr code via webcam.} % Caption
+\end{figure}
 
 \clearpage 
 
@@ -631,6 +700,8 @@ In order to develop these project, the following tools were used:
         and write queries;
     \item \LaTeX~to write the report;
     \item Github as a versioning and collaboration mean;
+    \item Java, JavaFX, Scene builder, MongoDB Driver and the ZXing library to build 
+        the application;
     \item \url{https://www.Mockaroo.com} 
         to generate realistic data for people, authorized bodies and 
         certifications;
