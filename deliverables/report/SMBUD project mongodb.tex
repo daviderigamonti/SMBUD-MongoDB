@@ -154,10 +154,22 @@ these certificates according to the latest government rules.
 \section{Database}
 
 \subsection{Document Diagram}
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Box to properly center the image
+        \includegraphics[scale=0.65]{doc_diagram.png} % ER diagram
+    }
+    \caption*{The diagram represents the first phase of the database design.} % Caption
+\end{figure}
 
-\todo{Do-cument Diagram}
-\blindtext
+\noindent 
+Since in this project we used a documental database, we decided to use a document diagram.
+The elements in the diagram are:
+\begin{itemize}
+    \item \texttt{Authorized Body}: it contains information about any organization that can release vaccines or tests.
+    \item \texttt{Government doc}: it represents the government rules about the duration of the various types of certificates. The validity is expressed in hours for the negative tests, while it is expressed in months for vaccines and tests done after healing from Covid-19.
+    \item \texttt{Certificate}: there are two types of certificates: one for tests and one for vaccines. Test certificates include information about the result of the test, while vaccine certification include brand, type, production date of the vaccine and the number of the dose. Both contain information about the owner, including its emergency contact, the lot of test/vaccine, the organization that released it, the date it was made, the doctor who was attending.
 
+\end{itemize}
 \subsection{Dataset description}
 
 We represented a population of about 200 people taking a total of 330 vaccinations
@@ -588,14 +600,14 @@ It takes the following parameters:
     \item \texttt{description} \emph{(string)}: description of the emergency contact;
  \end{itemize}
 
-
-\subsubsection{Update government rules} \todo{aggiungi campo test per guarigione}
+\subsubsection{Update government rules} 
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
 db.government_rules.updateOne(
           {},
           {"$set" : { 
-                    "test_validity_time_h": negative_test_time , 
+                    "negative_test_validity_time_h": negative_test_time,
+                    "healed_test_validity_time_month": healed_test_time, 
                     "vaccine_validity_time_month": vaccine_time
           }})
       \end{verbatim}
@@ -607,8 +619,8 @@ It takes the following parameters:
 \begin{itemize}
     \item \texttt{test\_time} \emph{(int)}: hours for which a negative test is valid;
     \item \texttt{vaccine\_months} \emph{(int)}: months for which a vaccine is valid;
-    \item \texttt{altro campo} \emph{(int)}: months for which a test obtained after 
-        healing from Covid-19 is valid; \todo{cambia}
+    \item \texttt{healed\_test\_time} \emph{(int)}: months for which a test obtained after 
+        healing from Covid-19 is valid.
  \end{itemize}
 
 \clearpage
@@ -629,8 +641,10 @@ The app is split into 3 tabs:
     \item The second tab contains a panel where you can choose an image containing a QR 
         code and checks if the associated certificate is valid or not. \\
         A certificate is judged as valid if the corresponding certificate is found inside
-        the databse (retrieved using its id encoded in \emph{base64}) and matches the 
-        validity conditions given for its certificate type.
+        the database (retrieved using its id encoded in \emph{base64}) and matches the 
+        validity conditions given for its certificate type. 
+If the id of a certificate is not found in the database, then the certificate is not valid.
+If it is found and it is a vaccine, we check there are no newer vaccines made after it, otherwise it is not valid; then we check that the date matches the validity conditions given by the government. If the certificate is a test, we simply check its date according to government rules.
     \item (Please note that this works only if you run the application on Windows) The 
         third tab contains a panel that integrates a webcam component capable of 
         scanning the QR code and checks its validity.
