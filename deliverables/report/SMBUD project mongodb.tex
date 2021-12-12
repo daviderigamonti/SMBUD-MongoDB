@@ -12,13 +12,6 @@
 \usepackage[font=small, labelfont=bf]{caption} % Image caption font
 \usepackage{longtable} % Build long tables
 
-% HELPER PACKAGES (REMOVE IN FINAL) %
-\usepackage{blindtext} % Lorem Ipsum
-\usepackage{todonotes} % TODOs as useful reminders
-\setlength{\marginparwidth}{2cm} % Otherwise todonotes gets angry at me lol
-\setuptodonotes{fancyline, color=green!40, shadow} % TODOs options
-% HELPER PACKAGES (REMOVE IN FINAL) %
-
 \graphicspath{ {./res/} } % Path to graphics
 \hypersetup{    % ToC Hyperlink setup
     colorlinks,
@@ -81,9 +74,6 @@
     \tableofcontents
 }
 
-% LIST OF TODOs (REMOVE IN FINAL)
-\listoftodos
-
 \clearpage
 
 % INTRODUCTION
@@ -94,7 +84,7 @@
 The idea of the project is that of building a dataset containing information about 
 \emph{"green"} certifications and people/organizations acquiring and releasing them. \\ 
 A certificate is released whenever a person takes a vaccination shot, takes a test to 
-check if they are infected with Covid-19 of if they recovered from Covid-19. \\
+check if they are infected with Covid-19 of if they recover from Covid-19. \\
 All certificates contain information about the person 
 involved, the organization issuing the certificate and information about the vaccine or 
 the test. \\
@@ -107,7 +97,7 @@ these certificates according to the latest government rules.
 
     \item Vaccines and tests
     \begin{itemize}
-        \item[] We assumed that vaccines and tests can be used 
+        \item[] We assumed that vaccines and tests don't expire and can be used 
             as soon as they are produced without accounting for delivery time.
         \item[] Similarly to what happens in reality, we assumed that there is one
             certification for each test/vaccine, so that a person can have different 
@@ -116,20 +106,18 @@ these certificates according to the latest government rules.
             for the same person is at least one day in order to have a better
             distribution of vaccinations inside the generated dataset;
             furthermore, all doses must be of the same vaccine brand and a
-            single person can have up to 3 vaccine doses. 
-        \item[] Given the previous assumptions we don't consider the test 
-            results to have any relevance besides for negative tests
-            generating a certification that is valid for a certain amount of 
-            time.        
-	\item[] Moreover, we assumed positive tests are not stored in this database, since
-	certificates are meaningful only for vaccinated or healed people.
-        \item[] Vaccines are produced from 01/01/2021 to 26/11/2021 with a
-            number ranging from 0 to 2 lots per day, adding up to a total
-            of 330 lots numbered from \emph{1} to \emph{330}.
-        \item[] Tests are performed from 01/01/2021 to 26/11/20 21 and 
-            their lots are numbered from \emph{1200} to \emph{1600}.
-        \item[] The validity check for green passes is performed by the application 
-            (more on this can be found in the Application section of this document).
+            single person can have up to 3 vaccine doses (this can easily be extended). 
+        \item[] Given the previous assumptions we don't consider positive test 
+            results to have any relevance and we do not store them in this database
+            since its purpose is to contain certifications.
+        \item[] Vaccines  inside the generated dataset are produced from 01/01/2021 to \\
+            26/11/2021 with a number ranging from 0 to 2 lots per day, adding up to a 
+            total of 330 lots numbered from \emph{1} to \emph{330}.
+        \item[] Tests inside the generated dataset are performed from 01/01/2021 to \\ 
+            26/11/20 21 and their lots are numbered from \emph{1200} to \emph{1600}.
+        \item[] The validity check for certifications is performed by the application 
+            (more on this can be found in the \hyperref[sec:Application]{Application} 
+            section of this document).
     \end{itemize}
 
     \item Other entities
@@ -141,9 +129,9 @@ these certificates according to the latest government rules.
             such as phone numbers for people and coordinates for authorized 
             bodies aren't designed to be consistent among the dataset.
         \item[] All authorized bodies can release all kinds of certificates.
-        \item[] People were born between years 1941 and 2011, therefore their 
-            age ranges roughly from \emph{10 y.} to \emph{80 y.} considering 
-            2021 to be current year.
+        \item[] People inside the generated dataset were born between years 1941 and
+            2011, therefore their age ranges roughly from \emph{10 y.} to 
+            \emph{80 y.} considering 2021 to be current year.
     \end{itemize}
 
 \end{itemize}
@@ -154,20 +142,30 @@ these certificates according to the latest government rules.
 \section{Database}
 
 \subsection{Document Diagram}
-\begin{figure}[h]
+\begin{figure}[ht]
     \makebox[\textwidth][c]{ % Box to properly center the image
-        \includegraphics[scale=0.65]{doc_diagram.png} % ER diagram
+        \includegraphics[scale=0.65]{doc_diagram.png} % Document diagram
     }
     \caption*{The diagram represents the first phase of the database design.} % Caption
 \end{figure}
 
 \noindent 
-Since in this project we used a documental database, we decided to use a document diagram.
+Since MongoDB is a documental database, we decided to use a document diagram to better
+describe the structure of our project. \\
 The elements in the diagram are:
 \begin{itemize}
-    \item \texttt{Authorized Body}: it contains information about any organization that can release vaccines or tests.
-    \item \texttt{Government doc}: it represents the government rules about the duration of the various types of certificates. The validity is expressed in hours for the negative tests, while it is expressed in months for vaccines and tests done after healing from Covid-19.
-    \item \texttt{Certificate}: there are two types of certificates: one for tests and one for vaccines. Test certificates include information about the result of the test, while vaccine certification include brand, type, production date of the vaccine and the number of the dose. Both contain information about the owner, including its emergency contact, the lot of test/vaccine, the organization that released it, the date it was made, the doctor who was attending.
+    \item \texttt{Authorized Body}: it contains information about any organization that
+        can release vaccines or tests.
+    \item \texttt{Government Document}: it represents the government rules about the 
+        duration of the various types of certificates, the validity period is expressed
+        in hours for the negative tests and in months for vaccines and tests done after 
+        healing from Covid-19.
+    \item \texttt{Certificate}: there are two types of certificates: one for tests and 
+        one for vaccines. Test certificates include information about the result of the 
+        test, while vaccine certifications include brand, type, production date of the 
+        vaccine and the number of the dose. Both contain information about the owner, 
+        including its emergency contact, the lot of test/vaccine, the organization that 
+        released it, the date it was made and the doctor that was attending the process.
 
 \end{itemize}
 \subsection{Dataset description}
@@ -654,6 +652,7 @@ It takes the following parameters:
 
 % APPLICATION
 \section{Application}
+\label{sec:Application}
 
 \subsection{Description}
 
@@ -669,9 +668,12 @@ The app is split into 3 tabs:
         code and checks if the associated certificate is valid or not. \\
         A certificate is judged as valid if the corresponding certificate is found inside
         the database (retrieved using its id encoded in \emph{base64}) and matches the 
-        validity conditions given for its certificate type. 
-If the id of a certificate is not found in the database, then the certificate is not valid.
-If it is found and it is a vaccine, we check there are no newer vaccines made after it, otherwise it is not valid; then we check that the date matches the validity conditions given by the government. If the certificate is a test, we simply check its date according to government rules.
+        validity conditions given for its certificate type. \\
+        If the certificate is a vaccine, we check there are no newer vaccines made after 
+        it, otherwise it is not valid; then we check that the date matches the validity 
+        conditions given by the government. \\
+        If the certificate is a test, we simply check its date according to government 
+        rules.
     \item (Please note that this works only if you run the application on Windows) The 
         third tab contains a panel that integrates a webcam component capable of 
         scanning the QR code and checks its validity.
@@ -697,33 +699,33 @@ The collections' names must be:
 
 \subsection{Screenshots}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=.6\linewidth]{app_1.png}
     \caption*{Generation of a QR code.} % Caption
 \end{figure}
 \vspace{2cm}
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=.6\linewidth]{app_2.png}
     \caption*{Trying to generate a QR code for a non-existing certificate.} % Caption
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=.6\linewidth]{app_3.png}
     \caption*{Scan of a valid QR code.} % Caption
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=.6\linewidth]{app_4.png}
     \caption*{Scan of an invalid Qr code.} % Caption
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=.6\linewidth]{app_5.png}
     \caption*{Scan of a valid QR code via webcam.} % Caption
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=.6\linewidth]{app_6.png}
     \caption*{Scan of an invalid Qr code via webcam.} % Caption
