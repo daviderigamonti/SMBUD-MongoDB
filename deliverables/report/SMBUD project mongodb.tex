@@ -294,9 +294,7 @@ db.certificate.find(  {"vaccine.vaccine_info.lot": lot},
 				{"person.ssn":1,
 				"person.name":1,
 				"person.surname":1,
-				"person.phone":1,
-				"_id":0
-})
+				"person.phone":1})
     \end{verbatim}
 \end{tcolorbox}
 
@@ -307,12 +305,6 @@ It takes the following parameters:
 \begin{itemize}
     \item \texttt{lot} \emph{(int)}: number of the defective lot.
 \end{itemize}
-An example of result is:
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.6\linewidth]{defective_lot.jpg}
-    \caption*{Example of result for lot 311} % Caption
-\end{figure}
 
 \subsubsection{Find Certificate by Id}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -370,12 +362,7 @@ db.certificate_datetimes.aggregate(
 \end{tcolorbox}
 \noindent 
 Returns the percentage of fully vaccinated people (i.e. the ones having at least the 
-second dose of vaccine) divided by age groups.\\
-An example of result is:
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\linewidth]{vaccinations_per_age_groups.jpg}
-\end{figure}
+second dose of vaccine) divided by age groups.
 
 \subsubsection{Percentage of boosters by age groups}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -497,18 +484,13 @@ db.certificate_authorizedBodies.aggregate( [
 \end{tcolorbox}
 
 \noindent
-Returns the number of tests made by each organization.\\
-An example of result is:
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.9\linewidth]{tests_per_organization.jpg}
-\end{figure}
+Returns the number of tests made by each organization.
 
 \subsubsection{Number of vaccines per organization}
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
 db.certificate_authorizedBodies.aggregate( [  
-{ $sortByCount: "$vaccine.organization.name" } ] )
+{ $sortByCount: "$vaccines.organization.name" } ] )
     \end{verbatim}
 \end{tcolorbox}
 
@@ -529,12 +511,7 @@ Returns the number of vaccines made for each brand:
     \item \emph{'Johnson \& Johnson'}
     \item \emph{'Pfizer-BioNTech'}
     \item \emph{'AstraZeneca'}
-\end{itemize} 
-An example of result is:
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\linewidth]{vaccines_per_brand.jpg}
-\end{figure}
+\end{itemize}
 
 \subsubsection{Number of vaccines per type}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -544,12 +521,8 @@ db.certificate.aggregate( [ { $sortByCount: "$vaccine.vaccine_info.type" } ] )
 \end{tcolorbox}
 
 \noindent
-Returns the number of vaccines made for each type ('Genetic' or 'Viral vector').\\
-An example of result is:
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.6\linewidth]{vaccines_per_type.jpg}
-\end{figure}
+Returns the number of vaccines made for each type ('Genetic' or 'Viral vector').
+
 \subsection{Commands}
 
 \subsubsection{Add new vaccine} 
@@ -711,16 +684,21 @@ The app is split into 3 tabs:
 The app is written in Java, therefore it requires Java 11 or newer versions in order to 
 run properly. \\
 There are two JAR files, one with the webcam version (intended to be run on Windows), 
-and the other one without the webcam. 
-It will work only if the cluster on MongoDB is created with a username called 
-\emph{‘admin’} and password \emph{‘psw’}, while database name must be \emph{‘project2’}. \\
-The collections' names must be: 
-\begin{itemize}
-    \item ‘authorized\_body‘;
-    \item ‘certificate‘;
-    \item ‘government\_doc‘.
-\end{itemize}
+and the other one without the webcam. \\
+In order to connect to the MongoDB service a connection string must be provided in the
+format specified by the Java MongoDB Driver inside a file named \\
+\texttt{ConnectionString.txt} placed in the working folder of the JARs. \\
+In addition, the database must be named \emph{‘project2’} and the collections' names must 
+be: \emph{‘authorized\_body‘}, \emph{‘certificate‘} and \emph{‘government\_doc‘}.
 
+\noindent
+A default connection string is already provided along with the application but it is not
+guaranteed to function since it has been used for testing purposes. \\
+The generated dataset can be imported either using MongoDB Compass and manually creating
+a database and importing all the collections from the files contained in 
+\texttt{deliverables/creation/database\_collections} or running a \\ \emph{mongorestore}
+using MongoDB Database Tools from the dump located at \\
+\texttt{deliverables/creation/dump}. 
 
 \clearpage % Here otherwise the screenshots go in strange places
 
@@ -770,8 +748,7 @@ In order to develop these project, the following tools were used:
         and write queries;
     \item \LaTeX~to write the report;
     \item Github as a versioning and collaboration mean;
-    \item Java, JavaFX, Scene builder, MongoDB Driver and the ZXing library to build 
-        the application;
+    \item Java, MongoDB Driver and the ZXing library to build the application;
     \item \url{https://www.Mockaroo.com} 
         to generate realistic data for people, authorized bodies and 
         certifications;

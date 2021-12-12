@@ -1,1 +1,0 @@
-mongodb+srv://admin:psw@cluster0.n9biz.mongodb.net/project2?retryWrites=true&w=majority
