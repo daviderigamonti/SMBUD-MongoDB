@@ -107,7 +107,7 @@ these certificates according to the latest government rules.
 
     \item Vaccines and tests
     \begin{itemize}
-        \item[] We assumed that vaccines and tests don't expire and can be used 
+        \item[] We assumed that vaccines and tests can be used 
             as soon as they are produced without accounting for delivery time.
         \item[] Similarly to what happens in reality, we assumed that there is one
             certification for each test/vaccine, so that a person can have different 
@@ -527,7 +527,7 @@ Returns the number of vaccines made for each type ('Genetic' or 'Viral vector').
 
 \subsection{Commands}
 
-\subsubsection{Add new test} \todo{ha senso metterlo qui? o solo su github?}
+\subsubsection{Add new vaccine} 
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
 db.certificate.insertOne(
@@ -546,19 +546,46 @@ db.certificate.insertOne(
         "description": description
         }
     },
-    "test": {
-        "date": test_date,
-        "result": result,
-        "organization": organization,
-        "lot": lot,
-        "doctor": doctor
+    "vaccine": {
+        "vaccine_info": {
+            "brand": brand,
+            "type": type,
+            "lot": lot,
+            "production_date": prod_date
+        },
+    "organization": id_org,
+    "doses": doses,
+    "date": vaccine_date,
+    "doctor": doctor
     }
 });
     \end{verbatim}
 \end{tcolorbox}
 
 \noindent
-Inserts a new test in the database. 
+Inserts a new vaccine in the database. All dates are expressed as strings
+in "YYYY-MM-DD" format. \\
+It takes the following parameters:
+\begin{itemize}
+    \item \texttt{ssn} \emph{(string)}: social security number of the person;
+    \item \texttt{name} \emph{(string)}: name of the person;
+    \item \texttt{surname} \emph{(string)}: surname of the person;
+    \item \texttt{birthdate} \emph{(string)}: birthdate of the person;
+    \item \texttt{city} \emph{(city)}: city where the person lives;
+    \item \texttt{phone} \emph{(string)}: phone number of the person;
+    \item \texttt{e\_name} \emph{(string)}: name of the emergency contact;
+    \item \texttt{e\_surname} \emph{(string)}: surname of the emergency contact;
+    \item \texttt{e\_phone} \emph{(string)}: phone of the emergency contact;
+    \item \texttt{description} \emph{(string)}: description of the emergency contact;
+    \item \texttt{brand} \emph{(string)}:brand of the vaccine;
+    \item \texttt{type} \emph{(string)}: type of the vaccine;
+    \item \texttt{lot} \emph{(int)}: lot of the vaccine;
+    \item \texttt{prod\_date} \emph{(string)}: production date of the vaccine;
+    \item \texttt{id\_org} \emph{(string)}: id of the organization releasing the vaccine;
+    \item \texttt{doses} \emph{(int)}: number of the vaccine dose;
+    \item \texttt{vaccine\_date} \emph{(string)}: date of the vaccine;
+    \item \texttt{doctor} \emph{(string)}: name of the doctor attending the vaccination.
+ \end{itemize}
 
 \subsubsection{Delete old tests}
 \begin{tcolorbox}[fontupper=\scriptsize]

@@ -2,11 +2,11 @@
 /*
 Parameters:
 	ssn, name, surmane, phone: String
-	birthdate, prod_date, vax_date: String ('YYYY-MM-DD')
+	birthdate, prod_date, vaccine_date: String ('YYYY-MM-DD')
 	e_name, e_surname, e_phone, description: String
 	brand, type: String
 	lot: int
-	organization: String representing the id of the organization
+	id_org: String representing the id of the organization
 	doses: int
 	doctor: String
 */
@@ -33,9 +33,9 @@ db.certificate.insertOne(
             "lot": lot,
             "production_date": prod_date
         },
-    "organization": organization,
+    "organization": id_org,
     "doses": doses,
-    "date": vax_dat,
+    "date": vaccine_date,
     "doctor": doctor
     }
 });
