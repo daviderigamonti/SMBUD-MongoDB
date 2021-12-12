@@ -3,5 +3,6 @@ db.certificate.find(  {"vaccine.vaccine_info.lot": lot},
 				{"person.ssn":1,
 				"person.name":1,
 				"person.surname":1,
-				"person.phone":1})
+				"person.phone":1,
+				"_id": 0})
 				

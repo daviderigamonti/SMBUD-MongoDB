@@ -294,7 +294,9 @@ db.certificate.find(  {"vaccine.vaccine_info.lot": lot},
 				{"person.ssn":1,
 				"person.name":1,
 				"person.surname":1,
-				"person.phone":1})
+				"person.phone":1,
+				"_id":0
+})
     \end{verbatim}
 \end{tcolorbox}
 
@@ -305,6 +307,12 @@ It takes the following parameters:
 \begin{itemize}
     \item \texttt{lot} \emph{(int)}: number of the defective lot.
 \end{itemize}
+An example of result is:
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.6\linewidth]{defective_lot.jpg}
+    \caption*{Example of result for lot 311} % Caption
+\end{figure}
 
 \subsubsection{Find Certificate by Id}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -362,7 +370,12 @@ db.certificate_datetimes.aggregate(
 \end{tcolorbox}
 \noindent 
 Returns the percentage of fully vaccinated people (i.e. the ones having at least the 
-second dose of vaccine) divided by age groups.
+second dose of vaccine) divided by age groups.\\
+An example of result is:
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\linewidth]{vaccinations_per_age_groups.jpg}
+\end{figure}
 
 \subsubsection{Percentage of boosters by age groups}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -484,13 +497,18 @@ db.certificate_authorizedBodies.aggregate( [
 \end{tcolorbox}
 
 \noindent
-Returns the number of tests made by each organization.
+Returns the number of tests made by each organization.\\
+An example of result is:
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\linewidth]{tests_per_organization.jpg}
+\end{figure}
 
 \subsubsection{Number of vaccines per organization}
 \begin{tcolorbox}[fontupper=\scriptsize]
     \begin{verbatim}
 db.certificate_authorizedBodies.aggregate( [  
-{ $sortByCount: "$vaccines.organization.name" } ] )
+{ $sortByCount: "$vaccine.organization.name" } ] )
     \end{verbatim}
 \end{tcolorbox}
 
@@ -511,7 +529,12 @@ Returns the number of vaccines made for each brand:
     \item \emph{'Johnson \& Johnson'}
     \item \emph{'Pfizer-BioNTech'}
     \item \emph{'AstraZeneca'}
-\end{itemize}
+\end{itemize} 
+An example of result is:
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\linewidth]{vaccines_per_brand.jpg}
+\end{figure}
 
 \subsubsection{Number of vaccines per type}
 \begin{tcolorbox}[fontupper=\scriptsize]
@@ -521,8 +544,12 @@ db.certificate.aggregate( [ { $sortByCount: "$vaccine.vaccine_info.type" } ] )
 \end{tcolorbox}
 
 \noindent
-Returns the number of vaccines made for each type ('Genetic' or 'Viral vector').
-
+Returns the number of vaccines made for each type ('Genetic' or 'Viral vector').\\
+An example of result is:
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.6\linewidth]{vaccines_per_type.jpg}
+\end{figure}
 \subsection{Commands}
 
 \subsubsection{Add new vaccine} 
