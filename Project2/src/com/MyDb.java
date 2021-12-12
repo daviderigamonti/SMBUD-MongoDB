@@ -7,37 +7,19 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.MongoClientURI;
-import com.mongodb.ServerAddress;
-
-import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.MongoCollection;
-
-import com.mongodb.client.model.Accumulators;
-import com.mongodb.client.model.Aggregates;
-import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Sorts;
 import org.bson.Document;
-import com.mongodb.Block;
 
-import com.mongodb.client.MongoCursor;
 import static com.mongodb.client.model.Filters.*;
-import com.mongodb.client.result.DeleteResult;
-import static com.mongodb.client.model.Updates.*;
-import com.mongodb.client.result.UpdateResult;
 
-import java.time.Instant;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import org.bson.Document;
 import org.bson.conversions.Bson;
 import org.bson.types.ObjectId;
-import org.json.JSONObject;
 
-import javax.print.Doc;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Base64;
@@ -51,17 +33,35 @@ public final class MyDb {
 
     private static MyDb istance;
 
+    private static final String connectionFile = "ConnectionString.txt";
+
+
     private MyDb(){
         mongoLogger = Logger.getLogger( "org.mongodb.driver" );
         mongoLogger.setLevel(Level.SEVERE);
 
-        connectionString = new ConnectionString("mongodb+srv://admin:psw@cluster0.n9biz.mongodb.net/project2?retryWrites=true&w=majority");
-        settings = MongoClientSettings.builder()
-                .applyConnectionString(connectionString)
-                .build();
-        mongoClient = MongoClients.create(settings);
-        database = mongoClient.getDatabase("project2");
+        try {
+            String loadedConnectionString = loadConnectionString();
+            if(loadedConnectionString.isEmpty())
+                throw new IOException();
+            connectionString = new ConnectionString(loadedConnectionString);
+            settings = MongoClientSettings.builder()
+                    .applyConnectionString(connectionString)
+                    .build();
+            mongoClient = MongoClients.create(settings);
+            database = mongoClient.getDatabase("project2");
+            if(!mongoClient.listDatabaseNames().cursor().hasNext())    // Check connection
+                throw new Exception();
+        } catch(IOException e) {
+            System.out.println("Cannot access connection file");
+        } catch(Exception e) {
+            System.out.println("Cannot establish a connection to the MongoDB database");
+        }
 
+    }
+
+    private String loadConnectionString() throws IOException {
+        return Files.lines(Paths.get(connectionFile)).findFirst().orElse("");
     }
 
     public static MyDb getIstance(){
